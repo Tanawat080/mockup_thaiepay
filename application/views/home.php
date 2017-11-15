@@ -160,7 +160,9 @@
 								<p class="indent">ข่าวสาร ประกาศ และเหตุการณ์ต่างๆ ที่สำคัญเกี่ยวกับ THAIEPAY มีดังนี้</p>
 							</div>
 							<div class="col-sm-4">
-								<img src="" class="img-responsive">
+								<center>
+									<img src="<?php echo base_url();?>assets/images/sign/underconstruction.png" class="img-responsive">
+								</center>
 							</div>
 							<div class="col-sm-8">
 								<b>15 ก.ย. 60 - แจ้งปิดระบบแจ้งเตือนผลการชำระเงินทาง SMS (SMS Order Alert) </b>

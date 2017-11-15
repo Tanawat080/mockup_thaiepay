@@ -7,7 +7,7 @@
 <title>THAIEPAY: Pay All Online - We create e-commerce system and payment gateway 
     for Thais to sell products worldwide.
 </title>
-<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="<?php echo base_url();?>favicon.ico" type="image/x-icon">
 <link href="<?php echo base_url();?>assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 <link href="<?php echo base_url();?>assets/plugins/morrisjs/morris.css" rel="stylesheet" />
 <!-- Custom Css -->

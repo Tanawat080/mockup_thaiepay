@@ -7,7 +7,7 @@
 			<li> 
 				<!-- User Info -->
 				<div class="user-info">
-					<div class="admin-image"> <img src="assets/images/sm/avatar1.jpg" alt="profile img"> </div>
+					<div class="admin-image"> <img src="<?php echo base_url();?>assets/images/sm/avatar1.jpg" alt="profile img"> </div>
 					<div class="admin-action-info"> <span>Welcome</span>
 						<h3>John Smith</h3>
 						<ul>
@@ -25,7 +25,7 @@
 				<ul class="ml-menu">
 					
 					<li ><a href="<?php echo base_url();?>merchant/merchant/total_income">ยอดรวมรายได้</a></li>
-					<li><a href="">ข้อมูลส่วนตัวและบัญชีธนาคาร</a></li>
+					<li><a href="<?php echo base_url();?>merchant/merchant/merchant_bank_detail">ข้อมูลส่วนตัวและบัญชีธนาคาร</a></li>
 					<li><a href="">ข้อมูลบริการห</a></li>
 					<li><a href="">ที่อยู่ใบกำกับภาษี</a></li>
 					<li><a href="">Pay.Sn Merchant Description</a></li>
