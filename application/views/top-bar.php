@@ -4,12 +4,15 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-<title>:: adminX - Admin ::</title>
+<title>THAIEPAY: Pay All Online - We create e-commerce system and payment gateway 
+    for Thais to sell products worldwide.
+</title>
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 <link href="<?php echo base_url();?>assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 <link href="<?php echo base_url();?>assets/plugins/morrisjs/morris.css" rel="stylesheet" />
 <!-- Custom Css -->
 <link href="<?php echo base_url();?>assets/css/main.css" rel="stylesheet">
+<link href="<?php echo base_url();?>assets/css/custom.css" rel="stylesheet">
 <!-- Swift Themes. You can choose a theme from css/themes instead of get all themes -->
 <link href="<?php echo base_url();?>assets/css/themes/all-themes.css" rel="stylesheet" />
 </head>
@@ -56,6 +59,68 @@
 									<li><a href="javascript:void(0)"><i class="zmdi zmdi-calendar-note"></i><span>Calendar</span></a></li>
 								</ul>
 							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li class="dropdown menu-app"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button"> <i class="zmdi zmdi-money"></i> </a>
+				<ul class="dropdown-menu">
+				<li class="header">อัตราแลกเปลี่ยน</li>
+					<li class="body">
+						<ul class="menu">
+								<div class="table-responsive">
+									<table class="table table-hover text-center">
+										<thead>
+											<tr>
+												<th>Country</th>
+												<th>Currency</th>
+												<th>Buying T/T</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>											
+												<td><img src="assets/images/exchange-flag/usd.gif"></td>
+												<td>USD</td>
+												<td class="text-muted">31.36</td>
+											</tr>
+											<tr>											
+												<td><img src="assets/images/exchange-flag/GBP.gif"></td>
+												<td>GBP</td>
+												<td class="text-muted">40.89</td>
+											</tr>										
+											<tr>											
+												<td><img src="assets/images/exchange-flag/EUR.gif"></td>
+												<td>EUR</td>
+												<td class="text-muted">36.40</td>
+											</tr>
+											<tr>											
+												<td><img src="assets/images/exchange-flag/CHF.gif"></td>
+												<td>CHF</td>
+												<td class="text-muted">31.90</td>
+											</tr>
+											<tr>											
+												<td><img src="assets/images/exchange-flag/JPY.gif"></td>
+												<td>JPY</td>
+												<td class="text-muted">27.82</td>
+											</tr>	
+											<tr>											
+												<td><img src="assets/images/exchange-flag/SGD.gif"></td>
+												<td>SGD</td>
+												<td class="text-muted">22.59</td>
+											</tr>	
+											<tr>											
+												<td><img src="assets/images/exchange-flag/HKD.gif"></td>
+												<td>HKD</td>
+												<td class="text-muted">3.65</td>
+											</tr>	
+											<tr>											
+												<td><img src="assets/images/exchange-flag/AUD.gif"></td>
+												<td>AUD</td>
+												<td class="text-muted">23.51</td>
+											</tr>											
+										</tbody>
+									</table>
+								</div>
 						</ul>
 					</li>
 				</ul>

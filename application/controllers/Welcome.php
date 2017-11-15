@@ -8,7 +8,7 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
-		$this->load->view('main-content');
+		$this->load->view('home');
 		$this->load->view('script');
 	}
 }
