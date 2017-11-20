@@ -12,7 +12,7 @@ function getChartJs(type) {
         config = {
             type: 'line',
             data: {
-                labels: ["January", "February", "March", "April", "May", "June", "July"],
+                labels: ["1", "2", "3", "4", "5", "6", "7"],
                 datasets: [{
                     label: "My First dataset",
                     data: [85, 59, 71, 81, 64, 46, 71],
@@ -23,7 +23,7 @@ function getChartJs(type) {
                     pointBorderWidth: 1
                 }, {
                         label: "My Second dataset",
-                        data: [44, 62, 46, 71, 86, 45, 71],
+                        data: [4, 62, 46, 71, 86, 45, 71],
                         borderColor: 'rgba(233, 30, 99, 0.75)',
                         backgroundColor: 'rgba(233, 30, 99, 0.3)',
                         pointBorderColor: 'rgba(233, 30, 99, 0)',
