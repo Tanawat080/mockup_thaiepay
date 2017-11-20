@@ -41,17 +41,17 @@
 			</li>
 			<li> <a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-swap-alt"></i><span>ระบบการทำงาน</span> </a>
 				<ul class="ml-menu">
-<<<<<<< HEAD
+
 					<li> <a href="">SMS Alert</a> </li>
 					<li> <a href="">ตั้งค่าเบื้องต้น</a> </li>
 					<li> <a href="<?php echo base_url(); ?>SystemConnection/SystemConnection/System_Connection">วิธีการเชื่อมต่อระบบ</a></li>
-=======
+
 					<li> <a href="<?php echo base_url();?>system_s/system_s/smsAlert">SMS Alert</a> </li>
 					<li> <a href="<?php echo base_url();?>system_s/system_s/primary_setting"">ตั้งค่าเบื้องต้น</a> </li>
 					<li> <a href="">วิธีการเชื่อมต่อระบบ</a></li>
->>>>>>> 193adc040d8493bb905c8040c8bb2e5d28018077
+
 					<li> <a href="">การส่งค่ากลับ</a> </li>
-					<li> <a href="">ดาวน์โหลด</a> </li>
+					<li> <a href="<?php echo base_url(); ?>download/download/down_load">ดาวน์โหลด</a> </li>
 
 				</ul>
 			</li>
