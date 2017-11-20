@@ -1,3 +1,8 @@
+<html>
+<head>
+<link href="assets/plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css" rel="stylesheet" />
+</head>
+
 <!-- main content -->
 <section class="content home">
 	<div class="container-fluid">
@@ -53,7 +58,7 @@
                                       <div class="col-md-4">
                                         <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">date_range</i> </span>
                                             <div class="form-line">
-                                                <input type="text" class="form-control date" placeholder="Ex: 01-11-2017">
+                                                <input type="text" class="datepicker form-control" placeholder="Ex: 01-11-2017">
                                             </div>
                                             
                                         </div>
@@ -61,7 +66,7 @@
                                         <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">date_range</i> </span>
 
                                             <div class="form-line">
-                                                <input type="text" class="form-control date" placeholder="Ex: 16-11-2017">
+                                                <input type="text" class="datepicker form-control" placeholder="Ex: 16-11-2017">
                                             </div>
                                         </div>
 
@@ -114,96 +119,159 @@
 
 
 
-
+              
                                 <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="card">
+                                  <div class="card">
 
-                        <div class="header">
-                                    <h2>พารามิเตอร์ที่ใช้งานในระบบ</h2>
-                        </div>   
+                                      
+                                  <div class="body table-responsive">
+                                    <table class="table table-striped">
+                                      <tr class="l-blue">
+                                        <th scope="col">Select</th>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Code</th>
+                                        <th scope="col">ShortDescription</th>
+                                        <th scope="col">Price</th>
+                                        <th scope="col">Create Time</th>
+                                        <th scope="col">Style</th>
+                                        <th scope="col">Action</th>
+                                      </tr><tr>
+                                        <td>
 
-                    <div class="body table-responsive">
-                            <table class="table table-striped">
+                                          <input type="checkbox" id="basic_checkbox_1" class="filled-in">
+                                                            <label for="basic_checkbox_1"></label>
 
-                             
-                                <thead>
-                                    <tr class="l-blue">
-                                    <th>พารามิเตอร์</th>
-                                    <th>ชนิดข้อมูล</th>
-                                    <th>ความยาวสูงสุด</th>
-                                    <th>รายละเอียด</th>
-                                    </tr>
-                                </thead>
+                                                    
+                                            </td><td>
+                                              <a href='editproducts.aspx?pid=197828'>M</a>
+                                                    
+                                            </td><td>200</td><td>
+                                              M0001
+                                                    
+                                            </td><td>
+                                            2,000.00
+                                            Baht
+                                            </td><td>
+                                    16-11-2560 16:59:56
+                                            </td><td>
+                                            สินค้าหรือบริการ
+                                            </td><td>
+                                            
+                                                          <a href='addproducts.aspx?pid=197828'><img id="ctl00_CphBody_GvListProducts_ctl03_ImgCopy" Title="Copy" src="App_Themes/DefaultThemeNew/images/copy.png" alt="Copy" align="absmiddle" style="border-width:0px;" /></a> &nbsp; 
+                                            <input type="image" name="ctl00$CphBody$GvListProducts$ctl03$ImgBtnDelete" id="ctl00_CphBody_GvListProducts_ctl03_ImgBtnDelete" title="Delete" src="App_Themes/DefaultThemeNew/images/delete.png" alt="Delete" align="absmiddle" onclick="return confirm(&#39;Are you certain that you want to delete this product?&#39;);" style="border-width:0px;" /> &nbsp; 
+                                               <a href='sendmailproducts.aspx?pid=197828'><img id="ctl00_CphBody_GvListProducts_ctl03_ImgEmail" Title="Email" src="App_Themes/DefaultThemeNew/images/mail.png" alt="Email" align="absmiddle" style="border-width:0px;" /></a>
+                                           
+                                            </td>
+                                      </tr><tr>
+                                        <td>
+                                              <input type="checkbox" id="basic_checkbox_2" class="filled-in">
+                                                            <label for="basic_checkbox_2"></label>
+                                                    
+                                            </td><td>
+                                              <a href='editinvoice.aspx?pid=197822'>Test By ThaiePay</a>
+                                                    
+                                            </td><td>001</td><td>
+                                              Test By ThaiePay
+                                                    
+                                            </td><td>
+                                            1.00
+                                            Baht
+                                            </td><td>
+                                    16-11-2560 16:43:35
+                                            </td><td>
+                                            ใบแจ้งชำระเงิน
+                                            </td><td>
+                                            
+                                                          <a href='addinvoice.aspx?pid=197822'><img id="ctl00_CphBody_GvListProducts_ctl04_ImgCopy" Title="Copy" src="App_Themes/DefaultThemeNew/images/copy.png" alt="Copy" align="absmiddle" style="border-width:0px;" /></a> &nbsp; 
+                                            <input type="image" name="ctl00$CphBody$GvListProducts$ctl04$ImgBtnDelete" id="ctl00_CphBody_GvListProducts_ctl04_ImgBtnDelete" title="Delete" src="App_Themes/DefaultThemeNew/images/delete.png" alt="Delete" align="absmiddle" onclick="return confirm(&#39;Are you certain that you want to delete this product?&#39;);" style="border-width:0px;" /> &nbsp; 
+                                               <a href='sendmailproducts.aspx?pid=197822'><img id="ctl00_CphBody_GvListProducts_ctl04_ImgEmail" Title="Email" src="App_Themes/DefaultThemeNew/images/mail.png" alt="Email" align="absmiddle" style="border-width:0px;" /></a>
+                                           
+                                            </td>
+                                      </tr><tr>
+                                        <td>
+                                             <input type="checkbox" id="basic_checkbox_3" class="filled-in">
+                                                            <label for="basic_checkbox_3"></label>
 
-                                <tfoot>
-                                    <tr class="l-blue">
-                                    <th>พารามิเตอร์</th>
-                                    <th>ชนิดข้อมูล</th>
-                                    <th>ความยาวสูงสุด</th>
-                                    <th>รายละเอียด</th>
-                                    </tr>
-                                </tfoot>
-                               
+                                            </td><td>
+                                              <a href='editinvoice.aspx?pid=176855'>โอนเงินคืนรายการ 02027603 (bestbag.bynb)</a>
+                                                    
+                                            </td><td>20170404-001</td><td>
+                                              โอนเงินคืนลูกค้าเนื่องจากร้านค้าไม่ได้ส่งสินค้า
+                                                    
+                                            </td><td>
+                                            23,049.00
+                                            Baht
+                                            </td><td>
+                                    04-04-2560 10:52:25
+                                            </td><td>
+                                            ใบแจ้งชำระเงิน
+                                            </td><td>
+                                            
+                                                          <a href='addinvoice.aspx?pid=176855'><img id="ctl00_CphBody_GvListProducts_ctl05_ImgCopy" Title="Copy" src="App_Themes/DefaultThemeNew/images/copy.png" alt="Copy" align="absmiddle" style="border-width:0px;" /></a> &nbsp; 
+                                            <input type="image" name="ctl00$CphBody$GvListProducts$ctl05$ImgBtnDelete" id="ctl00_CphBody_GvListProducts_ctl05_ImgBtnDelete" title="Delete" src="App_Themes/DefaultThemeNew/images/delete.png" alt="Delete" align="absmiddle" onclick="return confirm(&#39;Are you certain that you want to delete this product?&#39;);" style="border-width:0px;" /> &nbsp; 
+                                               <a href='sendmailproducts.aspx?pid=176855'><img id="ctl00_CphBody_GvListProducts_ctl05_ImgEmail" Title="Email" src="App_Themes/DefaultThemeNew/images/mail.png" alt="Email" align="absmiddle" style="border-width:0px;" /></a>
+                                           
+                                            </td>
+                                      </tr><tr>
+                                        <td>
+                                              <input type="checkbox" id="basic_checkbox_4" class="filled-in">
+                                                            <label for="basic_checkbox_4"></label>
+                                                    
+                                            </td><td>
+                                              <a href='editproducts.aspx?pid=170216'>Test1</a>
+                                                    
+                                            </td><td>002</td><td>
+                                              Test by Admin
+                                                    
+                                            </td><td>
+                                            100.00
+                                            Baht
+                                            </td><td>
+                                    31-01-2560 11:39:02
+                                            </td><td>
+                                            สินค้าหรือบริการ
+                                            </td><td>
+                                            
+                                                          <a href='addproducts.aspx?pid=170216'><img id="ctl00_CphBody_GvListProducts_ctl06_ImgCopy" Title="Copy" src="App_Themes/DefaultThemeNew/images/copy.png" alt="Copy" align="absmiddle" style="border-width:0px;" /></a> &nbsp; 
+                                            <input type="image" name="ctl00$CphBody$GvListProducts$ctl06$ImgBtnDelete" id="ctl00_CphBody_GvListProducts_ctl06_ImgBtnDelete" title="Delete" src="App_Themes/DefaultThemeNew/images/delete.png" alt="Delete" align="absmiddle" onclick="return confirm(&#39;Are you certain that you want to delete this product?&#39;);" style="border-width:0px;" /> &nbsp; 
+                                               <a href='sendmailproducts.aspx?pid=170216'><img id="ctl00_CphBody_GvListProducts_ctl06_ImgEmail" Title="Email" src="App_Themes/DefaultThemeNew/images/mail.png" alt="Email" align="absmiddle" style="border-width:0px;" /></a>
+                                           
+                                            </td>
+                                      </tr><tr>
+                                        <td>
+                                              <input type="checkbox" id="basic_checkbox_5 class="filled-in">
+                                                            <label for="basic_checkbox_5"></label>
+                                                    
+                                            </td><td>
+                                              <a href='editinvoice.aspx?pid=159603'>Test</a>
+                                                    
+                                            </td><td>001</td><td>
+                                              Test by admin
+                                                    
+                                            </td><td>
+                                            1,000.00
+                                            Baht
+                                            </td><td>
+                                    02-11-2559 16:45:55
+                                            </td><td>
+                                            ใบแจ้งชำระเงิน
+                                            </td><td>
+                                            
+                                                          <a href='addinvoice.aspx?pid=159603'><img id="ctl00_CphBody_GvListProducts_ctl07_ImgCopy" Title="Copy" src="App_Themes/DefaultThemeNew/images/copy.png" alt="Copy" align="absmiddle" style="border-width:0px;" /></a> &nbsp; 
+                                            <input type="image" name="ctl00$CphBody$GvListProducts$ctl07$ImgBtnDelete" id="ctl00_CphBody_GvListProducts_ctl07_ImgBtnDelete" title="Delete" src="App_Themes/DefaultThemeNew/images/delete.png" alt="Delete" align="absmiddle" onclick="return confirm(&#39;Are you certain that you want to delete this product?&#39;);" style="border-width:0px;" /> &nbsp; 
+                                               <a href='sendmailproducts.aspx?pid=159603'><img id="ctl00_CphBody_GvListProducts_ctl07_ImgEmail" Title="Email" src="App_Themes/DefaultThemeNew/images/mail.png" alt="Email" align="absmiddle" style="border-width:0px;" /></a>
+                                           
+                                            </td>
+                                      </tr>
+                                    </table>
 
-                            <tr>
-                                <td>merchantid</td>
-                                <td>ตัวเลข</td>
-                                <td>8</td>
-                                <td>หมายเลข Merchant ID</td>
-                            </tr>
-                            <tr>
-                                <td>refno</td>
-                                <td>ตัวเลข</td>
-                                <td>10</td>
-                                <td>หมายเลขอ้างอิงการสั่งซื้อ</td>
-                            </tr>
-                            <tr>
-                                <td>customeremail</td>
-                                <td>ตัวอักษร</td>
-                                <td>100</td>
-                                <td>อีเมล์ลูกค้า</td>
-                            </tr>
-                            <tr>
-                                <td>productdetail</td>
-                                <td>ตัวอักษร</td>
-                                <td>255</td>
-                                <td>รายละเอียดสินค้า</td>
-                            </tr>
-                            <tr>
-                                <td>total</td>
-                                <td>ตัวเลข</td>
-                                <td>จำนวนไม่เกิน 9,999,999</td>
-                                <td>มูลค่ารวมของสินค้า</td>
-                            </tr>
-                            <tr>
-                                <td>lang (optional)</td>
-                                <td>ตัวอักษร</td>
-                                <td>2</td>
-                                <td>ภาษา</td>
-                            </tr>
-                            <tr>
-                                <td>cc (optional)</td>
-                                <td>ตัวอักษร</td>
-                                <td>2</td>
-                                <td>หน่วยสกุลเงิน</td>
-                            </tr>
-                            <tr>
-                                <td>postbackurl</td>
-                                <td>ตัวอักษร</td>
-                                <td>500</td>
-                                <td>URL เพื่อรับค่ากลับ</td>
-                            </tr>
-                            <tr>
-                                <td>returnurl</td>
-                                <td>ตัวอักษร</td>
-                                <td>500</td>
-                                <td>URL เพื่อกลับไปยังเว็บไซต์ของร้านค้า</td>
-                            </tr>
-
-                            </table>
-                        </div>
-                    </div>
-                </div>
+                                    <div align="center">
+                                      <button type="button" class="btn  btn-raised btn-danger waves-effect">DELETE</button>
+                                    </div>
+                                 
+                                  </div>
+                                </div>
+                                </div>
 
                 </div>
             </div>
@@ -233,3 +301,9 @@
 		</div>
 	</div>
 </section>
+
+
+<!-- Bootstrap Material Datetime Picker Plugin Js --> 
+<script src="assets/plugins/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js"></script>
+
+</html>
