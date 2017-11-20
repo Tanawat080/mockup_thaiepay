@@ -43,7 +43,7 @@
 				<ul class="ml-menu">
 					<li> <a href="">SMS Alert</a> </li>
 					<li> <a href="">ตั้งค่าเบื้องต้น</a> </li>
-					<li> <a href="">วิธีการเชื่อมต่อระบบ</a></li>
+					<li> <a href="<?php echo base_url(); ?>SystemConnection/SystemConnection/System_Connection">วิธีการเชื่อมต่อระบบ</a></li>
 					<li> <a href="">การส่งค่ากลับ</a> </li>
 					<li> <a href="">ดาวน์โหลด</a> </li>
 
@@ -52,23 +52,23 @@
 			<li> <a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-grid"></i><span>สินค้าและบริการ</span> </a>
 				<ul class="ml-menu">
 
-					<li> <a href="normal-tables.html">เพิ่มสินค้าและบริการ</a> </li>
-					<li> <a href="normal-tables.html">การจัดการสินค้า</a> </li>
-					<li> <a href="jquery-datatable.html">ช่องทางการชำระเงิน</a> </li>
-					<li> <a href="editable-table.html">วิธีการขนส่งสินค้า</a> </li>
+					<li> <a href="<?php echo base_url();?>productservice/productservice/Addnewproduct_service">เพิ่มสินค้าและบริการ</a> </li>
+					<li> <a href="<?php echo base_url();?>productservice/productservice/customize_product">การจัดการสินค้า</a> </li>
+					<li> <a href="<?php echo base_url();?>productservice/productservice/payment_method">ช่องทางการชำระเงิน</a> </li>
+					<li> <a href="<?php echo base_url();?>productservice/productservice/shipping_method">วิธีการขนส่งสินค้า</a> </li>
 				</ul>
 			</li>
-			<li ><a href="<?php echo base_url(); ?>"><i class="material-icons">attach_money</i> <span class="icon-name">อัตราแลกเปลี่ยน</span> </a></li>
-			<li ><a href="<?php echo base_url(); ?>"><i class="material-icons">highlight</i> <span class="icon-name">ทิปการใช้งาน</span> </a></li>
-			<li ><a href="<?php echo base_url(); ?>"><i class="material-icons">event_note</i> <span class="icon-name">ข่าวสารใหม่</span> </a></li>
-			<li> <a href="javascript:void(0);" class="menu-toggle"><i class="material-icons">contact_phone</i><span>ติดต่อเรา</span> </a>
+			<li ><a href="<?php echo base_url(); ?>exchangerate/exchangerate/exchange_rate"><i class="material-icons">attach_money</i> <span class="icon-name">อัตราแลกเปลี่ยน</span> </a></li>
+			<li ><a href="<?php echo base_url(); ?>TipsTricks/TipsTricks/Tips_Tricks"><i class="material-icons">highlight</i> <span class="icon-name">ทิปการใช้งาน</span> </a></li>
+			<li ><a href="<?php echo base_url(); ?>news/news/new_s"><i class="material-icons">event_note</i> <span class="icon-name">ข่าวสารใหม่</span> </a></li>
+			<li> <a href="javascript:void(0);" class="menu-toggle"><i class="material-icons">contact_phone</i><span> ติดต่อเรา</span> </a>
 				<ul class="ml-menu">
 
-					<li> <a href="normal-tables.html">Support</a> </li>
-					<li> <a href="normal-tables.html">ฝ่ายบัญชี</a> </li>
+					<li> <a href="<?php echo base_url(); ?>contact/contact/Support">Support</a> </li>
+					<li> <a href="<?php echo base_url(); ?>contact/contact/accounting">ฝ่ายบัญชี</a> </li>
 				</ul>
 			</li>
-			<li ><a href="<?php echo base_url(); ?>"><i class="material-icons">gamepad</i> <span class="icon-name">เงื่อนไขการให้บริการ</span> </a></li>
+			<li ><a href="<?php echo base_url(); ?>TermsConditions/TermsConditions/Terms_Conditions"><i class="material-icons">gamepad</i> <span class="icon-name">เงื่อนไขการให้บริการ</span> </a></li>
 			
 		</ul>
 	</div>
