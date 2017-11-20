@@ -10,5 +10,6 @@ class Welcome extends CI_Controller {
 		$this->load->view('right-sidebar');
 		$this->load->view('home');
 		$this->load->view('script');
+
 	}
 }

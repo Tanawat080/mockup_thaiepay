@@ -15,6 +15,17 @@
 <link href="<?php echo base_url();?>assets/css/custom.css" rel="stylesheet">
 <!-- Swift Themes. You can choose a theme from css/themes instead of get all themes -->
 <link href="<?php echo base_url();?>assets/css/themes/all-themes.css" rel="stylesheet" />
+
+<!-- Bootstrap Material Datetime Picker Css -->
+<link href="<?php echo base_url(); ?>assets/plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css" rel="stylesheet" />
+<!-- Wait Me Css -->
+<link href="<?php echo base_url(); ?>assets/plugins/waitme/waitMe.css" rel="stylesheet" />
+<!-- Bootstrap Select Css -->
+<link href="<?php echo base_url(); ?>assets/plugins/bootstrap-select/css/bootstrap-select.css" rel="stylesheet" />
+<link href="<?php echo base_url(); ?>assets/plugins/jquery-datatable/dataTables.bootstrap4.min.css" rel="stylesheet">
+<link href="<?php echo base_url(); ?>assets/plugins/dropzone/dropzone.css" rel="stylesheet">
+
+
 </head>
 
 <body class="theme-blue">
@@ -59,68 +70,6 @@
 									<li><a href="javascript:void(0)"><i class="zmdi zmdi-calendar-note"></i><span>Calendar</span></a></li>
 								</ul>
 							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li class="dropdown menu-app"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button"> <i class="zmdi zmdi-money"></i> </a>
-				<ul class="dropdown-menu">
-				<li class="header">อัตราแลกเปลี่ยน</li>
-					<li class="body">
-						<ul class="menu">
-								<div class="table-responsive">
-									<table class="table table-hover text-center">
-										<thead>
-											<tr>
-												<th>Country</th>
-												<th>Currency</th>
-												<th>Buying T/T</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>											
-												<td><img src="assets/images/exchange-flag/usd.gif"></td>
-												<td>USD</td>
-												<td class="text-muted">31.36</td>
-											</tr>
-											<tr>											
-												<td><img src="assets/images/exchange-flag/GBP.gif"></td>
-												<td>GBP</td>
-												<td class="text-muted">40.89</td>
-											</tr>										
-											<tr>											
-												<td><img src="assets/images/exchange-flag/EUR.gif"></td>
-												<td>EUR</td>
-												<td class="text-muted">36.40</td>
-											</tr>
-											<tr>											
-												<td><img src="assets/images/exchange-flag/CHF.gif"></td>
-												<td>CHF</td>
-												<td class="text-muted">31.90</td>
-											</tr>
-											<tr>											
-												<td><img src="assets/images/exchange-flag/JPY.gif"></td>
-												<td>JPY</td>
-												<td class="text-muted">27.82</td>
-											</tr>	
-											<tr>											
-												<td><img src="assets/images/exchange-flag/SGD.gif"></td>
-												<td>SGD</td>
-												<td class="text-muted">22.59</td>
-											</tr>	
-											<tr>											
-												<td><img src="assets/images/exchange-flag/HKD.gif"></td>
-												<td>HKD</td>
-												<td class="text-muted">3.65</td>
-											</tr>	
-											<tr>											
-												<td><img src="assets/images/exchange-flag/AUD.gif"></td>
-												<td>AUD</td>
-												<td class="text-muted">23.51</td>
-											</tr>											
-										</tbody>
-									</table>
-								</div>
 						</ul>
 					</li>
 				</ul>

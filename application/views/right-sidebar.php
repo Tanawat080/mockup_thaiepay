@@ -20,29 +20,29 @@
 				<!-- #User Info --> 
 			</li>
 			<li class="header">เมนูหลัก</li>
-			<li class="active open"><a href="<?php echo base_url(); ?>"><i class="zmdi zmdi-home"></i><span>หน้าแรก</span> </a></li>
-			<li > <a href="javascript:void(0);" class="menu-toggle"> <i class="material-icons">account_balance</i> <span class="icon-name">ข้อมูลร้านค้า</span> </a>
+
+			<li class= "open active"><a href="<?php echo base_url(); ?>"><i class="zmdi zmdi-home"></i><span>หน้าแรก</span> </a></li>
+			<li class=""> <a href="javascript:void(0);" class="menu-toggle"> <i class="material-icons">account_balance</i> <span class="icon-name">ข้อมูลร้านค้า</span> </a>
 				<ul class="ml-menu">
 					
-					<li ><a href="<?php echo base_url();?>merchant/merchant/total_income">ยอดรวมรายได้</a></li>
+					<li class=""><a href="<?php echo base_url();?>merchant/merchant/total_income">ยอดรวมรายได้</a></li>
 					<li><a href="<?php echo base_url();?>merchant/merchant/merchant_bank_detail">ข้อมูลส่วนตัวและบัญชีธนาคาร</a></li>
-					<li><a href="">ข้อมูลบริการห</a></li>
-					<li><a href="">ที่อยู่ใบกำกับภาษี</a></li>
-					<li><a href="">Pay.Sn Merchant Description</a></li>
-					<li><a href="">Upload Document</a></li>
+					<li><a href="<?php echo base_url();?>merchant/merchant/service">ข้อมูลบริการ</a></li>
+					<li><a href="<?php echo base_url(); ?>merchant/merchant/billing_address">ที่อยู่ใบกำกับภาษี</a></li>
+					<li><a href="<?php echo base_url(); ?>merchant/merchant/merchant_description">Pay.Sn Merchant Description</a></li>
+					<li><a href="<?php echo base_url(); ?>merchant/merchant/upload_doc">Upload Document</a></li>
 				</ul>
 			</li>
 			<li> <a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-delicious"></i><span>การสั่งซื้อและผู้ซื้อ</span> </a>
 				<ul class="ml-menu">
-					<li > <a href="">รายการสั่งซื้อทั้งหมด</a></li>
-					<li> <a href="">คืนเงินหรือยกเลิกรายการ</a></li>
-					<li> <a href="">เค้าเตอร์เซอร์วิส</a></li>
+					<li > <a href="<?php echo base_url();?>orders/orders/view_all_orders">รายการสั่งซื้อทั้งหมด</a></li>
+					<li> <a href="<?php echo base_url();?>orders/orders/refund">คืนเงินหรือยกเลิกรายการ</a></li>
 				</ul>
 			</li>
 			<li> <a href="javascript:void(0);" class="menu-toggle"><i class="zmdi zmdi-swap-alt"></i><span>ระบบการทำงาน</span> </a>
 				<ul class="ml-menu">
-					<li> <a href="">SMS Alert</a> </li>
-					<li> <a href="">ตั้งค่าเบื้องต้น</a> </li>
+					<li> <a href="<?php echo base_url();?>system_s/system_s/smsAlert">SMS Alert</a> </li>
+					<li> <a href="<?php echo base_url();?>system_s/system_s/primary_setting"">ตั้งค่าเบื้องต้น</a> </li>
 					<li> <a href="">วิธีการเชื่อมต่อระบบ</a></li>
 					<li> <a href="">การส่งค่ากลับ</a> </li>
 					<li> <a href="">ดาวน์โหลด</a> </li>

@@ -4,115 +4,163 @@
 		<div class="block-header">
 			<h2>หน้าแรก</h2>
 			<ul class="breadcrumb">
-				<li class="breadcrumb-item"><a href="index.html">หน้าแรก</a></li>			
-				<li class="breadcrumb-item active">หน้าแรก</li>
+				<li class="breadcrumb-item"><i class="material-icons">home</i><a href="<?php echo base_url(); ?>">หน้าแรก</a></li>			
 			</ul>
 		</div>
 		<div class="row clearfix">
-			<div class="col-md-12 col-lg-12">
-				<div class="card visitors-map">
-					<div class="header">
-						<h2>สรุปข้อมูลรายได้ร้านค้าประจำเดือน พฤศจิกายน 2560</h2>
+			<div class="row">
+				<div class="col-sm-8">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-12">
+								<div class="card widget-stat  info-box-3 bg-blue">
+			                    	<div class="body">
+			                        	<div class="media">
+			                            	<div class="media-icon bg-light-green">
+			                                	<i class="zmdi zmdi-money zmdi-hc-2x"></i>
+			                            	</div>
+				                            <div class="media-text">
+				                                <span class="title col-white">Summary GMS By Month</span>
+				                                <span class="value col-white">29,248,340</span>
+				                            </div>
+			                        	</div> 
+			                    	</div>
+			                	</div>
+			            </div><!-- summary by month -->
+			            <div class="col-lg-6 col-md-6 col-sm-12">
+							<div class="card widget-stat info-box-3 bg-light-green">
+			                    <div class="body">
+			                        <div class="media">
+			                            <div class="media-icon bg-blue">
+			                                <i class="zmdi zmdi-gamepad zmdi-hc-2x"></i>
+			                            </div>
+				                        <div class="media-text">
+					                        <span class="title col-white">Count transactions By Month</span>
+					                        <span class="value col-white">62,507</span>
+				                        </div>
+			                        </div> 
+			                    </div>
+			                </div>
+		                </div>
 					</div>
-					<div class="body">
-						<div class="row">							
-							<div class="col-sm-12">	
-								<p class="indent">รายละเอียดข้อมูลร้านค้าและรายได้ประจำเดือนของคุณเป็นดังนี้ โปรดตรวจสอบข้อมูลชื่อร้านค้าและที่อยู่ผู้ดูแล อีเมลอย่างสม่ำเสมอ เพราะเป็นข้อมูลสำคัญที่เราใช้ติดต่อ และยังเป็นผู้มีสิทธิในร้านค้าโดยเด็ดขาด</p>
-							</div>
-							
-								<div class="col-sm-2">
-									<b>Merchant ID:</b>
-								</div>
-								<div class="col-sm-10">
-									<p>48509355</p>
-								</div>
-
-								<div class="col-sm-2 ">
-									<b>รายละเอียด:</b>
-								</div>
-								<div class="col-sm-5 ">
-									<b>English Information</b><br>
-
-									<dl><br>
-										<dt>Test</dt>
-										<dd>Test Test</dd>
-										<dd>Test</dd>
-										<dd>Test Bangkok 10310 THAILAND</dd>
-										<dd><br></dd>
-										<dd>Tel: 0616245961</dd>
-										<dd>Fax: 0616245961</dd>
-										<dd><br><br></dd>
-										<dd>อีเมล: support@thaiepay.com </dd>
-										<dd>อีเมลรับออร์เดอร์: support@thaiepay.com</dd>
-										<dd>มือถือ:</dd>
-										<dd>เว็บไซต์:</dd>
-										<dd>โดเมนเนม:</dd>
-										<dd><a href="">แก้ไขข้อมูล</a></dd>
-									</dl>
-								</div>
-								<div class="col-sm-5 ">
-									<b>ข้อมูลภาษาไทย</b>
-
-									<dl><br>
-										<dt>Test</dt>
-										<dd>Test Test</dd>
-										<dd>Test</dd>
-										<dd>Test Bangkok 10310 THAILAND</dd>
-										<dd><br></dd>
-										<dd>โทร: 0616245961</dd>
-										<dd>แฟกซ์: 0616245961</dd>
-									</dl>
-								</div>
-
-								<div class="col-sm-2">
-									<b>ประจำเดือน:</b>
-								</div>
-								<div class="col-sm-10">
-									<p>พฤศจิกายน 2560</p>
-								</div>
-								<div class="col-sm-2">
-									<b>รายการสั่งซื้อ:</b>
-								</div>
-								<div class="col-sm-10">
-								<p>	7 รายการ  (Completed 2 รายการ ,  Rejected 6 รายการ) <a href="">รายละเอียด</a></p>
-								</div>
-								<div class="col-sm-2">
-									<b>รวมรายได้:</b>
-								</div>
-								<div class="col-sm-10">
-									<p>200.00 - หักค่าธรรมเนียม THAIEPAY (รวม VAT 7%) = 0.00 บาท <a href="">รายละเอียด</a></p>
-								</div>
+					<div class="card product-report">
+						<div class="header">
+							<h2>Summary GMS By Date</h2>
+						</div>
+						<div class="body">
+							<canvas id="line_chart" height="200"></canvas>
 						</div>
 					</div>
+					
 				</div>
-			</div>
-		</div><!-- income monthly -->
-
-		<div class="row clearfix">
-			<div class="col-md-12 col-lg-12">
-				<div class="card visitors-map">
-					<div class="header">
-						<h2>10 รายการสั่งซื้อล่าสุด</h2>
-					</div>
-					<div class="body">
-						<div class="row">							
-							<div class="col-sm-12">	
-								<p class="indent">รายละเอียดรายการสั่งซื้อที่เกิดขึ้นในร้านค้าของคุณ 10 รายการล่าสุด เป็นดังนี้</p>
-							</div>
-							<div class="col-sm-12">
-								<div class="table-responsive">
-									<table class="table table-striped">
+			<div class="col-lg-4 col-md-12 col-sm-12">
+				<div class="row clearfix top-report">
+            		<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="card widget-stat ">
+						    <div class="body">
+                        		<div class="table-responsive">
+									<table class="table table-hover text-center">
 										<thead>
 											<tr>
-												<th width="5%">Status</th>
-												<th width="10%">OrderNo	</th>
-												<th width="45%">Detail</th>
-												<th width="10%">Card</th>
-												<th width="10%">Total</th>
-												<th width="20%">Date Time</th>
+												<th>Country</th>
+												<th>Currency</th>
+												<th>Buying</th>
 											</tr>
 										</thead>
 										<tbody>
+											<tr>											
+												<td><img src="assets/images/exchange-flag/usd.gif"></td>
+												<td>USD</td>
+												<td class="text-muted">31.36</td>
+											</tr>
+											<tr>											
+												<td><img src="assets/images/exchange-flag/GBP.gif"></td>
+												<td>GBP</td>
+												<td class="text-muted">40.89</td>
+											</tr>										
+											<tr>											
+												<td><img src="assets/images/exchange-flag/EUR.gif"></td>
+												<td>EUR</td>
+												<td class="text-muted">36.40</td>
+											</tr>
+											<tr>											
+												<td><img src="assets/images/exchange-flag/JPY.gif"></td>
+												<td>JPY</td>
+												<td class="text-muted">27.82</td>
+											</tr>	
+																				
+										</tbody>
+									</table>
+									<a href="">อัตราการแลกเปลี่ยนอื่นๆ</a>
+								</div>
+                    		</div>
+                		</div>
+            		</div><!-- exchange rate -->
+            		<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="card widget-stat ">
+							<div class="header">
+								<h2>ถาม-ตอบยอดนิยม</h2>
+							</div>
+						    <div class="body">
+                        		<ol>
+                        			<li><a href="" class="col-blue-grey">ในกรณีที่ไม่ได้รับสินค้าจากร้านค้า ผู้ซื้อต้องทำอย่างไร?</a></li>
+                        			<li><a href="" class="col-blue-grey">ร้านค้าต้องทำอย่างไรเมื่อรายการสั่งซื้อถูกเปลี่ยนสถานะเป็น Request Document</a></li>
+                        			<li><a href="" class="col-blue-grey">ไทยอีเพย์กำหนดวงเงินสูงสุดในการทำรายการไว้ที่เท่าไหร่?</a></li>
+                        			<li><a href="" class="col-blue-grey">ในกรณีที่ไม่ได้รับสินค้าจากร้านค้า ผู้ซื้อต้องทำอย่างไร?</a></li>
+                        			<li><a href="" class="col-blue-grey">ร้านค้าต้องทำอย่างไรเมื่อรายการสั่งซื้อถูกเปลี่ยนสถานะเป็น Request Document</a></li>
+                        		</ol>
+                        		<a href="">ถาม-ตอบอื่นๆ</a>
+                    		</div>
+                		</div>
+            		</div>
+
+				</div>
+			</div>
+		</div> <!-- row -->
+		
+
+			<div class="col-sm-12">
+				<div class="card">
+					<div class="header">
+						<h2>20 รายการสั่งซื้อล่าสุด</h2>
+					</div>
+					<div class="body">
+						<div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Status</th>
+                                        <th>OrderNo</th>
+                                        <th>Detail</th>
+                                        <th>Card</th>
+                                        <th>Total</th>
+                                        <th>Date Time</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+												<td><img src="assets/images/sign/CP.png"></td>
+												<td><a href="">02258118</a></td>
+												<td>Refund (OrderNo#02258102 OrderID#1098572 )</td>
+												<td>M5737</td>
+												<td>-1.00Baht</td>
+												<td>14-11-2560 16:41:44</td>
+											</tr>
+											<tr>
+												<td><img src="assets/images/sign/N.png"></td>
+												<td><a href="">02258118</a></td>
+												<td>Refund (OrderNo#02258102 OrderID#1098572 )</td>
+												<td>M5737</td>
+												<td>-1.00Baht</td>
+												<td>14-11-2560 16:41:44</td>
+											</tr>
+											<tr>
+												<td><img src="assets/images/sign/RF.png"></td>
+												<td><a href="">02258118</a></td>
+												<td>Refund (OrderNo#02258102 OrderID#1098572 )</td>
+												<td>M5737</td>
+												<td>-1.00Baht</td>
+												<td>14-11-2560 16:41:44</td>
+											</tr>
 											<tr>
 												<td><img src="assets/images/sign/CP.png"></td>
 												<td><a href="">02258118</a></td>
@@ -137,48 +185,128 @@
 												<td>-1.00Baht</td>
 												<td>14-11-2560 16:41:44</td>
 											</tr>
-										</tbody>
-									</table>
-									<a href="">รายการซื้อทั้งหมด คลิ้กที่นี่</a>
-								</div>
-							</div>	
-						</div>
+											<tr>
+												<td><img src="assets/images/sign/CP.png"></td>
+												<td><a href="">02258118</a></td>
+												<td>Refund (OrderNo#02258102 OrderID#1098572 )</td>
+												<td>M5737</td>
+												<td>-1.00Baht</td>
+												<td>14-11-2560 16:41:44</td>
+											</tr>
+											<tr>
+												<td><img src="assets/images/sign/N.png"></td>
+												<td><a href="">02258118</a></td>
+												<td>Refund (OrderNo#02258102 OrderID#1098572 )</td>
+												<td>M5737</td>
+												<td>-1.00Baht</td>
+												<td>14-11-2560 16:41:44</td>
+											</tr>
+											<tr>
+												<td><img src="assets/images/sign/RF.png"></td>
+												<td><a href="">02258118</a></td>
+												<td>Refund (OrderNo#02258102 OrderID#1098572 )</td>
+												<td>M5737</td>
+												<td>-1.00Baht</td>
+												<td>14-11-2560 16:41:44</td>
+											</tr>
+											<tr>
+												<td><img src="assets/images/sign/CP.png"></td>
+												<td><a href="">02258118</a></td>
+												<td>Refund (OrderNo#02258102 OrderID#1098572 )</td>
+												<td>M5737</td>
+												<td>-1.00Baht</td>
+												<td>14-11-2560 16:41:44</td>
+											</tr>
+											<tr>
+												<td><img src="assets/images/sign/N.png"></td>
+												<td><a href="">02258118</a></td>
+												<td>Refund (OrderNo#02258102 OrderID#1098572 )</td>
+												<td>M5737</td>
+												<td>-1.00Baht</td>
+												<td>14-11-2560 16:41:44</td>
+											</tr>
+											<tr>
+												<td><img src="assets/images/sign/RF.png"></td>
+												<td><a href="">02258118</a></td>
+												<td>Refund (OrderNo#02258102 OrderID#1098572 )</td>
+												<td>M5737</td>
+												<td>-1.00Baht</td>
+												<td>14-11-2560 16:41:44</td>
+											</tr>
+											<tr>
+												<td><img src="assets/images/sign/CP.png"></td>
+												<td><a href="">02258118</a></td>
+												<td>Refund (OrderNo#02258102 OrderID#1098572 )</td>
+												<td>M5737</td>
+												<td>-1.00Baht</td>
+												<td>14-11-2560 16:41:44</td>
+											</tr>
+											<tr>
+												<td><img src="assets/images/sign/N.png"></td>
+												<td><a href="">02258118</a></td>
+												<td>Refund (OrderNo#02258102 OrderID#1098572 )</td>
+												<td>M5737</td>
+												<td>-1.00Baht</td>
+												<td>14-11-2560 16:41:44</td>
+											</tr>
+											<tr>
+												<td><img src="assets/images/sign/RF.png"></td>
+												<td><a href="">02258118</a></td>
+												<td>Refund (OrderNo#02258102 OrderID#1098572 )</td>
+												<td>M5737</td>
+												<td>-1.00Baht</td>
+												<td>14-11-2560 16:41:44</td>
+											</tr>
+											<tr>
+												<td><img src="assets/images/sign/CP.png"></td>
+												<td><a href="">02258118</a></td>
+												<td>Refund (OrderNo#02258102 OrderID#1098572 )</td>
+												<td>M5737</td>
+												<td>-1.00Baht</td>
+												<td>14-11-2560 16:41:44</td>
+											</tr>
+											<tr>
+												<td><img src="assets/images/sign/N.png"></td>
+												<td><a href="">02258118</a></td>
+												<td>Refund (OrderNo#02258102 OrderID#1098572 )</td>
+												<td>M5737</td>
+												<td>-1.00Baht</td>
+												<td>14-11-2560 16:41:44</td>
+											</tr>
+											<tr>
+												<td><img src="assets/images/sign/RF.png"></td>
+												<td><a href="">02258118</a></td>
+												<td>Refund (OrderNo#02258102 OrderID#1098572 )</td>
+												<td>M5737</td>
+												<td>-1.00Baht</td>
+												<td>14-11-2560 16:41:44</td>
+											</tr>
+											<tr>
+												<td><img src="assets/images/sign/CP.png"></td>
+												<td><a href="">02258118</a></td>
+												<td>Refund (OrderNo#02258102 OrderID#1098572 )</td>
+												<td>M5737</td>
+												<td>-1.00Baht</td>
+												<td>14-11-2560 16:41:44</td>
+											</tr>
+											<tr>
+												<td><img src="assets/images/sign/N.png"></td>
+												<td><a href="">02258118</a></td>
+												<td>Refund (OrderNo#02258102 OrderID#1098572 )</td>
+												<td>M5737</td>
+												<td>-1.00Baht</td>
+												<td>14-11-2560 16:41:44</td>
+											</tr>
+                                </tbody>
+                            </table>
+                            <a href="<?php echo base_url(); ?>orders/orders/view_all_orders">รายการสั่งซื้อทั้งหมด คลิกที่นี่</a>
+                        </div>
 					</div>
 				</div>
-			</div>
-		</div><!-- last 10 orders -->
-
-		<div class="row clearfix">
-			<div class="col-md-12 col-lg-12">
-				<div class="card visitors-map">
-					<div class="header">
-						<h2>ข่าวสารและเหตุการณ์ใหม่</h2>
-					</div>
-					<div class="body">
-						<div class="row">							
-							<div class="col-sm-12">	
-								<p class="indent">ข่าวสาร ประกาศ และเหตุการณ์ต่างๆ ที่สำคัญเกี่ยวกับ THAIEPAY มีดังนี้</p>
-							</div>
-							<div class="col-sm-4">
-								<center>
-									<img src="<?php echo base_url();?>assets/images/sign/underconstruction.png" class="img-responsive">
-								</center>
-							</div>
-							<div class="col-sm-8">
-								<b>15 ก.ย. 60 - แจ้งปิดระบบแจ้งเตือนผลการชำระเงินทาง SMS (SMS Order Alert) </b>
-								<p class="indent">เรียน ร้านค้าสมาชิก</p>
-								<p class="indent">บริษัท เพย์ โซลูชั่น จำกัด ขอปิดระบบแจ้งเตือนผลการชำระเงินทาง SMS (SMS Order Alert) เป็นการชั่วคราว เพื่อทำการปรับปรุงระบบ หากดำเนินการปรับปรุงระบบเรียบร้อยแล้ว จะดำเนินการแจ้งให้ทุกท่านทราบอีกครั้ง</p>
-								<p>จึงเรียนมาเพื่อทราบ</p>
-								<p>เพย์ โซลูชั่น จำกัด</p>
-								<br/><br/>
-								<a href="">รายละเอียดเพิ่มเติม</a>
-							</div>
-							</div>	
-						</div>
-					</div>
-				</div>
-			</div>
-		</div><!-- news and promotion -->
+			</div> <!-- last 20 orders -->
+		</div><!-- row clearfix -->
+		
+	</div><!-- contianer -->
 
 		
 		<div class="row clearfix">

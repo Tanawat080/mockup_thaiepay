@@ -1,653 +1,346 @@
+
 <!-- main content -->
 <section class="content home">
 	<div class="container-fluid">
 		<div class="block-header">
-			<h2>Dashboard</h2>
+			<h2>ยอดรวมรายได้</h2>
 			<ul class="breadcrumb">
-				<li class="breadcrumb-item"><a href="index.html">Home</a></li>			
-				<li class="breadcrumb-item active">Dashboard</li>
+				<li class="breadcrumb-item"><i class="material-icons">account_balance</i><a href="<?php echo base_url();?>merchant/merchant/merchant"> ข้อมูลร้านค้า</a></li>			
+				<li class="breadcrumb-item active"><i class="material-icons">attach_money</i>ยอดรวมรายได้</li>
 			</ul>
 		</div>
-		<div class="row clearfix">
-			<div class="col-lg-5 col-md-12 col-sm-12">
-				<div class="row clearfix top-report">
-					<div class="col-lg-6 col-md-6 col-sm-12">
-						<div class="card">
-							<div class="body">
-								<h3 class="m-t-0">50.5 Gb</h3>
-								<p class="text-muted">Traffic this month</p>
-								<div class="progressbar-xs progress-rounded progress-striped progress ng-isolate-scope" value="68" type="success">
-									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100" style="width: 68%;"></div>
-								</div>
-								<small>4% higher than last month</small>							
-							</div>							
-						</div>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12">
-						<div class="card">
-							<div class="body">
-								<h3 class="m-t-0">$ 14,500</h3>
-								<p class="text-muted">Total Sale</p>
-								<div class="progressbar-xs progress-rounded progress-striped progress ng-isolate-scope" value="68" type="warning">
-									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100" style="width: 68%;"></div>
-								</div>
-								<small>15% higher than last month</small>
-							</div>							
-						</div>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12">
-						<div class="card">
-							<div class="body">
-								<div class="sparkline" data-type="bar" data-width="97%" data-height="77px" data-bar-Width="5" data-bar-Spacing="4" data-bar-Color="rgb(69, 127, 202)"> 6,7,8,6,7,5,8,5,7,6,8,7,6,7,5,6</div>
-								<p class="m-b-0 p-t-10 text-center">Server Uptime 95.5%</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12">
-						<div class="card">
-							<div class="body">
-								<div class="sparkline" data-type="bar" data-width="97%" data-height="77px" data-bar-Width="5" data-bar-Spacing="4" data-bar-Color="rgb(120, 184, 62)"> 4,2,8,6,7,6,8,3,5,8,5,6,2,8,6,7,6 </div>
-								<p class="m-b-0 p-t-10 text-center">Visitors 2,105</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-12">
-						<div class="card email-state">
-							<div class="header">
-								<h2>Emails Sent</h2>
-								<ul class="header-dropdown m-r--5">
-									<li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="zmdi zmdi-more-vert"></i></a>
-										<ul class="dropdown-menu pull-right">
-											<li><a href="javascript:void(0);">Action</a></li>
-											<li><a href="javascript:void(0);">Another action</a></li>
-											<li><a href="javascript:void(0);">Something else here</a></li>
-										</ul>
-									</li>
-								</ul>
-							</div>
-							<div class="body">
-								<div class="row clearfix">
-									<div class="col-md-7 col-sm-6  text-center">
-										<input type="text" class="knob" value="93" data-width="110" data-height="110" data-thickness="0.1" data-fgColor="#f0ad4e" readonly>
-									</div>
-									<div class="col-md-5 col-sm-6  text-center">
-										<p><i class="zmdi zmdi-circle text-warning"></i> 215 Read</p>
-										<p><i class="zmdi zmdi-circle col-blue-grey"></i> 34 Unread</p>
-										<hr>
-										<small>810 Sent Email in Total</small> </div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-7 col-md-12 col-sm-12 ">
-				<div class="card product-report">
-					<div class="header">
-						<h2>Product Report</h2>
-						<ul class="header-dropdown m-r--5">
-							<li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="zmdi zmdi-more-vert"></i> </a>
-								<ul class="dropdown-menu pull-right">
-									<li><a href="javascript:void(0);">Action</a></li>
-									<li><a href="javascript:void(0);">Another action</a></li>
-									<li><a href="javascript:void(0);">Something else here</a></li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-					<div class="body">
-						<div class="row clearfix m-b-25">
-							<div class="col-lg-4 col-md-4 col-sm-4">
-								<div class="icon"><i class="zmdi zmdi-chart-donut"></i></div>
-								<div class="col-in">
-									<h3 class="counter m-b-0">$4516</h3>
-									<small class="text-muted m-t-0">Sales Report</small> </div>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-4">
-								<div class="icon"><i class="zmdi zmdi-chart"></i></div>
-								<div class="col-in">
-									<h3 class="counter m-b-0">$6481</h3>
-									<small class="text-muted m-t-0">Annual Revenue </small> </div>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-4">
-								<div class="icon"><i class="zmdi zmdi-card"></i></div>
-								<div class="col-in">
-									<h3 class="counter m-b-0">$3915</h3>
-									<small class="text-muted m-t-0">Monthly Revenue</small> </div>
-							</div>
-						</div>
-						<div id="area_chart" class="graph"></div>
-					</div>
-				</div>
-			</div>
-		</div>
+
+		
+
 		<div class="row clearfix">
 			<div class="col-md-12 col-lg-12">
 				<div class="card visitors-map">
 					<div class="header">
-						<h2>Visitors Statistics</h2>
+						<h2 class="col-blue-grey">สรุปยอดได้ตามช่วงเวลา</h2>
 					</div>
-					<div class="body">
+					<div class="body ">
 						<div class="row">							
-							<div class="col-md-7 col-sm-12 col-lg-8 col-xl-9">
-								<div id="world-map-markers" class="jvector-map"></div>
-							</div>
-							<div class="col-md-5 col-sm-12 col-lg-4 col-xl-3">
-								<div class="table-responsive">
-									<table class="table table-hover">
-										<tbody>
-											<tr>											
-												<td>USA</td>
-												<td>$2,009</td>
-												<td class="text-muted">4.22%</td>
-												<td class="text-danger">-0.01%</td>
-											</tr>
-											<tr>											
-												<td>Germany</td>
-												<td>$3,526</td>
-												<td class="text-muted">4.17%</td>
-												<td class="text-success">+0.06%</td>
-											</tr>										
-											<tr>											
-												<td>Australia</td>
-												<td>$2,357</td>
-												<td class="text-muted">3.15%</td>
-												<td class="text-danger">-0.12%</td>
-											</tr>
-											<tr>											
-												<td>Canada</td>
-												<td>$3,129</td>
-												<td class="text-muted">4.01%</td>
-												<td class="text-success">+0.07%</td>
-												</tr>
-											<tr>											
-												<td>France</td>
-												<td>$2,143</td>
-												<td class="text-muted">2.80%</td>
-												<td class="text-success">+0.06%</td>
-											</tr>											
-										</tbody>
-									</table>
-								</div>
-								<div class="progress-list">
-									<h4>All <span class="badge pull-right bg-green">47%</span></h4>
-									<div class="progress-xs not-rounded progress">
-										<div class="progress-bar bg-green" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"> <span class="sr-only">40%</span> </div>
+							<div class="col-sm-12">	
+								<p class="indent">คุณสามารถคำนวณยอดรวมรายได้ร้านค้า โดยเลือก วันเริ่มต้น และวันที่สิ้นสุด การคำนวณยอดเงิน จะรวมเงินทั้งหมด ออกมาในหน่วยของสกุลเงินบาท ซึ่งในกรณีที่ร้านค้าของคุณรับชำระเงินด้วยสกุลเงินอื่นๆ นอกเหนือจาก สกุลเงินบาท การแปลงค่าเงินเหล่านี้ สามารถตรวจสอบได้จากเมนู "รายการสั่งซื้อ" ซึ่งจะบอกรายละเอียดว่า รายการสั่งซื้อใด แปลงเป็นหน่วยเงินบาทได้เท่าไร โดยอ้างอิงจากอัตราแลกเปลี่ยนของวันที่เท่าไร </p>
+							</div>	
+							<div class="col-sm-2">
+								<p class="indent"><b>ระหว่างวันที่:*</b></p>
+							</div>	
+							<div class="col-sm-3">
+							 	<div class="input-group"> <span class="input-group-addon"> <i class="material-icons">date_range</i> </span>
+                                        <div class="form-line">
+                                            <input type="text" class="datepicker form-control datetime" placeholder="Please choose Date...">
+                                        </div>
+                               	</div>
+                            </div>	
+                            <div class="col-sm-1 text-center">
+                               <p>ถึง</p>
+                            </div>
+                            <div class="col-sm-3">
+							 	<div class="input-group"> <span class="input-group-addon"> <i class="material-icons">date_range</i> </span>
+                                        <div class="form-line">
+                                            <input type="text" class="datepicker form-control datetime" placeholder="Please choose Date...">
+                                        </div>
+                               	</div>
+                            </div>
+                            <div class="col-sm-3 text-center">
+                            	<button type="button" data-color="blue" class="btn btn-raised bg-blue waves-effect">submit</button>
+
+                            </div>
+                            <div class="col-sm-12">
+                            <br/>
+	                            <table width="100%" class="table table-hover">
+	                            	<tr>
+	                            		<td align="left"><img src="<?php echo base_url(); ?>assets/images/sign/CP.png"> รายการสั่งซื้อ "อนุมัติ" :	</td>
+	                            		<td align="right">3 รายการ</td>
+	                            	</tr>
+	                            		<tr>
+	                            		<td align="left"><img src="<?php echo base_url(); ?>assets/images/sign/RF.png"> รายการสั่งซื้อ "ถูกปฎิเสธ" :	</td>
+	                            		<td align="right">8 รายการ</td>
+	                            	</tr>
+	                            		<tr>
+	                            		<td align="left"><img src="<?php echo base_url(); ?>assets/images/sign/HO.png"> รายการสั่งซื้อ "ถูกยึดหน่วย" :	</td>
+	                            		<td align="right">0 รายการ</td>
+	                            	</tr>
+	                            		<tr>
+	                            		<td align="left"><img src="<?php echo base_url(); ?>assets/images/sign/N.png"> รายการสั่งซื้อ "รอการชำระเงิน" :	</td>
+	                            		<td align="right">11 รายการ</td>
+	                            	</tr>
+	                            </table>
+	                            <br/><br/>
+	                            <table width="100%" class="table table-hover">
+	                            	<tr>
+	                            		<td align="left"><img src="<?php echo base_url(); ?>assets/images/sign/visa.png" width="44" height="28"> รวมยอดเงินจากบัตร Visa :</td>
+	                            		<td align="center"></td>
+	                            		<td align="right">0.00 Baht</td>
+	                            	</tr>
+	                            	<tr>
+	                            		<td align="left"><img src="<?php echo base_url(); ?>assets/images/sign/mastercard.png" width="44" height="28"> รวมยอดเงินจากบัตร MasterCard :</td>
+	                            		<td align="center"></td>
+	                            		<td align="right">199.00 Baht</td>
+	                            	</tr>
+	                            	<tr>
+	                            		<td align="left"><img src="<?php echo base_url(); ?>assets/images/sign/amex.png" width="44" height="28"> รวมยอดเงินจากบัตร American Express :</td>
+	                            		<td align="center"></td>
+	                            		<td align="right">0.00 Baht</td>
+	                            	</tr>
+	                            	<tr>
+	                            		<td align="left"><img src="<?php echo base_url(); ?>assets/images/sign/jcb.png" width="44" height="28"> รวมยอดเงินจากบัตร Japan Credit Bureau :</td>
+	                            		<td align="center"></td>
+	                            		<td align="right">0.00 Baht</td>
+	                            	</tr>
+	                            	<tr>
+	                            		<td align="left"><img src="<?php echo base_url(); ?>assets/images/sign/cup.png" width="44" height="28"> รวมยอดเงินจากบัตร China Unionpay :	</td>
+	                            		<td align="center"></td>
+	                            		<td align="right">0.00 Baht</td>
+	                            	</tr>
+	                            	<tr>
+	                            		<td align="left"><img src="<?php echo base_url(); ?>assets/images/sign/counterservice.jpg" width="44" height="28"> รวมยอดเงินจากบัตร Counter Service :</td>
+	                            		<td align="center"></td>
+	                            		<td align="right">0.00 Baht</td>
+	                            	</tr>
+	                            	<tr>
+	                            		<td align="left"><img src="<?php echo base_url(); ?>assets/images/sign/paypalre.png" width="50" height="28"> รวมยอดเงินจากบริการ PayPal :</td>
+	                            		<td align="center"></td>
+	                            		<td align="right">0.00 Baht</td>
+	                            	</tr>
+	                            	<tr>
+	                            		<td align="left"><img src="<?php echo base_url(); ?>assets/images/sign/bitcoin.png" width="50" height="28"> รวมยอดเงินจากบริการ Bitcoin :</td>
+	                            		<td align="center"></td>
+	                            		<td align="right">0.00 Baht</td>
+	                            	</tr>
+	                            	<tr>
+	                            		<td align="left"><img src="<?php echo base_url(); ?>assets/images/sign/a.png" width="44" height="28"> รวมยอดเงินจากบริการ mPOS :	</td>
+	                            		<td align="center"></td>
+	                            		<td align="right">0.00 Baht</td>
+	                            	</tr>
+	                            		<tr>
+	                            		<td align="left"><img src="<?php echo base_url(); ?>assets/images/sign/iBanking.png" width="44" height="28"> รวมยอดเงินจากบริการ iBanking :</td>
+	                            		<td align="center"></td>
+	                            		<td align="right">0.00 Baht</td>
+	                            	</tr>
+	                            	<tr>
+	                            		<td align="left"><img src="<?php echo base_url(); ?>assets/images/sign/COD.png" width="44" height="28">:	</td>
+	                            		<td align="center"></td>
+	                            		<td align="right">0.00 Baht</td>
+	                            	</tr>
+	                            	<tr>
+	                            		<td align="left">รวมยอดเงินอื่นๆ :</td>
+	                            		<td align="center"></td>
+	                            		<td align="right">0.00 Baht</td>
+	                            	</tr>
+	                            </table>
+	                            <div class="row sales-report">
+									<div class="col-md-6 col-sm-6">									
+										<h4 class="text-success">รวมทั้งสิ้น (บาท)</h4>
+
+									</div>
+									<div class="col-md-6 col-sm-6 ">
+										<h3 class="text-right text-success">฿199.00</h3>
 									</div>
 								</div>
-								<p>Contrary to popular belief, Lorem Ipsum is not simply random text</p>
-							</div>
+
+	                            <table width="100%" class="table table-hover">
+
+	                            	<tr>
+	                            		<td align="left">หักค่าธรรมเนียม 0.00% (รวมภาษีมูลค่าเพิ่ม) :</td>
+	                            		<td align="center"></td>
+	                            		<td align="right">0.00 Baht</td>
+	                            	</tr>
+	                            	<tr>
+	                            		<td align="left">บัตร American Express หักค่าธรรมเนียม 4.75% (รวมภาษีมูลค่าเพิ่ม) :</td>
+	                            		<td align="center"></td>
+	                            		<td align="right">0.00 Baht</td>
+	                            	</tr>
+	                            	<tr>
+	                            		<td align="left">PayPal หักค่าธรรมเนียม 4.75% (รวมภาษีมูลค่าเพิ่ม) :</td>
+	                            		<td align="center"></td>
+	                            		<td align="right">0.00 Baht</td>
+	                            	</tr>
+	                            	<tr>
+	                            		<td align="left">หักค่าธรรมเนียม mPOS 3.50% (รวมภาษีมูลค่าเพิ่ม) :</td>
+	                            		<td align="center"></td>
+	                            		<td align="right">0.00 Baht</td>
+	                            	</tr>
+	                            </table>
+	                            	<div class="row sales-report">
+										<div class="col-md-6 col-sm-6">									
+											
+										</div>
+										<div class="col-md-6 col-sm-6  ">
+											<h5 class="text-right text-success m-b-0">0.00 Baht</h5>
+										</div>
+									</div>
+	                           	<table width="100%" class="table table-hover">
+	                            	<tr>
+	                            		<td align="left">หักหรือเพิ่มรายการอื่นๆ:</td>
+	                            		<td align="center">Refund Amount OrderNo#02249329	</td>
+	                            		<td align="right">-199.00 Baht</td>
+	                            	</tr>
+	                            	</table>
+	                            	<div class="row sales-report">
+										<div class="col-md-6 col-sm-6">									
+											
+										</div>
+										<div class="col-md-6 col-sm-6  ">
+											<h5 class="text-right text-success m-b-0">-199.00 Baht</h5>
+										</div>
+									</div>
+	                            	<table width="100%" class="table table-hover">
+
+	                            		<td align="left">รายการคืนเงิน:</td>
+	                            		<td align="center"></td>
+	                            		<td align="right">0.00Baht</td>
+	                            	</tr>
+	                            	</tr>
+	                            	
+	                            </table>
+	                            <div class="row sales-report">
+									<div class="col-md-6 col-sm-6">									
+										<h3 class="text-success">ยอดเงินรายได้ร้านค้าสุทธิ </h3>
+
+									</div>
+									<div class="col-md-6 col-sm-6  ">
+										<h2 class="text-right text-success m-b-0">฿0.00</h2>
+									</div>
+								</div>
+	                        </div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</div><!-- summary by period -->
+
 		<div class="row clearfix">
-			<div class="col-sm-12">
-			<div class="card">
-				<div class="body">
-					<div class="row">
-						<div class="col-lg-2 col-md-4 col-sm-6 text-center">
-							<p class="m-t-10">Page View</p>
-							<input type="text" class="knob" value="42" data-linecap="round" data-width="80" data-height="80" data-thickness="0.15" data-fgColor="#8f78db" readonly>
-						</div>
-						<div class="col-lg-2 col-md-4 col-sm-6 text-center">
-							<p class="m-t-10">Storage</p>
-							<input type="text" class="knob" value="81" data-linecap="round" data-width="80" data-height="80" data-thickness="0.15" data-fgColor="#49cdd0" readonly>
-						</div>
-						<div class="col-lg-2 col-md-4 col-sm-6 text-center">
-							<p class="m-t-10">New User</p>
-							<input type="text" class="knob" value="62" data-linecap="round" data-width="80" data-height="80" data-thickness="0.15" data-fgColor="#00adef" readonly>
-						</div>
-						<div class="col-lg-2 col-md-4 col-sm-6 text-center">
-							<p class="m-t-10">Total Visit</p>
-							<input type="text" class="knob" value="38" data-linecap="round" data-width="80" data-height="80" data-thickness="0.15" data-fgColor="#5edb8c" readonly>
-						</div>
-						<div class="col-lg-2 col-md-4 col-sm-6 text-center">
-							<p class="m-t-10">Network</p>
-							<input type="text" class="knob" value="62" data-linecap="round" data-width="80" data-height="80" data-thickness="0.15" data-fgColor="#f67a82" readonly>
-						</div>
-						<div class="col-lg-2 col-md-4 col-sm-6 text-center">
-							<p class="m-t-10">Server Storage</p>
-							<input type="text" class="knob" value="38" data-linecap="round" data-width="80" data-height="80" data-thickness="0.15" data-fgColor="#f7bb97" readonly>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div>
-		</div>
-		<div class="row clearfix">
-			<div class="col-sm-12 col-md-12 col-lg-6 col-xl-4">
-				<div class="card">
+			<div class="col-md-12 col-lg-12">
+				<div class="card visitors-map">
 					<div class="header">
-						<h2>Browser Used</h2>
-						<ul class="header-dropdown m-r--5">
-							<li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="zmdi zmdi-more-vert"></i> </a>
-								<ul class="dropdown-menu pull-right">
-									<li><a href="javascript:void(0);">Action</a></li>
-									<li><a href="javascript:void(0);">Another action</a></li>
-									<li><a href="javascript:void(0);">Something else here</a></li>
-								</ul>
-							</li>
-						</ul>
+						<h2 class="col-blue-grey">ประวัติการโอนเงินย้อนหลัง 6 เดือน</h2>
 					</div>
-					<div class="body">
-						<div id="donut_chart" class="graph dashboard-donut-chart"></div>
-						<div class="sparkline" data-type="bar" data-width="97%" data-height="45px" data-bar-Width="5" data-bar-Spacing="4" data-bar-Color="rgb(0, 0, 0)"> 6,7,8,6,7,5,8,5,6,8,5,6,7,6,8,7,6,7,5,8,5,6</div>
-						<p class="m-b-0 p-t-10 text-center">Pageviews 2,105</p>
-					</div>
-				</div>
-			</div>			
-			<div class="col-sm-12 col-md-12 col-lg-6 col-xl-3">
-				<div class="card">
-					<div class="carousel slide twitter-feed" data-ride="carousel">
-						<div class="carousel-inner" role="listbox">
-							<div class="carousel-item row text-center active">
-								<div class="col-sm-12"><i class="zmdi zmdi-twitter"></i></div>
-								<div class="col-sm-12">
-									<p><i class="zmdi zmdi-quote"></i>Lorem Ipsum is simply typesetting industry. Lorem Ipsum has been the industry's standard</p>
-								</div>
-							</div>
-							<div class="carousel-item row text-center">
-								<div class="col-sm-12">
-									<i class="zmdi zmdi-twitter"></i>
-								</div>
-								<div class="col-sm-12">
-									<p><i class="zmdi zmdi-quote"></i>It is a long established fact that a reader will ontent of a page when looking at its layout.</p>
-								</div>
-							</div>							
-						</div>
-					</div>
-				</div>
-				<div class="card">
-					<div class="carousel slide facebook-feed" data-ride="carousel">
-						<div class="carousel-inner" role="listbox">
-							<div class="carousel-item row text-center active">
-								<div class="col-sm-12">
-									<i class="zmdi zmdi-facebook"></i>
-								</div>
-								<div class="col-sm-12">
-									<p><i class="zmdi zmdi-quote"></i>Lorem Ipsum is simply typesetting industry. Lorem Ipsum has been the industry's standard</p>
-								</div>								
-							</div>
-							<div class="carousel-item row text-center">
-								<div class="col-sm-12"><i class="zmdi zmdi-facebook"></i></div>
-								<div class="col-sm-12">
-									<p><i class="zmdi zmdi-quote"></i>It is a long established fact that a reader will ontent of a page when looking at its layout.</p>
-								</div>								
-							</div>
-						</div>
-					</div>
-				</div>				
-			</div>
-			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-5">
-				<div class="card">
-					<div class="header">
-						<h2>INBOX</h2>
-						<ul class="header-dropdown m-r--5">
-							<li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="zmdi zmdi-more-vert"></i> </a>
-								<ul class="dropdown-menu pull-right">
-									<li><a href="javascript:void(0);" class=" waves-effect waves-block">Action</a></li>
-									<li><a href="javascript:void(0);" class=" waves-effect waves-block">Another action</a></li>
-									<li><a href="javascript:void(0);" class=" waves-effect waves-block">Something else here</a></li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-					<div class="body">
-						<ul class="inbox-widget list-unstyled clearfix">
-							<li class="inbox-inner"> <a href="javascript:void(0)">
-								<div class="inbox-item">
-									<div class="inbox-img"> <img src="assets/images/xs/avatar1.jpg" alt=""> </div>
-									<div class="inbox-item-info">
-										<p class="author">Aaron	Enlightened</p>
-										<p class="inbox-message">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
-										<p class="inbox-date">13:34 PM</p>
-									</div>
-								</div>
-								</a> </li>
-							<li class="inbox-inner"> <a href="javascript:void(0)">
-								<div class="inbox-item">
-									<div class="inbox-img"> <img src="assets/images/xs/avatar2.jpg" alt=""> </div>
-									<div class="inbox-item-info">
-										<p class="author">Alvin Doe</p>
-										<p class="inbox-message">Lorem Ipsum is simply dummy text oftting industry. Lorem Ipsum has been the industry's</p>
-										<p class="inbox-date">13:34 PM</p>
-									</div>
-								</div>
-								</a> </li>
-							<li class="inbox-inner"> <a href="javascript:void(0)">
-								<div class="inbox-item">
-									<div class="inbox-img"> <img src="assets/images/xs/avatar3.jpg" alt=""> </div>
-									<div class="inbox-item-info">
-										<p class="author">Austin</p>
-										<p class="inbox-message">text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
-										<p class="inbox-date">13:34 PM</p>
-									</div>
-								</div>
-								</a> </li>
-							<li class="inbox-inner"> <a href="javascript:void(0)">
-								<div class="inbox-item">
-									<div class="inbox-img"> <img src="assets/images/xs/avatar4.jpg" alt=""> </div>
-									<div class="inbox-item-info">
-										<p class="author">John Benjamin</p>
-										<p class="inbox-message">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
-										<p class="inbox-date">13:34 PM</p>
-									</div>
-								</div>
-								</a> </li>
-							<li class="inbox-inner"> <a href="javascript:void(0)">
-								<div class="inbox-item">
-									<div class="inbox-img"> <img src="assets/images/xs/avatar5.jpg" alt=""> </div>
-									<div class="inbox-item-info">
-										<p class="author">Broderick</p>
-										<p class="inbox-message">text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
-										<p class="inbox-date">13:34 PM</p>
-									</div>
-								</div>
-								</a> </li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row clearfix">
-			<div class="col-sm-12 col-md-12 col-lg-5 col-xl-4">
-				<div class="card activities">
-					<div class="header">
-						<h2>Activities</h2>
-						<ul class="header-dropdown m-r--5">
-							<li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="zmdi zmdi-more-vert"></i> </a>
-								<ul class="dropdown-menu pull-right">
-									<li><a href="javascript:void(0);" class=" waves-effect waves-block">Action</a></li>
-									<li><a href="javascript:void(0);" class=" waves-effect waves-block">Another action</a></li>
-									<li><a href="javascript:void(0);" class=" waves-effect waves-block">Something else here</a></li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-					<div class="body">
-						<div class="streamline b-l b-accent">
-							<div class="sl-item">
-								<div class="sl-content">
-									<div class="text-muted-dk">Just now</div>
-									<p>Finished task <a href="" class="text-info">#features 4</a>.</p>
-								</div>
-							</div>
-							<div class="sl-item b-info">
-								<div class="sl-content">
-									<div class="text-muted-dk">11:30</div>
-									<p><a href="">@Jessi</a> retwit your post</p>
-								</div>
-							</div>
-							<div class="sl-item b-primary b-l">
-								<div class="sl-content">
-									<div class="text-muted-dk">10:30</div>
-									<p>Call to customer <a href="" class="text-info">Jacob</a> and discuss the detail.</p>
-								</div>
-							</div>
-							<div class="sl-item b-warning">
-								<div class="sl-content">
-									<div class="text-muted-dk">3 days ago</div>
-									<p><a href="" class="text-info">Jessi</a> commented your post.</p>
-								</div>
-							</div>
-							<div class="sl-item b-primary b-l">
-								<div class="sl-content">
-									<div class="text-muted-dk">10:30</div>
-									<p>Call to customer <a href="" class="text-info">Jacob</a> and discuss the detail.</p>
-								</div>
-							</div>
-							<div class="sl-item b-primary b-l">
-								<div class="sl-content">
-									<div class="text-muted-dk">10:30</div>
-									<p>Call to customer <a href="" class="text-info">Jacob</a> and discuss the detail.</p>
-								</div>
-							</div>
-							<div class="sl-item b-warning">
-								<div class="sl-content">
-									<div class="text-muted-dk">3 days ago</div>
-									<p><a href="" class="text-info">Jessi</a> commented your post.</p>
-								</div>
-							</div>
+					<div class="body">	
+							<p class="indent">นอกจากคุณจะสามารถเลือกแสดงยอดรวมรายได้ตามช่วงวันเวลาในหัวข้อก่อนหน้านี้ได้แล้ว ระบบของเรายังแสดงประวัติการโอนเงินย้อนหลัง 6 เดือนเพื่ออำนวยความสะดวกให้คุณตรวจสอบประวัติยอดรวมรายได้ของร้านค้าที่ผ่านมาได้ </p>
+
+							<div class="body table-responsive "> 
+								<table class="table table-bordered table-striped table-hover js-basic-example dataTable ">
+                                <thead>
+                                    <tr class="l-blue">
+                                        <th width="10%">สถานะ</th>
+                                        <th width="50%">รายได้ระหว่างวันที่</th>
+                                        <th width="20%">วันที่โอนเงิน</th>
+                                        <th width="20%">ยอดโอนเงิน</th>
+                                        
+                                    </tr>
+                                </thead>
+                                <tfoot>
+                                    <tr class="l-blue">
+                                        <th>สถานะ</th>
+                                        <th>รายได้ระหว่างวันที่</th>
+                                        <th>วันที่โอนเงิน</th>
+                                        <th>ยอดโอนเงิน</th>
+                                       
+                                    </tr>
+                                </tfoot>
+                                <tbody>
+                                  	<tr>
+						                <td><img src="<?php echo base_url();?>assets/images/sign/PE.png" /></td>
+						                <td>16 ต.ค. 2560 - 31 ต.ค. 2560</td>
+						                <td>10 พ.ย. 2560</td>
+						                <td>60.00 Baht</td>
+					            	</tr>
+        							<tr>
+                						<td><img src="<?php echo base_url();?>assets/images/sign/PE.png" /></td>
+                						<td>1 ต.ค. 2560 - 15 ต.ค. 2560</td>
+                						<td>25 ต.ค. 2560</td>
+                						<td>0.96 Baht</td>
+            						</tr>
+            						<tr>
+                						<td><img src="<?php echo base_url();?>assets/images/sign/NO.png" /></td>
+                						<td>16 ก.ย. 2560 - 30 ก.ย. 2560</td>
+                						<td>10 ต.ค. 2560</td>
+                						<td>0.00 Baht</td>
+            						</tr>
+            						<tr>
+						                <td><img src="<?php echo base_url();?>assets/images/sign/PE.png" /></td>
+						                <td>1 ก.ย. 2560 - 15 ก.ย. 2560</td>
+						                <td>25 ก.ย. 2560</td>
+						                <td>0.96 Baht</td>
+
+					            	</tr>
+        							<tr>
+                						<td><img src="<?php echo base_url();?>assets/images/sign/NO.png" /></td>
+                						<td>1 ส.ค. 2560 - 15 ส.ค. 2560</td>
+                						<td>25 ส.ค. 2560</td>
+                						<td>0.00 Baht</td>
+            						</tr>
+            						<tr>
+                						<td><img src="<?php echo base_url();?>assets/images/sign/NO.png" /></td>
+                						<td>16 ก.ค. 2560 - 31 ก.ค. 2560</td>
+                						<td>10 ส.ค. 2560</td>
+                						<td>0.00 Baht</td>
+            						</tr>
+            						<tr>
+						                <td><img src="<?php echo base_url();?>assets/images/sign/NO.png" /></td>
+						                <td>1 ก.ค. 2560 - 15 ก.ค. 2560</td>
+						                <td>25 ก.ค. 2560</td>
+						                <td>47.99 Baht</td>
+					            	</tr>
+        							<tr>
+                						<td><img src="<?php echo base_url();?>assets/images/sign/PE.png" /></td>
+                						<td>16 มิ.ย. 2560 - 30 มิ.ย. 2560</td>
+                						<td>10 ก.ค. 2560</td>
+                						<td>0.00 Baht</td>
+            						</tr>
+            						<tr>
+                						<td><img src="<?php echo base_url();?>assets/images/sign/NO.png" /></td>
+                						<td>16 มิ.ย. 2560 - 30 มิ.ย. 2560</td>
+                						<td>10 ก.ค. 2560</td>
+                						<td>0.00 Baht</td>
+            						</tr>
+            						<tr>
+						                <td><img src="<?php echo base_url();?>assets/images/sign/NO.png" /></td>
+						                <td>16 ต.ค. 2560 - 31 ต.ค. 2560</td>
+						                <td>10 พ.ย. 2560</td>
+						                <td>60.00 Baht</td>
+					            	</tr>
+        							<tr>
+                						<td><img src="<?php echo base_url();?>assets/images/sign/NO.png" /></td>
+                						<td>1 มิ.ย. 2560 - 15 มิ.ย. 2560</td>
+                						<td>25 มิ.ย. 2560</td>
+                						<td>0.00 Baht</td>
+            						</tr>
+            						<tr>
+                						<td><img src="<?php echo base_url();?>assets/images/sign/NO.png" /></td>
+                						<td>16 พ.ค. 2560 - 31 พ.ค. 2560</td>
+                						<td>10 มิ.ย. 2560</td>
+                						<td>0.00 Baht</td>
+            						</tr>
+            						<tr>
+                						<td><img src="<?php echo base_url();?>assets/images/sign/PE.png" /></td>
+                						<td>1 พ.ค. 2560 - 15 พ.ค. 2560</td>
+                						<td>25 พ.ค. 2560</td>
+                						<td>0.00 Baht</td>
+            						</tr>
+            						<tr>
+                						<td><img src="<?php echo base_url();?>assets/images/sign/NO.png" /></td>
+                						<td>16 เม.ย. 2560 - 30 เม.ย. 2560</td>
+                						<td>10 พ.ค. 2560</td>
+                						<td>479.94 Baht</td>
+            						</tr>
+                                </tbody>
+                            </table>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-12 col-md-12 col-lg-7 col-xl-8">
-				<div class="card">
-					<div class="header">
-						<h2>Recent Orders</h2>
-						<ul class="header-dropdown m-r--5">
-							<li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="zmdi zmdi-more-vert"></i></a>
-								<ul class="dropdown-menu pull-right">
-									<li><a href="javascript:void(0);">Action</a></li>
-									<li><a href="javascript:void(0);">Another action</a></li>
-									<li><a href="javascript:void(0);">Something else here</a></li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-					<div class="body">
-						<div class="table-responsive">
-							<table class="table table-striped">
-								<thead>
-									<tr>
-										<th>Invoice#</th>
-										<th>Name</th>
-										<th>Item</th>										
-										<th>Date</th>
-										<th>Amount</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>#2583</td>
-										<td>Jhone Doe</td>
-										<td><span class="label label-info">iPhone7</span></td>										
-										<td>Sept 11, 2017</td>
-										<td><span class="text-success">$350</span></td>
-									</tr>
-									<tr>
-										<td>#2584</td>
-										<td>Deborah Young</td>
-										<td><span class="label label-info">Nokia 6</span></td>										
-										<td>Sept 13, 2017</td>
-										<td><span class="text-success">$180</span></td>
-									</tr>
-									<tr>
-										<td>#2584</td>
-										<td>Deborah Young</td>
-										<td><span class="label label-info">Nokia 6</span></td>										
-										<td>Sept 13, 2017</td>
-										<td><span class="text-success">$180</span></td>
-									</tr>
-									<tr>
-										<td>#2585</td>
-										<td>Mike Dake</td>
-										<td><span class="label label-info">Redmi Note4</span></td>
-										<td>Sept 18, 2017</td>
-										<td><span class="text-success">$120</span></td>
-									</tr>
-									<tr>
-										<td>#2586</td>
-										<td>Jhone Doe</td>
-										<td><span class="label label-info">iPhonex</span></td>
-										<td>Sept 18, 2017</td>
-										<td><span class="text-success">$870</span></td>
-									</tr>
-									<tr>
-										<td>#2587</td>
-										<td>Jhonson lee</td>
-										<td><span class="label label-info">iPhone7</span></td>
-										<td>Sept 22, 2017</td>
-										<td><span class="text-success">$350</span></td>
-									</tr>
-									<tr>
-										<td>#2588</td>
-										<td>Lew Shawon</td>
-										<td><span class="label label-info">iPhone 6s</span></td>
-										<td>Sept 29, 2017</td>
-										<td><span class="text-success">$315</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-						<div class="row sales-report">
-							<div class="col-md-6 col-sm-6">									
-								<h4>September 2017</h4>
-								<p class="m-b-0">SALES REPORT</p>
-							</div>
-							<div class="col-md-6 col-sm-6  ">
-								<h2 class="text-right text-success m-b-0">$2,185</h2>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row clearfix">
-			<div class="col-sm-12 col-md-12 col-lg-4">
-				<div class="card current_progress">
-					<div class="header">
-						<h2>CHAT Box</h2>
-						<ul class="header-dropdown m-r--5">
-							<li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="zmdi zmdi-more-vert"></i> </a>
-								<ul class="dropdown-menu pull-right">
-									<li><a href="javascript:void(0);" class=" waves-effect waves-block">Action</a></li>
-									<li><a href="javascript:void(0);" class=" waves-effect waves-block">Another action</a></li>
-									<li><a href="javascript:void(0);" class=" waves-effect waves-block">Something else here</a></li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-					<div class="body">
-						<div class="chat-widget">
-							<ul class="chat-scroll-list">
-								<li class="left"> <img src="assets/images/xs/avatar1.jpg" alt="">
-									<div class="chat-info"> <a class="name" href="javascript:void(0)">Jone Doe</a> <span class="datetime">6:12</span> <span class="message"> It was popularised in the 1960s with the release of Letraset sheets containing</span> </div>
-								</li>
-								<li class="right-me"> <img src="assets/images/xs/avatar2.jpg" alt="">
-									<div class="chat-info"> <a class="name" href="javascript:void(0)">Austin</a> <span class="datetime">6:12</span> <span class="message">Richard McClintock, a Latin professor at Hampden-Sydney College</span> </div>
-								</li>
-								<li class="left"> <img src="assets/images/xs/avatar1.jpg" alt="">
-									<div class="chat-info"> <a class="name" href="javascript:void(0)">Jone Doe</a> <span class="datetime">6:12</span> <span class="message"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit </span> </div>
-								</li>
-								<li class="right-me"> <img src="assets/images/xs/avatar2.jpg" alt="">
-									<div class="chat-info"> <a class="name" href="javascript:void(0)">Austin</a> <span class="datetime">6:12</span> <span class="message">There are many variations of passages of Lorem Ipsum available,</span> </div>
-								</li>
-							</ul>
-						</div>
-						<div class="input-group">
-							<div class="form-line">
-								<input type="text" class="form-control date" placeholder="Enter your email...">
-							</div>
-							<span class="input-group-addon"> <i class="material-icons">send</i> </span> </div>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-12 col-md-12 col-lg-8">
-				<div class="card">
-					<div class="header">
-						<h2>Social Media</h2>
-						<ul class="header-dropdown m-r--5">
-							<li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="zmdi zmdi-more-vert"></i> </a>
-								<ul class="dropdown-menu pull-right">
-									<li><a href="javascript:void(0);">Action</a></li>
-									<li><a href="javascript:void(0);">Another action</a></li>
-									<li><a href="javascript:void(0);">Something else here</a></li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-					<div class="body">
-						<div class="table-responsive social_media_table">
-							<table class="table table-hover">
-								<thead>
-									<tr>
-										<th>Media</th>
-										<th>Name</th>
-										<th>Like</th>
-										<th>Comments</th>
-										<th>Share</th>
-										<th>Members</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td><span class="list-icon linkedin"><i class="zmdi zmdi-linkedin"></i></span></td>
-										<td><span class="list-name">Linked In</span> <span class="text-muted">Florida, United States</span></td>
-										<td>19K</td>
-										<td>14K</td>
-										<td>10K</td>
-										<td><span class="label label-success">2341</span></td>
-									</tr>
-									<tr>
-										<td><span class="list-icon twitter-table"><i class="zmdi zmdi-twitter"></i></span></td>
-										<td><span class="list-name">Twitter</span> <span class="text-muted">Arkansas, United States</span></td>
-										<td>7K</td>
-										<td>11K</td>
-										<td>21K</td>
-										<td><span class="label label-success">952</span></td>
-									</tr>
-									<tr>
-										<td><span class="list-icon facebook"><i class="zmdi zmdi-facebook"></i></span></td>
-										<td><span class="list-name">Facebook</span> <span class="text-muted">Illunois, United States</span></td>
-										<td>15K</td>
-										<td>18K</td>
-										<td>8K</td>
-										<td><span class="label label-success">6127</span></td>
-									</tr>
-									<tr>
-										<td><span class="list-icon google"><i class="zmdi zmdi-google-plus"></i></span></td>
-										<td><span class="list-name">Google Plus</span> <span class="text-muted">Arizona, United States</span></td>
-										<td>15K</td>
-										<td>18K</td>
-										<td>154</td>
-										<td><span class="label label-success">325</span></td>
-									</tr>
-									<tr>
-										<td><span class="list-icon youtube"><i class="zmdi zmdi-youtube-play"></i></span></td>
-										<td><span class="list-name">YouTube</span> <span class="text-muted">Alaska, United States</span></td>
-										<td>15K</td>
-										<td>18K</td>
-										<td>200</td>
-										<td><span class="label label-success">160</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		</div> <!-- History last 6 months -->
+		
+
 		<div class="row clearfix">
 			<div class="col-sm-12 col-md-12">
 				<div class="card">
 					<div class="body" id="footer">
 						<div class="row">
-							<div class="col-sm-12 col-md-8 col-lg-4">
-								<h5>Email Newsletters</h5>
-								<p>Sign up for new MaterialWrap content, updates, and offers.</p>
-								<div class="input-group">
-									<div class="form-line">
-										<input type="text" class="form-control date" placeholder="Enter your email...">
-									</div>
-									<span class="input-group-addon"> <i class="material-icons">send</i> </span> </div>
-							</div>
-							<div class="col-sm-12 col-md-4 col-lg-2">
-								<h5>Company</h5>
-								<ul class="list-unstyled company">
-									<li><a href="javascript:void(0)">About Us </a></li>
-									<li><a href="javascript:void(0)">Careers</a></li>
-									<li><a href="javascript:void(0)">Privacy Policy</a></li>
-									<li><a href="javascript:void(0)">Contact Us</a></li>
-								</ul>
-							</div>
-							<div class="col-sm-12 col-md-12 col-lg-6">
-								<h5>Want to Work with Us?</h5>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-							</div>
+							
 							<div class="col-sm-12">
 								<p class="copy m-b-0">© Copyright
 									<time class="year">2017</time>
