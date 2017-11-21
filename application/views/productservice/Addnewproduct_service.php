@@ -26,48 +26,63 @@
 		</div>
 <div class="row clearfix">
 		<div class="col-md-12 col-lg-12">
+      <div class="body">
                 <div class="card">
                     <div class="header">
                         <h3>เลือกรูปแบบสินค้าหรือบริการ*</h3>
                         
                     </div>
-                    <div class="body">
+                    
                       <div class="row">             
                         <div class="col-sm-12"> 
                           <p class="indent">เนื่องจากระบบของ THAIEPAY อำนวยความสะดวกในการเก็บข้อมูลและการแสดงผล ให้ถูกต้องเหมาะสม ตรงกับชนิดของสินค้าหรือบริการที่คุณต้องการสร้าง ดังนั้น คุณจะต้องเลือกรูปแบบของสินค้าที่คุณต้องการสร้างก่อน กรอกข้อมูลรายละเอียดทั้งหมด  </p>
                         </div>      
                       </div>
-                    </div>
+                      <br>
+                    
                     <div class="row clearfix">
                       <div class="col-lg-12 col-md-12 col-sm-12">
                           <div class="card">
                              
-                              <div class="body">
-                                  <h2 class="card-inside-title">รูปแบบสินค้าหรือบริการ :*</h2>
-                                  <div class="demo-radio-button">
-                                      <input name="group1" type="radio" id="radio_1" class="with-gap radio-col-indigo" checked />
-                                      <label for="radio_1"><b>สินค้าหรือบริการ</b><br />รูปแบบนี้เหมาะสำหรับสินค้าหรือบริการ ซึ่งมีการเก็บข้อมูลรายละเอียดเกี่ยวกับสินค้าอย่างครบถ้วน เหมาะสำหรับสินค้าที่มีราคาคงที่ สามารถนำลิงค์ไปแทรกบนหน้าเว็บไซต์ของคุณได้</label><br />
-                                      <input name="group1" type="radio" id="radio_2" class="with-gap radio-col-indigo"/>
-                                      <label for="radio_2"><b>ใบแจ้งชำระเงิน</b><br />เป็นแบบฟอร์มชำระเงินโดยตรง เหมาะสำหรับการแจ้งชำระเงินเป็นครั้งคราว ซึ่งมียอดชำระเงินไม่คงที่</label>
-                                    
-                                      
+                              
+                                <div class="row">
+                                  <div class="col-sm-3 text-center">
+                                    <h2 class="card-inside-title">รูปแบบสินค้าหรือบริการ :*</h2>
                                   </div>
+                                  <div class="col-sm-9">
+                                    <div class="demo-radio-button">
+                                        <input name="group1" type="radio" id="radio_1" class="with-gap radio-col-indigo" checked />
+                                        <label for="radio_1"><b>สินค้าหรือบริการ</b><br />รูปแบบนี้เหมาะสำหรับสินค้าหรือบริการ ซึ่งมีการเก็บข้อมูลรายละเอียดเกี่ยวกับสินค้าอย่างครบถ้วน เหมาะสำหรับสินค้าที่มีราคาคงที่ สามารถนำลิงค์ไปแทรกบนหน้าเว็บไซต์ของคุณได้</label><br />
+                                        <input name="group1" type="radio" id="radio_2" class="with-gap radio-col-indigo"/>
+                                        <label for="radio_2"><b>ใบแจ้งชำระเงิน</b><br />เป็นแบบฟอร์มชำระเงินโดยตรง เหมาะสำหรับการแจ้งชำระเงินเป็นครั้งคราว ซึ่งมียอดชำระเงินไม่คงที่</label>
+                                      
+                                        
+                                    </div>
+                                </div>
                                   
                               </div>
-                          </div>
+                          
                       </div>
+
                       <div class="col-lg-12 col-md-12 col-sm-12">
                           <div class="card">
                              
-                              <div class="body">
+                              
+                                <div class="row">
+                                  <div class="col-sm-3 text-center">
+
                                   <h2 class="card-inside-title">ข้อมูลสินค้าหรือบริการ :*</h2>
+                                </div>
+
+                                <div class="col-sm-4"> 
                                   <div class="demo-radio-button">
+                                    
                                       <input name="group2" type="radio" id="radio_3" class="with-gap radio-col-indigo" checked />
                                       <label for="radio_3"><b>สร้างสินค้าโดยใช้ข้อมูลใหม่</b></label><br />
                                       <input name="group2" type="radio" id="radio_4" class="with-gap radio-col-indigo"/>
                                       <label for="radio_4"><b>สร้างสินค้าโดยอาศัยข้อมูลเดิมจากสินค้า :
+                                  
 
-                                    
 
                                       <select class="form-control show-tick">
                                       <option value="">-- Please select --</option>
@@ -79,23 +94,30 @@
                                       <option value="117605">สินค้าทดสอบ</option>
 
                                       </select>
-                                    
+                                 
 
-                                    
-                                      
+
                                   </div>
-                                  
-                              </div>
-                          </div>
-                      </div>
-        </div>
-        <!-- #END# Checkbox --> 
+                                </div>
+                              </br>
 
+
+                                  
+
+
+                                  
+                                
+                                    
+   
+                              </div>
+                            
+                          </div> 
 
                     
+                       
+                   
 
-              <div class="row">
-                        <div class="col-sm-12">
+                      </div> <div class="col-sm-12">
                           <center>
                           <button class="btn btn-raised btn-primary waves-effect "  type="button">NEXT</button>
 
@@ -107,11 +129,15 @@
 
                         </div>
                     </div>
+        <!-- #END# Checkbox --> 
 
+
+                   
 
 
                 </div>
             </div>
+          </div>
 
 					
 				</div>
