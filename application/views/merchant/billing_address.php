@@ -18,9 +18,9 @@
                     <div class="body">
                         <form method="post">
                             <div class="row ">                           
-                                <div class="col-sm-3">
+                                <div class="col-sm-2">
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-sm-8">
                                     <p class="font-bold col-blue-grey"> ชื่อบริษัท: *</p>
                                    <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">store_mall_directory</i> </span>
                                         <div class="form-line">
@@ -31,9 +31,9 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-sm-3">
+                                <div class="col-sm-2">
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-sm-8">
                                     <p class="font-bold col-blue-grey">ที่อยู่: *</p>
                                    <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">home</i> </span>
                                         <div class="form-line">
@@ -43,10 +43,10 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-sm-3">
+                                <div class="col-sm-2">
                                 
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-sm-8">
                                     <p class="font-bold col-blue-grey">เลขประจำตัวผู้เสียภาษี: *</p>
                                    <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">accessibility</i> </span>
                                         <div class="form-line">
@@ -57,10 +57,10 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-sm-3">
+                                <div class="col-sm-2">
                                 
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-sm-8">
                                     <p class="font-bold col-blue-grey">สาขา:*</p>
                                    <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">view_compact</i> </span>
                                         <div class="form-line">
@@ -71,10 +71,10 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-sm-3">
+                                <div class="col-sm-2">
                                 
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-sm-8">
                                     <p class="font-bold col-blue-grey">อีเมล์:*</p>
                                    <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">email</i> </span>
                                         <div class="form-line">
@@ -85,10 +85,10 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-sm-3">
+                                <div class="col-sm-2">
                                 
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-sm-8">
                                     <p class="font-bold col-blue-grey">เบอร์โทรศัพท์:</p>
                                    <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">call</i> </span>
                                         <div class="form-line">
@@ -99,10 +99,10 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-sm-3">
+                                <div class="col-sm-2">
                                 
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-sm-8">
                                     <p class="font-bold col-blue-grey">แฟกซ์:</p>
                                    <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">print</i> </span>
                                         <div class="form-line">
@@ -123,21 +123,3 @@
         </div><!-- income monthly -->
 
       
-        
-        <div class="row clearfix">
-            <div class="col-sm-12 col-md-12">
-                <div class="card">
-                    <div class="body" id="footer">
-                            <div class="col-sm-12">
-                                <p class="copy m-b-0">© Copyright
-                                    <time class="year">2017</time>
-                                    WrapTheme  - All Rights Reserved</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-

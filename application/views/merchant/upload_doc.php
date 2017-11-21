@@ -27,6 +27,9 @@
                                         <input name="file" type="file" multiple />
                                     </div>
                                 </div>
+                                <div class="form-group text-center">
+                                    <button type="submit" class="btn  btn-raised bg-teal waves-effect">Submit</button>
+                                </div>
                             </div>
                         </form>
                     </div>
@@ -34,18 +37,4 @@
             </div>
         </div>
         <!-- #END# File Upload | Drag & Drop OR With Click & Choose --> 
-                <div class="row clearfix">
-            <div class="col-sm-12 col-md-12">
-                <div class="card">
-                    <div class="body" id="footer">
-                            <div class="col-sm-12">
-                                <p class="copy m-b-0">© Copyright
-                                    <time class="year">2017</time>
-                                    WrapTheme  - All Rights Reserved</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </div>
-</section>
+             

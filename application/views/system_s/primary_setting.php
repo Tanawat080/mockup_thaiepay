@@ -5,8 +5,8 @@
         <div class="block-header">
             <h2>ตั้งค่าเบื้องต้น</h2>
             <ul class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.html">ระบบการทำงาน</a></li>           
-                <li class="breadcrumb-item active">ตั้งค่าเบื้องต้น</li>
+                <li class="breadcrumb-item"><i class="zmdi zmdi-swap-alt"></i><a href="<?php echo base_url(); ?>system_s/system_s/system_des"> ระบบการทำงาน</a></li>           
+                <li class="breadcrumb-item active"><i class="material-icons">settings</i> ตั้งค่าเบื้องต้น</li>
             </ul>
         </div>
         <div class="row clearfix">
@@ -101,7 +101,8 @@
                                 <p>(เป็นการตั้งหักเงินเพิ่มจากยอดรวม อย่างเช่น หากคุณตั้งค่า 3% และกรอกรายละเอียดเป็น "ค่าธรรมเนียมออนไลน์" เมื่อมีลูกค้าเข้ามา ชำระเงิน 100 บาท ระบบจะแสดงผล ยอดเงินเพิ่มอีก 3 บาทเป็น 103 บาท และให้รายละเอียดว่าเป็น "ค่าธรรมเนียมออนไลน์") </p>
                             </div>
                             <div class="col-md-12">
-                                <p class="indent"><b>ร้านค้าของคุณ มีลักษณะหรือรูปแบบธุรกิจจัดอยู่ในหมวดหมู่ใด?</b></p>
+                                <hr>
+                                <p><b class="col-red">ร้านค้าของคุณ มีลักษณะหรือรูปแบบธุรกิจจัดอยู่ในหมวดหมู่ใด?</b></p>
                             </div>
                             <div class="col-sm-3">
                                 <p>หมวดหมู่หลัก:*</p>
@@ -153,7 +154,7 @@
                             </div>
                             <div class="col-sm-5">
 
-                                    <a href="">ไม่มีหมวดหมู่หลักที่ต้องการ โปรดแนะนำเราที่นี่ </a>
+                                    <a href="<?php echo base_url(); ?>contact/contact/support">ไม่มีหมวดหมู่หลักที่ต้องการ โปรดแนะนำเราที่นี่ </a>
 
                             </div>
                             <div class="col-sm-3">
@@ -175,7 +176,7 @@
                                 
                             </div>
                             <div class="col-sm-5">
-                                    <a href="">ไม่มีหมวดหมู่รองที่ต้องการ โปรดแนะนำเราที่นี่ </a>
+                                    <a href="<?php echo base_url(); ?>contact/contact/support">ไม่มีหมวดหมู่รองที่ต้องการ โปรดแนะนำเราที่นี่ </a>
                             </div>
                             <div class="col-sm-12 text-center">
                                 <br/>
@@ -192,21 +193,4 @@
         
 
 
-
-        <div class="row clearfix">
-            <div class="col-sm-12 col-md-12">
-                <div class="card">
-                    <div class="body" id="footer">
-                        <div class="col-sm-12">
-                            <p class="copy m-b-0">© Copyright
-                                <time class="year">2017</time>
-                                WrapTheme  - All Rights Reserved</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-</section>
 

@@ -12,9 +12,9 @@
 		{
 			$this->load->view('top-bar');
 			$this->load->view('right-sidebar');
-			$this->load->view('TermsConditions');
+			$this->load->view('terms_conditions/TermsConditions');
+			$this->load->view('footer');
 			$this->load->view('script');
 		}
-		
 }
 ?>

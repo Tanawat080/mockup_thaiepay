@@ -5,7 +5,7 @@
         <div class="block-header">
             <h2>คืนเงินหรือยกเลิกรายการ</h2>
             <ul class="breadcrumb">
-                <li class="breadcrumb-item"><i class="zmdi zmdi-delicious"></i><a href="index.html"> การสั่งซื้อและผู้ซื้อ</a></li>           
+                <li class="breadcrumb-item"><i class="zmdi zmdi-delicious"></i><a href="<?php echo base_url(); ?>orders/orders/orders_des"> การสั่งซื้อและผู้ซื้อ</a></li>           
                 <li class="breadcrumb-item active"><i class="material-icons">cached</i><a href="<?php echo base_url(); ?>orders/orders/refund"> คืนเงินหรือยกเลิกรายการ</a></li>
                 <li class="breadcrumb-item active"><i class="material-icons">label</i> 02208141</li>
             </ul>
@@ -25,47 +25,6 @@
         </div><!-- refund -->
 
         <div class="row clearfix">
-            <div class="col-lg-5 col-md-12 col-sm-12">
-                <div class="row clearfix top-report">
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        <div class="card">
-                            <div class="body">
-                                <div class="col-lg-12 col-md-12 col-sm-12">
-                                <div class="card widget-stat  info-box-3 bg-green">
-                                    <div class="body">
-                                        <div class="media">
-                                            <div class="media-icon bg-white">
-                                                <i class="zmdi zmdi-labels zmdi-hc-2x col-green"></i>
-                                            </div>
-                                            <div class="media-text">
-                                                <span class="title col-white">Order Number : </span>
-                                                <span class="value col-white"> 02208141</span>
-                                            </div>
-                                        </div> 
-                                    </div>
-                                </div>
-                            </div>                          
-                            </div>                          
-                        </div>
-                    </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        <div class="card">
-                            <div class="body">
-                                <p class="font-bold col-blue-grey">Refund Amount: (กรอกข้อมูลตัวเลขยอดเงินที่ต้องการ คืนเงินหรือยกเลิกรายการ)</p>
-                                <div class="input-group"> <span class="input-group-addon"> <i class="zmdi zmdi-money zmdi-hc-2x "></i> </span>
-                                        <div class="form-line">
-                                            <input type="number" class="form-control date" Value="1.00" required>
-                                        </div>
-                                </div>
-                                <p class="text-right">Baht </p>
-                                <div class="form-group  text-center">
-                                    <button type="submit" class="btn  btn-raised bg-green waves-effect">refund</button>
-                                </div>
-                            </div>                          
-                        </div>
-                    </div>                       
-                </div>
-            </div>
             <div class="col-lg-7 col-md-12 col-sm-12 ">
                 <div class="card product-report">
                     <div class="body">
@@ -133,25 +92,49 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-
-
-
-        <div class="row clearfix">
-            <div class="col-sm-12 col-md-12">
-                <div class="card">
-                    <div class="body" id="footer">
-                        <div class="col-sm-12">
-                            <p class="copy m-b-0">© Copyright
-                                <time class="year">2017</time>
-                                WrapTheme  - All Rights Reserved</p>
+            <div class="col-lg-5 col-md-12 col-sm-12">
+                <div class="row clearfix top-report">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="card">
+                            <div class="body">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="card widget-stat  info-box-3 bg-green">
+                                    <div class="body">
+                                        <div class="media">
+                                            <div class="media-icon bg-white">
+                                                <i class="zmdi zmdi-labels zmdi-hc-2x col-green"></i>
+                                            </div>
+                                            <div class="media-text">
+                                                <span class="title col-white">Order Number : </span>
+                                                <span class="value col-white"> 02208141</span>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>                          
+                            </div>                          
                         </div>
                     </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="card">
+                            <div class="body">
+                                <p class="font-bold col-blue-grey">Refund Amount: (กรอกข้อมูลตัวเลขยอดเงินที่ต้องการ คืนเงินหรือยกเลิกรายการ)</p>
+                                <div class="input-group"> <span class="input-group-addon"> <i class="zmdi zmdi-money zmdi-hc-2x "></i> </span>
+                                        <div class="form-line">
+                                            <input type="number" class="form-control date" Value="1.00" required>
+                                        </div>
+                                </div>
+                                <p class="text-right">Baht </p>
+                                <div class="form-group  text-center">
+                                    <button type="submit" class="btn  btn-raised bg-green waves-effect">refund</button>
+                                </div>
+                            </div>                          
+                        </div>
+                    </div>                       
                 </div>
             </div>
+            
         </div>
-    </div>
-</div>
-</section>
+
+
 

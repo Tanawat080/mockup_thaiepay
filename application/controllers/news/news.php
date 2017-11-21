@@ -13,6 +13,7 @@
 			$this->load->view('top-bar');
 			$this->load->view('right-sidebar');
 			$this->load->view('new_s/new_s');
+			$this->load->view('footer');
 			$this->load->view('script');
 		}
 		

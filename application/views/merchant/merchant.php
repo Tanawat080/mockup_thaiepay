@@ -28,9 +28,10 @@
                                         </div>
                                         <div id="collapseOne_10" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne_10">
                                             <div class="panel-body"> 
+                                                <p><a href="<?php echo base_url();?>merchant/merchant/total_income">ยอดรวมรายได้</a></p>
                                                 <p class="indent">ระบบจะแสดงยอดรวมรายได้ร้านค้าของคุณ รวมทั้งคำนวณยอดเงินค่าธรรมเนียม และยอดเงินสุทธิที่จะได้รับโอนเข้าบัญชี อีกทั้งยังสามารถแสดงข้อมูลย้อนหลังตามช่วงเวลาได้อีกด้วย</p>
                                                 
-                                                    <p class="text-right"><a href="<?php echo base_url();?>merchant/merchant/total_income">ยอดรวมรายได้</a></p>
+                                                    
                                                
                                             </div>
                                         </div>
@@ -42,13 +43,14 @@
                                         </div>
                                         <div id="collapseTwo_10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo_10">
                                             <div class="panel-body">
+                                                    <p ><a href="<?php echo base_url();?>merchant/merchant/merchant_bank_detail">ข้อมูลส่วนตัวและบัญชีธนาคาร</a></p>
                                                   <p class="indent">ระบบจะแสดงข้อมูลส่วนตัวของคุณ ทั้งชื่อ ที่อยู่ อีเมล เบอร์โทรศัพท์ ข้อมูลเหล่านี้จะถือเป็นผู้มีสิทธิในการใช้งานระบบทั้งหมด โปรดตรวจสอบข้อมูลเหล่านี้ให้ถูกต้อง </p>
                                                   <p class="indent">คุณสามารถแก้ไขข้อมูลส่วนตัว ที่อยู่และเบอร์โทรศัพท์ติดต่อ อีเมล ของผู้ดูแลร้านค้า ได้ผ่านเมนูนี้ ในกรณีที่มีการเปลี่ยนแปลงชื่อบริษัท หรือบุคคลติดต่อใหม่ คุณจะต้องส่งเอกสารสำเนาบัตรประชาชนหรือสำเนาหนังสือเดินทางมาให้เราเพื่อเป็นการยืนยัน </p>
                                                   <p class="indent">ระบบจะแสดงข้อมูลบัญชีธนาคารที่ใช้รับเงินรายได้ของร้านค้า ข้อมูลเหล่านี้จะถือเป็นข้อมูลเจ้าของร้านค้าที่มีสิทธิ์ขาดในการตัดสินใจ โปรดตรวจสอบข้อมูลเหล่านี้ให้ถูกต้อง </p>
                                                   <p class="indent">คุณสามารถแก้ไขหมายเลขบัญชี และข้อมูลธนาคารสำหรับรับเงินรายได้ร้านค้าของคุณ ได้ผ่านเมนูนี้ เมื่อกรอกข้อมูลใหม่แล้ว คุณจะต้องส่งเอกสารสำเนาสมุดบัญชีธนาคารมาให้เราเพื่อเป็นการยืนยัน </p>
                                                   <p class="indent">คุณสามารถเปลี่ยนรหัสผ่าน สำหรับ Login เข้าระบบจัดการร้านค้าได้ผ่านเมนูนี้ เมื่อเปลี่ยนเสร็จระบบจะส่งอีเมลยืนยันการแก้ไขไปยังอีเมลของคุณ </p>
                                                   <p class="indent">ร้านค้าสามารถกำหนด หน้าตา รูปแบบ สีสัน และรูปภาพโลโก้ต่างๆ ของร้านค้าด้วยตนเอง เพื่อปรับให้ระบบชำระเงิน มีหน้าตาใกล้เคียงกับเว็บไซต์ของร้านค้ามากที่สุด </p>
-                                                    <p class="text-right"><a href="<?php echo base_url();?>merchant/merchant/merchant_bank_detail">ข้อมูลส่วนตัวและบัญชีธนาคาร</a></p>
+                                                    
                                             </div>
                                         </div>
                                     </div>
@@ -59,8 +61,9 @@
                                         </div>
                                         <div id="collapseThree_10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree_10">
                                             <div class="panel-body">
+                                                <p><a href="<?php echo base_url();?>merchant/merchant/service">ข้อมูลบริการ</a></p>
                                                 <p class="indent">ระบบจะแสดงข้อมูลบริการที่คุณใช้งาน รายละเอียดของรูปแบบการทำงาน ค่าบริการ วันหมดอายุ เพื่อประโยชน์ในการพัฒนาระบบให้เหมาะสมกับการใช้งาน </p>
-                                                <p class="text-right"><a href="<?php echo base_url();?>merchant/merchant/service">ข้อมูลบริการ</a></p>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -71,8 +74,9 @@
                                         </div>
                                         <div id="collapseFour_10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour_10">
                                             <div class="panel-body">
-                                                <p class="indent">ที่อยู่ในการออกใบกำกับภาษี</p>
-                                                <p class="text-right"><a href="<?php echo base_url(); ?>merchant/merchant/billing_address">ที่อยู่ใบกำกับภาษี</a></p>
+                                                <p ><a href="<?php echo base_url(); ?>merchant/merchant/billing_address">ที่อยู่ใบกำกับภาษี</a></p>
+                                              
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -83,7 +87,7 @@
                                         </div>
                                         <div id="collapseFive_10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive_10">
                                             <div class="panel-body">
-                                                <p class="indent"><a href="<?php echo base_url(); ?>merchant/merchant/merchant_description">แนะนำร้านค้า</a></p>
+                                                <p><a href="<?php echo base_url(); ?>merchant/merchant/merchant_description">แนะนำร้านค้า</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -94,7 +98,7 @@
                                         </div>
                                         <div id="collapseSix_10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix_10">
                                             <div class="panel-body">
-                                                <p class="indent"><a href="<?php echo base_url(); ?>merchant/merchant/upload_doc">Upload Document</a></p>
+                                                <p><a href="<?php echo base_url(); ?>merchant/merchant/upload_doc">Upload Document</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -109,21 +113,3 @@
         
 
       
-        
-        <div class="row clearfix">
-            <div class="col-sm-12 col-md-12">
-                <div class="card">
-                    <div class="body" id="footer">
-                            <div class="col-sm-12">
-                                <p class="copy m-b-0">© Copyright
-                                    <time class="year">2017</time>
-                                    WrapTheme  - All Rights Reserved</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-

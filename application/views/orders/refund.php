@@ -5,7 +5,7 @@
         <div class="block-header">
             <h2>คืนเงินหรือยกเลิกรายการ</h2>
             <ul class="breadcrumb">
-                <li class="breadcrumb-item"><i class="zmdi zmdi-delicious"></i><a href="index.html"> การสั่งซื้อและผู้ซื้อ</a></li>           
+                <li class="breadcrumb-item"><i class="zmdi zmdi-delicious"></i><a href="<?php echo base_url(); ?>orders/orders/orders_des"> การสั่งซื้อและผู้ซื้อ</a></li>           
                 <li class="breadcrumb-item active"><i class="material-icons">cached</i> คืนเงินหรือยกเลิกรายการ</li>
             </ul>
         </div>
@@ -124,20 +124,4 @@
 
 
 
-        <div class="row clearfix">
-            <div class="col-sm-12 col-md-12">
-                <div class="card">
-                    <div class="body" id="footer">
-                        <div class="col-sm-12">
-                            <p class="copy m-b-0">© Copyright
-                                <time class="year">2017</time>
-                                WrapTheme  - All Rights Reserved</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-</section>
-
+    

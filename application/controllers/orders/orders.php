@@ -12,24 +12,36 @@ class Orders extends CI_Controller {
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('orders/view_all_orders');
+		$this->load->view('footer');
 		$this->load->view('script');
 	} public function refund()
 	{
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('orders/refund');
+		$this->load->view('footer');
 		$this->load->view('script');
-	}public function counter_service()
+	}
+	/*public function counter_service()
 	{
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('orders/counter_service');
 		$this->load->view('script');
-	} public function refund_des()
+	} */
+	public function refund_des()
 	{
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('orders/refund_des');
+		$this->load->view('footer');
+		$this->load->view('script');
+	}public function orders_des()
+	{
+		$this->load->view('top-bar');
+		$this->load->view('right-sidebar');
+		$this->load->view('orders/orders_des');
+		$this->load->view('footer');
 		$this->load->view('script');
 	}
 

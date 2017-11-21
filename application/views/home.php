@@ -108,7 +108,7 @@
                         			<li><a href="" class="col-blue-grey">ในกรณีที่ไม่ได้รับสินค้าจากร้านค้า ผู้ซื้อต้องทำอย่างไร?</a></li>
                         			<li><a href="" class="col-blue-grey">ร้านค้าต้องทำอย่างไรเมื่อรายการสั่งซื้อถูกเปลี่ยนสถานะเป็น Request Document</a></li>
                         		</ol>
-                        		<a href="">ถาม-ตอบอื่นๆ</a>
+                        		<a href="http://www.thaiepay.com/blogcat.aspx?id=3" target="_blank">ถาม-ตอบอื่นๆ</a>
                     		</div>
                 		</div>
             		</div>
@@ -305,23 +305,5 @@
 				</div>
 			</div> <!-- last 20 orders -->
 		</div><!-- row clearfix -->
-		
-	</div><!-- contianer -->
 
-		
-		<div class="row clearfix">
-			<div class="col-sm-12 col-md-12">
-				<div class="card">
-					<div class="body" id="footer">
-							<div class="col-sm-12">
-								<p class="copy m-b-0">© Copyright
-									<time class="year">2017</time>
-									WrapTheme  - All Rights Reserved</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+

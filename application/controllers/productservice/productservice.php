@@ -19,6 +19,7 @@ class productservice extends CI_Controller {
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('productservice/customize_product');
+		$this->load->view('footer');
 		$this->load->view('script');
 	}
 	public function payment_method()
@@ -33,6 +34,27 @@ class productservice extends CI_Controller {
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('productservice/shipping_method');
+		$this->load->view('script');
+	}public function edit_product()
+	{
+		$this->load->view('top-bar');
+		$this->load->view('right-sidebar');
+		$this->load->view('productservice/edit_product');
+		$this->load->view('footer');
+		$this->load->view('script');
+	}public function edit_voice()
+	{
+		$this->load->view('top-bar');
+		$this->load->view('right-sidebar');
+		$this->load->view('productservice/edit_voice');
+		$this->load->view('footer');
+		$this->load->view('script');
+	}public function product_service_des()
+	{
+		$this->load->view('top-bar');
+		$this->load->view('right-sidebar');
+		$this->load->view('productservice/product_service_des');
+		$this->load->view('footer');
 		$this->load->view('script');
 	}
 
