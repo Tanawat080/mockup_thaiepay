@@ -5,8 +5,8 @@
         <div class="block-header">
             <h2>พัสดุไปรษณีย์ในประเทศ</h2>
             <ul class="breadcrumb">
-                <li class="breadcrumb-item"><i class="zmdi zmdi-grid"></i><a href="<?php echo base_url(); ?>orders/orders/orders_des"> สินค้าและบริการ</a></li>           
-                <li class="breadcrumb-item active"><i class="material-icons">local_shipping</i><a href="<?php echo base_url(); ?>orders/orders/refund"> วิธีการจัดส่งสินค้า</a></li>
+                <li class="breadcrumb-item"><i class="zmdi zmdi-grid"></i><a href="<?php echo base_url(); ?>productservice/productservice/product_service_des"> สินค้าและบริการ</a></li>           
+                <li class="breadcrumb-item active"><i class="material-icons">local_shipping</i><a href="<?php echo base_url(); ?>productservice/productservice/shipping_method"> วิธีการจัดส่งสินค้า</a></li>
                 <li class="breadcrumb-item active"><i class="material-icons">label</i> พัสดุไปรษณีย์ในประเทศ</li>
             </ul>
         </div>
@@ -29,7 +29,7 @@
                     <div class="body">
                         <div class="row">
                             <div class="col-sm-4">
-                                <p>สถานะ:*</p>
+                                <label class="form-label">สถานะ:*</label>
                             </div>
                             <div class="col-sm-8">
                                  <input id="ctl00_CphBody_ChkEnable" class="filled-in" type="checkbox" name="ctl00$CphBody$ChkEnable" /><label for="ctl00_CphBody_ChkEnable">เปิดใช้งาน วิธีการจัดส่งนี้</label>
@@ -38,7 +38,7 @@
                         <div class="row">
                             <div class="col-sm-4">
                                 <div class="form-group">
-                                    <p>ชื่อวิธีการจัดส่ง (อังกฤษ):*</p>
+                                    <label class="form-label">ชื่อวิธีการจัดส่ง (อังกฤษ):*</label>
                                 </div>
                             </div>
                             <div class="col-sm-8">
@@ -52,7 +52,7 @@
                         <div class="row">
                             <div class="col-sm-4">
                                 <div class="form-group">
-                                    <p>ชื่อวิธีการจัดส่ง (ไทย):*</p>
+                                    <label class="form-label">ชื่อวิธีการจัดส่ง (ไทย):*</label>
                                 </div>
                             </div>
                             <div class="col-sm-8">
@@ -66,7 +66,7 @@
                         <div class="row">
                             <div class="col-sm-4">
                                 <div class="form-group">
-                                    <p>ค่าจัดส่ง 1Kg. แรก:*</p>
+                                    <label class="form-label">ค่าจัดส่ง 1Kg. แรก:*</label>
                                 </div>
                             </div>
                             <div class="col-sm-8">
@@ -81,7 +81,7 @@
                         <div class="row">
                             <div class="col-sm-4">
                                 <div class="form-group">
-                                    <p>ค่าจัดส่งทุก 1Kg. ถัดไป:*</p>
+                                    <label class="form-label">ค่าจัดส่งทุก 1Kg. ถัดไป:*</label>
                                 </div>
                             </div>
                             <div class="col-sm-8">
@@ -96,7 +96,7 @@
                         <div class="row">
                             <div class="col-sm-4">
                                 <div class="form-group">
-                                    <p>น้ำหนักสูงสุดที่ใช้ได้:*</p>
+                                    <label class="form-label">น้ำหนักสูงสุดที่ใช้ได้:*</label>
                                 </div>
                             </div>
                             <div class="col-sm-8">

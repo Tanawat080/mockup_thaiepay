@@ -4,8 +4,8 @@
         <div class="block-header">
             <h2>ติดต่อฝ่ายบัญชี</h2>
             <ul class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.html">หน้าแรก</a></li>           
-                <li class="breadcrumb-item active">Accounting</li>
+                <li class="breadcrumb-item"><i class="material-icons">contact_phone</i><a href="<?php echo base_url(); ?>contact/contact/contact_des"> ติดต่อเรา</a></li>           
+                <li class="breadcrumb-item active"><i class="material-icons">person_outline</i> Accounting</li>
             </ul>
         </div>
         
@@ -15,7 +15,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <div class="card">
                     <div class="header">
-                        <h2>ติดต่อฝ่ายบัญชี</h2>                     
+                        <h2 class="col-blue-grey">ติดต่อฝ่ายบัญชี</h2>                     
                     </div>
                     <div class="body">
                         <div class="row">                           
@@ -23,9 +23,9 @@
                                 <p class="indent"> ในกรณีที่คุณต้องการเอกสาร หรือต้องการสอบถามข้อมูลอื่นๆ เกี่ยวกับฝ่ายขาย อย่างเช่น ต้องการเปิดร้านใหม่ ร้านการอัปเกรดบริการ สามารถติดต่อได้ผ่านแบบฟอร์มนี้ </p>
                             </div>  
                         </div>
-                    </div>
+                    
                     <div class="col-lg-12 col-md-12 col-sm-12">
-                        
+
                         <form id="form_advanced_validation" method="POST">
 
                             <div class="form-group form-float">
@@ -51,14 +51,14 @@
                             </div>
                             <div class="form-group form-float">
                                 <div class="form-line">
-                                    <input type="text" class="form-control" name="E-mail" required>
+                                    <input type="email" class="form-control" name="E-mail" required>
                                     <label class="form-label">อีเมล</label>
                                 </div>
                                 <div class="help-info">EX: support@thaiepay.com,support@thaiepay.com</div>
                             </div>
                             <div class="form-group form-float">
                                 <div class="form-line">
-                                    <input type="text" class="form-control" name="Telephone" required>
+                                    <input type="number" class="form-control" name="Telephone" required>
                                     <label class="form-label">เบอร์ติดต่อกลับ</label>
                                 </div>
                                 <div class="help-info">EX: 0616245961</div>
@@ -92,11 +92,15 @@
                                 </div>
                                 <div class="help-info"></div>
                             </div>
-                            <button class="btn btn-raised btn-primary waves-effect" type="submit">SUBMIT</button>
+                            <div class="form-group text-center">
+                                <button class="btn btn-raised btn-primary waves-effect" type="submit">SUBMIT</button>
+                            </div>
                         </form>
                         </center>
+                   
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 

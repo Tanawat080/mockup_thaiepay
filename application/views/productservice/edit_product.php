@@ -131,19 +131,19 @@
                                 <p class="indent">เลือกหมวดหมู่ที่เหมาะสมที่สุด สำหรับของสินค้าของคุณ  </p>
                                 <div class="row">
                                     <div class="col-sm-3">
-                                        <p>ภาษาหลัก:*</p>
+                                        <label class="form-label">ภาษาหลัก:*</label>
                                     </div>
                                     <div class="col-sm-9">
-                                        <select class=" form-control show-tick">
+                                        <select class=" form-control show-tick" name="language">
                                             <option selected="selected" value="TH">Thai</option>
                                             <option value="EN">English</option>
                                         </select>
                                     </div>
                                     <div class="col-sm-3">
-                                        <p>หมวดหมู่หลัก:*</p>
+                                        <label class="form-label">หมวดหมู่หลัก:*</label>
                                     </div>
                                     <div class="col-sm-9">
-                                        <select class="form-control show-tick">
+                                        <select class="form-control show-tick" name="mainCate">
                                             <option value="46">กล้องและอุปกรณ์</option>
                                             <option value="33">การศึกษา</option>
                                             <option value="29">กีฬาและอุปกรณ์</option>
@@ -191,10 +191,10 @@
                                         <a href="http://localhost/mockup/contact/contact/support">ไม่มีหมวดหมู่หลักที่ต้องการ โปรดแนะนำเราที่นี่ </a>
                                     </div>
                                     <div class="col-sm-3">
-                                        <p>หมวดหมู่รอง:*</p>
+                                        <label class="form-label">หมวดหมู่รอง:*</label>
                                     </div>
                                     <div class="col-sm-9">
-                                        <select class=" form-control show-tick">
+                                        <select class=" form-control show-tick" name="minorCate">
                                             <option selected="selected" value="320">การตัดต่อและสำเนาสื่อต่างๆ </option>
                                             <option value="325">การบริการด้านการประมูลบนอีเบย์ </option>
                                             <option value="324">การบริการทางเว็บและคอมพิวเตอร์ </option>
@@ -224,7 +224,7 @@
                                 <p class="indent">หัวข้อนี้ เป็นรายละเอียดสินค้าอื่นๆ ซึ่งไม่จำเป็นต้องกรอกก็ได้ ถ้าไม่ได้ใช้งาน  </p>
                                 <div class="row">
                                     <div class="col-sm-3">
-                                        <p>ความคิดเห็น:</p>
+                                        <label class="form-label">ความคิดเห็น:</label>
                                     </div>
                                     <div class="col-sm-9">
                                         <div class="col-sm-12 demo-checkbox">
@@ -233,7 +233,7 @@
                                         </div>
                                     </div>
                                     <div class="col-sm-3">
-                                        <p>คลังสินค้า:</p>
+                                        <label class="form-label">คลังสินค้า:</label>
                                     </div>
                                     <div class="col-sm-9">
                                         <div class="col-sm-12 demo-checkbox">
@@ -242,14 +242,18 @@
                                         </div>
                                     </div>
                                     <div class="col-sm-12">
-                                        <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">view_compact</i> </span>
-                                            <div class="form-line">
-                                                <input type="text" class="form-control" Value="" required>
+                                        <div class="form-group form-float">
+                                            <div class="form-group form-float">
+                                                <div class="form-line">
+                                                    <input type="number" class="form-control" name="amount" required>
+                                                    <label class="form-label">จำนวน</label>
+                                                </div>
+                                            <div class="help-info">Baht</div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-sm-12">
-                                        <p>รูปภาพเพิ่มเติม:</p>
+                                        <label class="form-label">รูปภาพเพิ่มเติม:</label>
                                     </div>
                                     <div class="col-sm-12">
                                         <form action="/" id="" class="dropzone" method="post" enctype="multipart/form-data">
@@ -277,7 +281,7 @@
                         <p class="indent">หัวข้อนี้เป็นข้อมูลทั่วไปของสินค้า ทั้งชื่อสินค้า ราคา และรายละเอียด ซึ่งคุณจะต้องกรอกให้ครบถ้วนและถูกต้อง </p>
                         <div class="row">
                             <div class="col-sm-4">
-                                <p>ใช้งาน:*</p>
+                                <label class="form-label">ใช้งาน:*</label>
                             </div>
                             <div class="col-sm-8">
                                 <div class="col-sm-12 demo-checkbox">
@@ -286,49 +290,49 @@
                                 </div>
                             </div>
                             <div class="col-sm-4">
-                                <p>ชื่อสินค้า:*</p>
+                                <label class="form-label">ชื่อสินค้า:*</label>
                             </div>
                             <div class="col-sm-8">
                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">card_giftcard</i> </span>
                                     <div class="form-line">
-                                        <input type="text" class="form-control" Value="M" required>
+                                        <input type="text" name="productName" class="form-control" Value="M" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
-                                <p>คำอธิบายสินค้าแบบย่อ:*</p>
+                                <label class="form-label">คำอธิบายสินค้าแบบย่อ:*</label>
                             </div>
                             <div class="col-sm-8">
                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">chrome_reader_mode</i> </span>
                                     <div class="form-line">
-                                        <input type="text" class="form-control" Value="M0001" required>
+                                        <input type="text" name="briefDetail" class="form-control" Value="M0001" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
-                                <p>รหัสสินค้า:</p>
+                                <label class="form-label">รหัสสินค้า:</label>
                             </div>
                             <div class="col-sm-8">
                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">blur_on</i> </span>
                                     <div class="form-line">
-                                        <input type="text" class="form-control" Value="200" required>
+                                        <input type="number" name="productId" class="form-control" Value="200" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
-                                <p>ราคาปกติ:</p>
+                                <label class="form-label">ราคาปกติ:</label>
                             </div>
                             <div class="col-sm-8">
                                 <div class="row">
                                     <div class="col-sm-9">
                                         <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">attach_money</i> </span>
                                             <div class="form-line">
-                                                <input type="text" class="form-control" Value="2,000.00" required>
+                                                <input type="number" name="price" class="form-control" Value="2,000.00" required>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-sm-3">
-                                        <select class="form-control show-tick">
+                                        <select class="form-control show-tick" name="currency">
                                             <option selected="selected" value="00">Baht</option>
                                             <option value="01">U.S. dollar</option>
                                             <option value="02">Yen</option>
@@ -343,34 +347,33 @@
                                 </div>
                             </div>
                             <div class="col-sm-4">
-                                <p>ราคาพิเศษ:* </p>
+                                <label class="form-label">ราคาพิเศษ:* </label>
                             </div>
                             <div class="col-sm-8">
                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">monetization_on</i> </span>
                                     <div class="form-line">
-                                        <input type="text" class="form-control" Value="200" required>
+                                        <input type="number" name="exclusivePrice" class="form-control" Value="200" required>
                                     </div>
 
                                 </div>
                                 <p class="col-red">(ถ้าคุณกรอก ราคาพิเศษ ระบบจะแสดงผลโดยขีดฆ่าราคาปกติเช่น <strike>100</strike> 50 และจะยึดราคาพิเศษเป็นหลัก)</p>
                             </div>
                             <div class="col-sm-4">
-                                <p>น้ำหนัก:</p>
+                                <label class="form-label">น้ำหนัก:</label>
                             </div>
                             <div class="col-sm-8">
                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">view_compact</i> </span>
                                     <div class="form-line">
-                                        <input type="text" class="form-control" Value="1.00" required>
+                                        <input type="number" name="weight" class="form-control" Value="10.00" required>
                                     </div>
-
                                 </div>
                             </div>
 
                             <div class="col-sm-4">
-                                <p>สถานะสินค้า:</p>
+                                <label class="form-label">สถานะสินค้า:</label>
                             </div>
                             <div class="col-sm-8">
-                                <select class="form-control show-tick">
+                                <select class="form-control show-tick" name="status">
                                     <option value="1">ไม่ระบุ</option>
                                     <option value="2">จัดส่งได้ภายใน 24 ชั่วโมง</option>
                                     <option selected="selected" value="3">จัดส่งได้ภายใน 1 ถึง 2 วัน</option>
@@ -378,13 +381,11 @@
                                 </select>
                             </div>
                             <div class="col-sm-4">
-                                <p>รายละเอียด:</p>
+                                <label class="form-label">รายละเอียด:</label>
                             </div>
                             <div class="col-sm-12">
-                                <textarea id="ckeditor">
-                               
+                                <textarea id="ckeditor" name="descriptions">
                                 </textarea>
-
                             </div>
                         </div>
                     </div>

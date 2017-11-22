@@ -3,10 +3,10 @@
 <section class="content home">
     <div class="container-fluid">
         <div class="block-header">
-            <h2>สินค้าและบริการ</h2>
+            <h2>วิธีการจัดส่งสินค้า</h2>
             <ul class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.html">หน้าแรก</a></li>     
-                <li class="breadcrumb-item active">วิธีการจัดส่งสินค้า</li>
+                <li class="breadcrumb-item"><i class="zmdi zmdi-grid"></i><a href="<?php echo base_url(); ?>productservice/productservice/product_service_des"> สินค้าและบริการ</a></li>     
+                <li class="breadcrumb-item active"><i class="material-icons">local_shipping</i> วิธีการจัดส่งสินค้า</li>
             </ul>
         </div>
         <div class="row clearfix">
@@ -138,35 +138,35 @@
 
                                         </td>
                                     </tr><tr>
-                                        <td><a href="shipintparcel.aspx">พัสดุไปรษณีย์ระหว่างประเทศ</a></td><td>จัดส่งต่างประเทศ</td><td class="enable">
+                                        <td><a href="<?php echo base_url(); ?>productservice/shipping_method/international_percel">พัสดุไปรษณีย์ระหว่างประเทศ</a></td><td>จัดส่งต่างประเทศ</td><td class="enable">
                                             <img src='http://www.thaiepay.com/shop/merchant/4411/icon_thailandpost.gif' border='0' />
                                         </td><td class="enable">
                                             <img src='<?php echo base_url(); ?>assets/images/sign/True.gif' Alt='True' title='True' align="AbsMiddle" border="0" />                                                 
 
                                         </td>
                                     </tr><tr>
-                                        <td><a href="shipinttnt.aspx">จัดส่งต่างประเทศโดย TNT</a></td><td>จัดส่งต่างประเทศ</td><td class="enable">
+                                        <td><a href="<?php echo base_url(); ?>productservice/shipping_method/tnt_inter">จัดส่งต่างประเทศโดย TNT</a></td><td>จัดส่งต่างประเทศ</td><td class="enable">
                                             <img src='http://www.thaiepay.com/shop/merchant/4411/icon_tnt.gif' border='0' />
                                         </td><td class="enable">
                                             <img src='<?php echo base_url(); ?>assets/images/sign/True.gif' Alt='True' title='True' align="AbsMiddle" border="0" />                                                 
 
                                         </td>
                                     </tr><tr>
-                                        <td><a href="shipdomtnt.aspx">จัดส่งในประเทศโดย TNT</a></td><td>จัดส่งภายในประเทศ</td><td class="enable">
+                                        <td><a href="<?php echo base_url(); ?>productservice/shipping_method/tnt_domestic">จัดส่งในประเทศโดย TNT</a></td><td>จัดส่งภายในประเทศ</td><td class="enable">
                                             <img src='http://www.thaiepay.com/shop/merchant/4411/icon_tnt.gif' border='0' />
                                         </td><td class="enable">
                                             <img src='<?php echo base_url(); ?>assets/images/sign/True.gif' Alt='True' title='True' align="AbsMiddle" border="0" />                                                 
 
                                         </td>
                                     </tr><tr>
-                                        <td><a href="shipups.aspx">จัดส่งต่างประเทศโดย UPS</a></td><td>จัดส่งต่างประเทศ</td><td class="enable">
+                                        <td><a href="<?php echo base_url(); ?>productservice/shipping_method/ups_inter">จัดส่งต่างประเทศโดย UPS</a></td><td>จัดส่งต่างประเทศ</td><td class="enable">
                                             <img src='http://www.thaiepay.com/shop/merchant/4411/icon_ups.gif' border='0' />
                                         </td><td class="enable">
                                             <img src='<?php echo base_url(); ?>assets/images/sign/True.gif' Alt='True' title='True' align="AbsMiddle" border="0" />                                                 
 
                                         </td>
                                     </tr><tr>
-                                        <td><a href="shipcustom.aspx">ค่าจัดส่งสินค้าตามอัตราของร้านค้า</a></td><td>จัดส่งทั้งภายในประเทศและต่างประเทศ</td><td class="enable">
+                                        <td><a href="<?php echo base_url(); ?>productservice/shipping_method/custom_shipping">ค่าจัดส่งสินค้าตามอัตราของร้านค้า</a></td><td>จัดส่งทั้งภายในประเทศและต่างประเทศ</td><td class="enable">
                                             <img src='http://www.thaiepay.com/shop/merchant/4411/' border='0' />
                                         </td><td class="enable">
                                             <img src='<?php echo base_url(); ?>assets/images/sign/False.gif' Alt='False' title='False' align="AbsMiddle" border="0" />                                                 

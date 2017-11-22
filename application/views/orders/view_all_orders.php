@@ -4,7 +4,7 @@
         <div class="block-header">
             <h2>รายการสั่งซื้อทั้งหมด</h2>
             <ul class="breadcrumb">
-                <li class="breadcrumb-item"><i class="zmdi zmdi-delicious"></i><a href="<?php echo base_url(); ?>orders/orders/orders_des"> การสั่งซื้อและผู้ซื้อ</a></li>			
+                <li class="breadcrumb-item"><i class="zmdi zmdi-delicious"></i><a href="<?php echo base_url(); ?>orders/orders/orders_des"> การสั่งซื้อและผู้ซื้อ</a></li>          
                 <li class="breadcrumb-item active"><i class="material-icons">receipt</i> รายการสั่งซื้อทั้งหมด</li>
             </ul>
         </div>
@@ -15,10 +15,10 @@
                         <h2>รายการสั่งซื้อทั้งหมด</h2>
                     </div>
                     <div class="body">
-                        <div class="row">							
-                            <div class="col-sm-12">	
+                        <div class="row">                           
+                            <div class="col-sm-12"> 
                                 <p class="indent">รายการสั่งซื้อสินค้าและบริการของร้านค้าทั้งหมด ได้แสดงอยู่ในหัวข้อนี้ รายการสั่งซื้อที่เกิดขึ้น ทั้งที่อนุมัติและไม่อนุมัติ จะมีรายละเอียดวันที่ เวลา ชื่อผู้ซื้อสินค้า และรายละเอียดบัตรเครดิตในทุกๆ รายการ </p>
-                            </div>						
+                            </div>                      
                         </div>
                     </div>
                 </div>
@@ -32,8 +32,8 @@
                         <h2>แสดงรายการสั่งซื้อทั้งหมด</h2>
                     </div>
                     <div class="body">
-                        <div class="row">							
-                            <div class="col-sm-12">	
+                        <div class="row">                           
+                            <div class="col-sm-12"> 
                                 <p > คุณสามารถค้นหา และเรียกแสดงผลรายการสั่งซื้อได้ 2 วิธีคือ</p>
                                 <ol>
                                     <li>ค้นหารายการสั่งซื้อจาก ช่วงวันที่เกิดรายการ โดยให้คุณคลิกที่ไอคอนเพื่อเลือก วันเริ่มต้น และวันที่สิ้นสุดในการค้นหา คุณสามารถเพิ่มเติมรายละเอียดได้อีกว่า จะให้ค้นหาเฉพาะรายการที่มีสถานะเป็นแบบใด</p></li>
@@ -41,17 +41,17 @@
                                 </ol>
                                 <p>เมื่อรายการสั่งซื้อทั้งหมด ถูกแสดงผลออกมา คุณสามารถคลิกที่ลิงค์หมายเลข OrderNo เพื่อดูรายละเอียดรายการสั่งซื้อนั้นๆ ได้ </p>
                                 <br/>
-                            </div>	
+                            </div>  
                             <div class="col-sm-2">
                                 <p><b>รายการสั่งซื้อวันที่:*</b></p>
-                            </div>	
+                            </div>  
                             <div class="col-sm-3">
                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">date_range</i> </span>
                                     <div class="form-line">
                                         <input type="text" class="datepicker form-control datetime" placeholder="Please choose Date...">
                                     </div>
-                               	</div>
-                            </div>	
+                                </div>
+                            </div>  
                             <div class="col-sm-1 text-center">
                                 <p>ถึง</p>
                             </div>
@@ -60,7 +60,7 @@
                                     <div class="form-line">
                                         <input type="text" class="datepicker form-control datetime" placeholder="Please choose Date...">
                                     </div>
-                               	</div>
+                                </div>
                             </div>
                             <div class="col-sm-3 text-center">
                                 <div class="form-line">
@@ -88,14 +88,14 @@
                             </div>
                             <div class="col-sm-2">
                                 <p><b>รายการสั่งซื้อที่มีคำค้น :</b></p>
-                            </div>	
+                            </div>  
                             <div class="col-sm-4">
                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">search</i> </span>
                                     <div class="form-line">
                                         <input type="text" class="form-control date" Value="" required>
                                     </div>
                                 </div>
-                            </div>	
+                            </div>  
                             <div class="col-sm-3 text-center">
                                 <div class="form-line">
                                     <select class="form-control">
@@ -143,7 +143,7 @@
                                                          border="0" />
                                                 </td>
                                                 <td>
-                                                    <a href="orderdetail.aspx?id=1098578">02258118</a>
+                                                    <a href="<?php echo base_url(); ?>orders/orders/orders_details">02258118</a>
                                                 </td>
                                                 <td>
                                                     1510651922
@@ -171,7 +171,32 @@
                                                 <td>
                                                     14-11-2560 16:41:44
                                                 </td>
-                                            </tr><tr>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <img src='<?php echo base_url(); ?>assets/images/sign/N.png'
+                                                         alt='Unpaid' title='Unpaid' align="AbsMiddle"
+                                                         border="0" />
+                                                </td><td><a href="<?php echo base_url(); ?>orders/orders/counter_details">90047121</a></td><td>1510651925</td><td>
+                                                    test
+                                                </td><td>  <div align="center">
+
+                                                        <img src='<?php echo base_url(); ?>assets/images/sign/CounterService_cardlogo.png'  border="0" /> </div>     
+                                                </td><td>
+                                                    CounterService-
+                                                </td><td>
+                                                    100.00
+                                                    Baht
+                                                </td><td>
+                                                    100.00
+                                                    Baht
+                                                </td><td>
+                                                    14-11-2560 16:33:45
+                                                </td><td>
+                                                    14-11-2560 16:33:45
+                                                </td>
+                                            </tr>
+                                            <tr>
                                                 <td>
                                                     <img src='<?php echo base_url(); ?>assets/images/sign/VO.png'
                                                          alt='VOIDED' title='VOIDED' align="AbsMiddle"
@@ -193,29 +218,6 @@
                                                     14-11-2560 16:35:12
                                                 </td><td>
                                                     14-11-2560 16:35:12
-                                                </td>
-                                            </tr><tr>
-                                                <td>
-                                                    <img src='<?php echo base_url(); ?>assets/images/sign/N.png'
-                                                         alt='Unpaid' title='Unpaid' align="AbsMiddle"
-                                                         border="0" />
-                                                </td><td><a href="orderdetail.aspx?id=90047121">90047121</a></td><td>1510651925</td><td>
-                                                    test
-                                                </td><td>  <div align="center">
-
-                                                        <img src='<?php echo base_url(); ?>assets/images/sign/CounterService_cardlogo.png'  border="0" /> </div>     
-                                                </td><td>
-                                                    CounterService-
-                                                </td><td>
-                                                    100.00
-                                                    Baht
-                                                </td><td>
-                                                    100.00
-                                                    Baht
-                                                </td><td>
-                                                    14-11-2560 16:33:45
-                                                </td><td>
-                                                    14-11-2560 16:33:45
                                                 </td>
                                             </tr><tr class="separate">
                                                 <td>
@@ -517,7 +519,7 @@
                         <h2>ความหมายของสถานะการชำระเงิน</h2>
                     </div>
                     <div class="body">
-                        <div class="row">	
+                        <div class="row">   
                             <div class="col-sm-12">
                                 <p class="indent">สถานะการชำระเงินทั้งหมด มีหลายรูปแบบและมีความหมายแตกต่างกันออกไป ดังรายละเอียดต่อไปนี้ </p>
                             </div>
@@ -533,12 +535,12 @@
                     <div class="col-lg-3 col-md-3 col-sm-6">
                         <div class="card">
                             <div class="body">
-                               <div class="text-center">
-                                     <img src='<?php echo base_url()?>assets/images/sign/CP.png' border="0" alt='COMPLETED' title='COMPLETED'>
+                                <div class="text-center">
+                                    <img src='<?php echo base_url() ?>assets/images/sign/CP.png' border="0" alt='COMPLETED' title='COMPLETED'>
 
-                                     <span class="label bg-light-green">COMPLETED</span>
-                                     <p class="">รายการสั่งซื้อ "อนุมัติ"</p>
-                               </div>
+                                    <span class="label bg-light-green">COMPLETED</span>
+                                    <p class="">รายการสั่งซื้อ "อนุมัติ"</p>
+                                </div>
                             </div>                          
                         </div>
                     </div>
@@ -546,23 +548,23 @@
                         <div class="card">
                             <div class="body">
                                 <div class="text-center">
-                                    <img src='<?php echo base_url()?>assets/images/sign/PE.png' border="0" alt='PENDING' title='PENDING'>
+                                    <img src='<?php echo base_url() ?>assets/images/sign/PE.png' border="0" alt='PENDING' title='PENDING'>
                                     <span class="label bg-brown">PENDING</span>
                                     <p>รายการที่อยู่ใน "ระหว่างตรวจสอบ"</p>
                                 </div>
-                                
+
                             </div>                          
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-12">
                         <div class="card">
                             <div class="body">
-                                 <div class="text-center">
-                                    <img src='<?php echo base_url()?>assets/images/sign/RE.png' border="0" alt='REJECTED' title='REJECTED'>
+                                <div class="text-center">
+                                    <img src='<?php echo base_url() ?>assets/images/sign/RE.png' border="0" alt='REJECTED' title='REJECTED'>
                                     <span class="label bg-red">REJECTED</span>
                                     <p >รายการสั่งซื้อ "ไม่อนุมัติ"</p>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -570,11 +572,11 @@
                         <div class="card">
                             <div class="body">
                                 <div class="text-center">
-                                    <img src='<?php echo base_url()?>assets/images/sign/RF.png' border="0" alt='REFUND' title='REFUND'>
+                                    <img src='<?php echo base_url() ?>assets/images/sign/RF.png' border="0" alt='REFUND' title='REFUND'>
                                     <span class="label bg-red">REFUND</span>
                                     <p >รายการที่ "คืนเงิน" เรียบร้อย</p>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -583,7 +585,7 @@
                         <div class="card">
                             <div class="body">
                                 <div class="text-center">
-                                    <img src='<?php echo base_url()?>assets/images/sign/RR.png' border="0" alt='REQUEST REFUND' title='REQUEST REFUND'>
+                                    <img src='<?php echo base_url() ?>assets/images/sign/RR.png' border="0" alt='REQUEST REFUND' title='REQUEST REFUND'>
                                     <span class="label bg-brown">REQUEST REFUND</span>
                                     <p >รายการที่ทำเรื่องขอ "คืนเงิน"</p>
                                 </div>
@@ -594,19 +596,19 @@
                         <div class="card">
                             <div class="body">
                                 <div class="text-center">
-                                    <img src='<?php echo base_url()?>assets/images/sign/VO.png' border="0" alt='VOIDED' title='VOIDED'>
+                                    <img src='<?php echo base_url() ?>assets/images/sign/VO.png' border="0" alt='VOIDED' title='VOIDED'>
                                     <span class="label bg-red">VOIDED</span>
                                     <p >รายการที่ "คืนเงิน" เรียบร้อย</p>
                                 </div>
-                                
+
                             </div>                          
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-12">
                         <div class="card">
                             <div class="body">
-                               <div class="text-center">
-                                    <img src='<?php echo base_url()?>assets/images/sign/WA.png' border="0" alt='CASH ON DELEVERY' title='CASH ON DELEVERY'>
+                                <div class="text-center">
+                                    <img src='<?php echo base_url() ?>assets/images/sign/WA.png' border="0" alt='CASH ON DELEVERY' title='CASH ON DELEVERY'>
                                     <span class="label bg-blue">CASH ON DELEVERY</span>
                                     <p >รายการชำระเงินปลายทาง</p>
                                 </div>
@@ -628,31 +630,31 @@
                         <div class="card">
                             <div class="body">
                                 <div class="text-center">
-                                     <img src='<?php echo base_url()?>assets/images/sign/CB.png' border="0" alt='CHARGE BACK' title='CHARGE BACK'>
+                                    <img src='<?php echo base_url() ?>assets/images/sign/CB.png' border="0" alt='CHARGE BACK' title='CHARGE BACK'>
                                     <span class="label bg-red">CHARGE BACK</span>
                                     <p>รายการสั่งซื้อที่ถูก "ปฎิเสธการชำระเงิน" โดยผู้ถือบัตร</p> 
                                 </div>
-                                                          
+
                             </div>                          
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-12">
                         <div class="card">
                             <div class="body">
-                                 <div class="text-center">
-                                    <img src='<?php echo base_url()?>assets/images/sign/VC.png' border="0" alt='VBV CHECKING' title='VBV CHECKING'>
+                                <div class="text-center">
+                                    <img src='<?php echo base_url() ?>assets/images/sign/VC.png' border="0" alt='VBV CHECKING' title='VBV CHECKING'>
                                     <span class="label bg-pink">VBV CHECKING</span>
                                     <p >รายการที่อยู่ในระหว่าง "ตรวจสอบ VBV"</p>
                                 </div>
-                               
+
                             </div>                          
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-12">
                         <div class="card">
                             <div class="body">
-                               <div class="text-center">
-                                    <img src='<?php echo base_url()?>assets/images/sign/NS.png' border="0" alt='NOT SUBMIT' title='NOT SUBMIT'>
+                                <div class="text-center">
+                                    <img src='<?php echo base_url() ?>assets/images/sign/NS.png' border="0" alt='NOT SUBMIT' title='NOT SUBMIT'>
                                     <span class="label bg-blue-grey">NOT SUBMIT</span>
                                     <p>ลูกค้าของคุณยังไม่ได้กรอกข้อมูลบัตรเครดิต</p>
                                 </div>
@@ -663,11 +665,11 @@
                         <div class="card">
                             <div class="body">
                                 <div class="text-center">
-                                    <img src='<?php echo base_url()?>assets/images/sign/VR.png' border="0" alt='VBV REJECTED' title='VBV REJECTED'>
+                                    <img src='<?php echo base_url() ?>assets/images/sign/VR.png' border="0" alt='VBV REJECTED' title='VBV REJECTED'>
                                     <span class="label bg-red">VBV REJECTED</span>
                                     <p>รายการสั่งซื้อ "ไม่อนุมัติ" เนื่องจากกรอกรหัส VBV ไม่ผ่าน</p>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -676,7 +678,7 @@
                         <div class="card">
                             <div class="body">
                                 <div class="text-center">
-                                    <img src='<?php echo base_url()?>assets/images/sign/TC.png' border="0" alt='TEST COMPLETED' title='TEST COMPLETED'>
+                                    <img src='<?php echo base_url() ?>assets/images/sign/TC.png' border="0" alt='TEST COMPLETED' title='TEST COMPLETED'>
                                     <span class="label bg-light-green">TEST COMPLETED</span>
                                     <p>รายการทดสอบที่ "อนุมัติ" (ใช้บัตรทดสอบทำรายการ ไม่มีใช่การชำระเงินจริง)</p>
                                 </div>                            
@@ -687,23 +689,22 @@
                         <div class="card">
                             <div class="body">
                                 <div class="text-center">
-                                    <img src='<?php echo base_url()?>assets/images/sign/RD.png' border="0" alt='REQUEST DOCUMENT' title='REQUEST DOCUMENT'>
+                                    <img src='<?php echo base_url() ?>assets/images/sign/RD.png' border="0" alt='REQUEST DOCUMENT' title='REQUEST DOCUMENT'>
                                     <span class="label bg-amber">REQUEST DOCUMENT</span>
                                     <p>รายการที่ รอเอกสารจากร้านค้า เนื่องจากผู็ถือบัตรขอตรวจสอบรายการ (มีแนวโน้มที่จะปฎิเสธการชำระเงิน)</p>
                                 </div>
-                                
+
                             </div>                          
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-12">
                         <div class="card">
                             <div class="body">
-                               <div class="text-center">
-                                    <img src='<?php echo base_url()?>assets/images/sign/HO.png' border="0" alt='HOLD' title='HOLD'>
+                                <div class="text-center">
+                                    <img src='<?php echo base_url() ?>assets/images/sign/HO.png' border="0" alt='HOLD' title='HOLD'>
                                     <span class="label bg-amber">HOLD</span>
                                     <p >รายการสั่งซื้อที่ถูก "ยึดหน่วง" ยอดการชำระเงินเอาไว้ เนื่องจากรายการสั่งซื้อดังกล่าวอาจจะมีปัญหาจากากรถูกปฏิเสธการชำระเงินได้ในภายหลัง (โปรดอ่านคำแนะนำในอีเมลที่แจ้งเปลี่ยนสถานะเป็น HOLD)</p>
                                 </div>
-                                
                             </div>
                         </div>
                     </div>

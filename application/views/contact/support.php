@@ -4,18 +4,18 @@
 		<div class="block-header">
 			<h2>ติดต่อเรา</h2>
 			<ul class="breadcrumb">
-				<li class="breadcrumb-item"><a href="index.html">หน้าแรก</a></li>			
-				<li class="breadcrumb-item active">Support</li>
+				<li class="breadcrumb-item"><i class="material-icons">contact_phone</i><a href="<?php echo base_url(); ?>contact/contact/contact_des"> ติดต่อเรา</a></li>			
+				<li class="breadcrumb-item active"><i class="material-icons">supervisor_account</i> Support</li>
 			</ul>
 		</div>
 		
 
 
-<div class="row clearfix">
+        <div class="row clearfix">
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <div class="card">
                     <div class="header">
-                        <h2>ติดต่อเรา</h2>                     
+                        <h2 class="col-blue-grey">ติดต่อ Support</h2>                     
                     </div>
                     <div class="body">
 						<div class="row">							
@@ -92,7 +92,9 @@
                                 </div>
                                 <div class="help-info"></div>
                             </div>
-                            <button class="btn btn-raised btn-primary waves-effect" type="submit">SUBMIT</button>
+                            <div class="form-group text-center">
+                                <button class="btn btn-raised btn-primary waves-effect" type="submit">SUBMIT</button>
+                            </div>
                         </form>
                         </center>
                     </div>

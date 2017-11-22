@@ -2,17 +2,18 @@
 <section class="content home">
   <div class="container-fluid">
     <div class="block-header">
-      <h2>สินค้าและบริการ</h2>
+      <h2>เพิ่มใบแจ้งชำระเงินใหม่</h2>
       <ul class="breadcrumb">
-        <li class="breadcrumb-item"><a href="index.html">หน้าแรก</a></li>     
-        <li class="breadcrumb-item active">เพิ่มสินค้าหรือบริการใหม่</li>
+        <li class="breadcrumb-item"><i class="zmdi zmdi-grid"></i><a href="<?php echo base_url(); ?>productservice/productservice/product_service_des"> สินค้าและบริการ</a></li>        
+                <li class="breadcrumb-item active"><i class="material-icons">add_shopping_cart</i> เพิ่มสินค้าหรือบริการใหม่</li>     
+        <li class="breadcrumb-item active"><i class="material-icons">note_add</i>เพิ่มสินค้าหรือบริการใหม่</li>
       </ul>
     </div>
     <div class="row clearfix">
       <div class="col-md-12 col-lg-12">
         <div class="card visitors-map">
           <div class="header">
-            <h2>เพิ่มสินค้าหรือบริการใหม่</h2>
+            <h2 class="col-blue-grey">เพิ่มใบแจ้งชำระเงินใหม่</h2>
           </div>
           <div class="body">
             <div class="row">             
@@ -32,7 +33,7 @@
     <div class="col-md-12 col-lg-12">
                 <div class="card">
                     <div class="header">
-                        <h3>รายละเอียดสินค้าทั่วไป*</h3>
+                        <h2 class="col-blue-grey">รายละเอียดสินค้าทั่วไป*</h2>
                         
                     </div>
                     <div class="body">
@@ -50,9 +51,9 @@
                               <div class="body">
                                   <div class="row">
                                       <div class="col-sm-3">
-                                          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ใช้งาน  :*</p>
+                                          <label class="form-label">ใช้งาน  :*</label>
                                       </div>
-                                      <div class="col-sm-3">
+                                      <div class="col-sm-9">
                                         <div class="demo-checkbox">
                                           <input type="checkbox" id="basic_checkbox_2" class="filled-in" checked />
                                           <label for="basic_checkbox_2">เปิดใช้งาน</label>
@@ -64,9 +65,9 @@
 
                                   <div class="row"> 
                                       <div class="col-sm-3 form-group">
-                                          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ชื่อสินค้า  :*</p>
+                                          <label class="form-label">ชื่อสินค้า  :*</label>
                                       </div>
-                                      <div class="col-sm-4">
+                                      <div class="col-sm-9">
                                          <div class="form-group form-float">
                                             <div class="form-line">
                                                 <input type="text" class="form-control"  name="Productname" required>
@@ -79,9 +80,9 @@
 
                                   <div class="row">
                                       <div class="col-sm-3 form-group">
-                                          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;คำอธิบายสินค้าแบบย่อ  :*</p>
+                                          <label class="form-label">คำอธิบายสินค้าแบบย่อ  :*</label>
                                       </div>
-                                      <div class="col-sm-4">
+                                      <div class="col-sm-9">
                                          <div class="form-group form-float">
                                             <div class="form-line">
                                                 <input type="text" class="form-control"  name="detail" required>
@@ -93,9 +94,9 @@
                                   </div>
                                   <div class="row">
                                       <div class="col-sm-3 form-group">
-                                          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;รหัสสินค้า  :*</p>
+                                          <label class="form-label">รหัสสินค้า  :*</label>
                                       </div>
-                                      <div class="col-sm-4">
+                                      <div class="col-sm-9">
                                          <div class="form-group form-float">
                                             <div class="form-line">
                                                 <input type="text" class="form-control"  name="productID" required>
@@ -107,9 +108,9 @@
                                   </div>
                                   <div class="row">
                                       <div class="col-sm-3 form-group">
-                                          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ราคาปกติ  :*</p>
+                                          <label class="form-label">ราคาปกติ  :*</label>
                                       </div>
-                                      <div class="col-sm-4">
+                                      <div class="col-sm-6">
                                          <div class="form-group form-float">
                                             <div class="form-line">
                                                 <input type="text" class="form-control"  name="price" required>
@@ -140,9 +141,9 @@
 
                                  <div class="row">
                                       <div class="col-sm-3 form-group">
-                                          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ราคาพิเศษ  :</p>
+                                          <label class="form-label">ราคาพิเศษ  :</label>
                                       </div>
-                                      <div class="col-sm-8">
+                                      <div class="col-sm-9">
                                          <div class=" form-group form-float">
                                               <div class="form-line">
                                                   <input type="number" class="form-control" step="0.01" name="number" value="0.00" required>
@@ -157,9 +158,9 @@
 
                                   <div class="row">
                                       <div class="col-sm-3 form-group">
-                                          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;น้ำหนัก  :</p>
+                                          <label class="form-label">น้ำหนัก  :</label>
                                       </div>
-                                      <div class="col-sm-4">
+                                      <div class="col-sm-9">
                                          <div class=" form-group form-float">
                                               <div class="form-line">
                                                   <input type="number" class="form-control" step="0.01" name="weight" value="0.00" required>
@@ -175,15 +176,15 @@
 
                                   <div class="row">
                                       <div class="col-sm-3 form-group">
-                                          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;รายละเอียด  :</p>
+                                          <label class="form-label">รายละเอียด  :</label>
                                       </div>
                                       
-                                      <div class="col-sm-8">
-                                         
+                                      <div class="col-sm-9">
+                                         <div class="form-group">
                                             <textarea id="ckeditor">
                                
                                             </textarea> 
-                                                                                    
+                                          </div>                                           
                                       </div>
 
                                   </div>
@@ -304,26 +305,3 @@
         </div>
 
 
-      </div>
-    </div><!-- last 10 orders -->
-
-    
-    </div><!-- news and promotion -->
-
-    
-    <div class="row clearfix">
-      <div class="col-sm-12 col-md-12">
-        <div class="card">
-          <div class="body" id="footer">
-              <div class="col-sm-12">
-                <p class="copy m-b-0">© Copyright
-                  <time class="year">2017</time>
-                  WrapTheme  - All Rights Reserved</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>

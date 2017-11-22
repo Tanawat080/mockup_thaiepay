@@ -145,14 +145,14 @@
                                                 <td>สินค้าหรือบริการ</td>
                                                 <td>
                                                     <span class="label bg-amber">
-                                                        <a href="">
-                                                            <img src="<?php echo base_url(); ?>assets/images/sign/copy.png">
+                                                        <a href="<?php echo base_url(); ?>productservice/productservice/add_product">
+                                                            <img src="<?php echo base_url(); ?>assets/images/sign/copy.png" Title="Copy">
                                                         </a>
                                                         <a href="">
-                                                            <img src="<?php echo base_url(); ?>assets/images/sign/delete.png">
+                                                            <img src="<?php echo base_url(); ?>assets/images/sign/delete.png" Title="Delete">
                                                         </a>
-                                                        <a href="">                                              
-                                                            <img src="<?php echo base_url(); ?>assets/images/sign/mail.png">
+                                                        <a href="<?php echo base_url(); ?>productservice/payment_method/sendEmail_product">                                              
+                                                            <img src="<?php echo base_url(); ?>assets/images/sign/mail.png" Title="Email">
                                                         </a>
                                                     </span>
                                                 </td>
@@ -170,14 +170,14 @@
                                                 <td>ใบแจ้งชำระเงิน</td>
                                                 <td>
                                                     <span class="label bg-amber">
-                                                        <a href="">
-                                                            <img src="<?php echo base_url(); ?>assets/images/sign/copy.png">
+                                                        <a href="<?php echo base_url(); ?>productservice/productservice/add_invoice">
+                                                            <img src="<?php echo base_url(); ?>assets/images/sign/copy.png" Title="Copy">
                                                         </a>
                                                         <a href="">
-                                                            <img src="<?php echo base_url(); ?>assets/images/sign/delete.png">
+                                                            <img src="<?php echo base_url(); ?>assets/images/sign/delete.png" Title="Delete">
                                                         </a>
-                                                        <a href="">                                              
-                                                            <img src="<?php echo base_url(); ?>assets/images/sign/mail.png">
+                                                        <a href="<?php echo base_url(); ?>productservice/payment_method/sendEmail_product">                                              
+                                                            <img src="<?php echo base_url(); ?>assets/images/sign/mail.png" Title="Email">
                                                         </a>
                                                     </span>
                                                 </td>

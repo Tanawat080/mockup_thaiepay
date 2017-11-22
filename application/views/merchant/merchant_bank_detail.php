@@ -185,6 +185,7 @@
 
 <!-- editMerchantInfo -->
 <div class="modal fade" id="editMerchantInfo" tabindex="-1" role="dialog">
+    <form id="form_advanced_validation" method="POST">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -210,93 +211,102 @@
                                         <b class="font-bold col-blue-grey">ข้อมูลภาษาไทย</b>
                                     </div>
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">ชื่อบริษัท/ชื่อร้าน: *</p>
+                                                <label class="form-label">ชื่อบริษัท/ชื่อร้าน: *</label>
                                             </div>
                                             <div class="col-sm-12">
+                                                <div class="form-group ">
                                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">store_mall_directory</i> </span>
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control" Value="Test" required>
+                                                        <input type="text" name="merchantName_th" class="form-control" Value="Test" required>
                                                     </div>
+                                                </div>
                                                 </div>
                                             </div>
             
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">คำอธิบายร้านแบบย่อ: * (ไม่เกิน 500 ตัวอักษร)</p>
+                                                <label class="form-label">คำอธิบายร้านแบบย่อ: * (ไม่เกิน 500 ตัวอักษร)</label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="input-group  form-float"> <span class="input-group-addon"> <i class="material-icons">assignment</i> </span>
+                                                <div class="form-group form-float">
+                                                <div class="input-group "> <span class="input-group-addon"> <i class="material-icons">assignment</i> </span>
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control"  Value="Test" required>
+                                                        <input type="text" name="descriptionBrief_th" class="form-control"  Value="Test" required>
                                                     </div>
-                                                    
+                                                    </div>
                                                 </div>
                                             </div>
 
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">ชื่อ: * </p>
+                                                <label class="form-label">ชื่อ: * </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="input-group  form-float"> <span class="input-group-addon"> <i class="material-icons">accessibility</i> </span>
+                                                <div class="form-group form-float">
+                                                <div class="input-group "> <span class="input-group-addon"> <i class="material-icons">accessibility</i> </span>
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control"  Value="Test" required>
+                                                        <input type="text" name="name_th" class="form-control"  Value="Test" required>
                                                     </div>
-                                                    
+                                                    </div>
                                                 </div>
                                             </div>
                                     
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">นามสกุล: * </p>
+                                                <label class="form-label">นามสกุล: * </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="input-group  form-float"> <span class="input-group-addon"> <i class="material-icons">accessibility</i> </span>
+                                                <div class="form-group form-float">
+                                                <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">accessibility</i> </span>
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control"  Value="Test" required>
+                                                        <input type="text" name="surname_th" class="form-control"  Value="Test" required>
                                                     </div>
-                                                    
+                                                    </div>
                                                 </div>
                                             </div>
 
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">ที่อยู่: * </p>
+                                                <label class="form-label">ที่อยู่: * </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="input-group  form-float"> <span class="input-group-addon"> <i class="material-icons">domain</i> </span>
+                                                <div class="form-group form-float">
+                                                <div class="input-group "> <span class="input-group-addon"> <i class="material-icons">domain</i> </span>
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control"  Value="Test" required>
+                                                        <input type="text" name="address_th" class="form-control"  Value="Test" required>
                                                     </div>
-                                                    
+                                                    </div>
                                                 </div>
                                             </div>
 
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">ที่อยู่เพิ่มเติม: </p>
+                                                <label class="form-label">ที่อยู่เพิ่มเติม: </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="input-group  form-float"> <span class="input-group-addon"> <i class="material-icons">domain</i> </span>
+                                                <div class="form-group form-float">
+                                                <div class="input-group  "> <span class="input-group-addon"> <i class="material-icons">domain</i> </span>
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control"  Value="" >
+                                                        <input type="text" name="addressOptional_th" class="form-control"  Value="" >
                                                     </div>
-                                                    
+                                                    </div>
                                                 </div>
                                             </div>
 
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">เขต/อำเภอ: * </p>
+                                                <label class="form-label">เขต/อำเภอ: * </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="input-group  form-float"> <span class="input-group-addon"> <i class="material-icons">terrain</i> </span>
+                                                <div class="form-group form-float">
+                                                <div class="input-group  "> <span class="input-group-addon"> <i class="material-icons">terrain</i> </span>
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control"  Value="Test" required>
+                                                        <input type="text"  name="city_th" class="form-control"  Value="Test" required>
                                                     </div>
-                                                    
+                                                    </div>
                                                 </div>
                                             </div>
 
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">จังหวัด: * </p>
+                                                <label class="form-label">จังหวัด: * </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <select class="form-control show-tick" required>
+                                                <div class="form-group form-float">
+                                                <select class="form-control show-tick" name="province_th" required>
                                                     <option selected="selected" value="73">กรุงเทพ ฯ</option>
                                                     <option value="1">เชียงใหม่</option>
                                                     <option value="45">ภูเก็ต</option>
@@ -375,24 +385,27 @@
                                                     <option value="37">ยโสธร</option>
                                                 </select>
                                             </div>
+                                            </div>
 
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">รหัสไปรษณีย์: * </p>
+                                                <label class="form-label">รหัสไปรษณีย์: * </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="input-group  form-float"> <span class="input-group-addon"> <i class="material-icons">location_city</i> </span>
+                                                <div class="form-group form-float">
+                                                <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">location_city</i> </span>
                                                     <div class="form-line">
-                                                        <input type="number" class="form-control"  Value="10210" required>
+                                                        <input type="number" name="zipCode_th" class="form-control"  Value="10210" required>
                                                     </div>
-                                                    
+                                                    </div>
                                                 </div>
                                             </div>
 
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">ประเทศ *</p>
+                                                <label class="form-label">ประเทศ *</label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <select class="form-control show-tick" required>
+                                                <div class="form-group form-float">
+                                                <select class="form-control show-tick" name="country_th" required>
                                                     <option value="AF">AFGHANISTAN</option>
                                                     <option value="AL">ALBANIA</option>
                                                     <option value="DZ">ALGERIA</option>
@@ -632,121 +645,136 @@
                                                     <option value="ZM">ZAMBIA</option>
                                                 </select>
                                             </div>
+                                            </div>
 
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">โทร: * </p>
+                                                <label class="form-label">โทร: * </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="input-group  form-float"> <span class="input-group-addon"> <i class="material-icons">phone_in_talk</i> </span>
+                                                <div class="form-group form-float">
+                                                <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">phone_in_talk</i> </span>
                                                     <div class="form-line">
-                                                        <input type="number" class="form-control"  Value="0616245961" required>
+                                                        <input type="number" name="phoneNumber_th" class="form-control"  Value="0616245961" required>
                                                     </div>
-                                                    
+                                                    </div>
                                                 </div>
                                             </div>
 
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">แฟกซ์:  </p>
+                                                <label class="form-label">แฟกซ์:  </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="input-group  form-float"> <span class="input-group-addon"> <i class="material-icons">print</i> </span>
+                                                <div class="form-group form-float">
+                                                <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">print</i> </span>
                                                     <div class="form-line">
-                                                        <input type="number" class="form-control"  Value="" >
+                                                        <input type="number" name="fax_th" class="form-control"  Value="" >
                                                     </div>
-                                                    
+                                                    </div>
                                                 </div>
                                             </div>
 
                             </div><!-- thaiinfo -->
-                            <div role="tabpanel" class="tab-pane" id="engInfo"> <b class="font-bold col-blue-grey">English Information</b>
+                            <div role="tabpanel" class="tab-pane" id="engInfo"> 
+                                <div class="form-group">
+                                    <b class="font-bold col-blue-grey">English Information</b>
+                                </div>
                                  <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">Company/Shop Name: *</p>
+                                                <label class="form-label">Company/Shop Name: *</label>
                                             </div>
                                             <div class="col-sm-12">
+                                                <div class="form-group form-float">
                                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">store_mall_directory</i> </span>
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control" Value="Test" required>
+                                                        <input type="text" name="merchantName_eng" class="form-control" Value="Test" required>
                                                     </div>
+                                                </div>
                                                 </div>
                                             </div>
             
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">Shop Brief Detail: * (500 characters max)</p>
+                                                <label class="form-label">Shop Brief Detail: * (500 characters max)</label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="input-group  form-float"> <span class="input-group-addon"> <i class="material-icons">assignment</i> </span>
+                                                <div class="form-group form-float">
+                                                <div class="input-group "> <span class="input-group-addon"> <i class="material-icons">assignment</i> </span>
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control"  Value="Test" required>
+                                                        <input type="text" name="descriptionBrief_eng" class="form-control"  Value="Test" required>
                                                     </div>
-                                                    
+                                                    </div>
                                                 </div>
                                             </div>
 
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">Name: * </p>
+                                                <label class="form-label">Name: * </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="input-group  form-float"> <span class="input-group-addon"> <i class="material-icons">accessibility</i> </span>
+                                                <div class="form-group form-float">
+                                                <div class="input-group "> <span class="input-group-addon"> <i class="material-icons">accessibility</i> </span>
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control"  Value="Test" required>
+                                                        <input type="text" name="name_eng" class="form-control"  Value="Test" required>
                                                     </div>
-                                                    
+                                                    </div>
                                                 </div>
                                             </div>
                                     
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">Surname: * </p>
+                                                <label class="form-label">Surname: * </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="input-group  form-float"> <span class="input-group-addon"> <i class="material-icons">accessibility</i> </span>
+                                                <div class="form-group form-float">
+                                                <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">accessibility</i> </span>
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control"  Value="Test" required>
+                                                        <input type="text" name="surname_eng" class="form-control"  Value="Test" required>
                                                     </div>
-                                                    
+                                                    </div>
                                                 </div>
                                             </div>
 
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">Address 1: * </p>
+                                                <label class="form-label">Address 1: * </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="input-group  form-float"> <span class="input-group-addon"> <i class="material-icons">domain</i> </span>
+                                                <div class="form-group form-float">
+                                                <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">domain</i> </span>
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control"  Value="Test" required>
+                                                        <input type="text" name="address_eng" class="form-control"  Value="Test" required>
                                                     </div>
-                                                    
+                                                    </div>
                                                 </div>
                                             </div>
 
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">Address 2: </p>
+                                                <label class="form-label">Address 2: </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="input-group  form-float"> <span class="input-group-addon"> <i class="material-icons">domain</i> </span>
+                                                <div class="form-group form-float">
+                                                <div class="input-group  "> <span class="input-group-addon"> <i class="material-icons">domain</i> </span>
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control"  Value="" >
+                                                        <input type="text" name="addressOptional_eng" class="form-control"  Value="" >
                                                     </div>
-                                                    
+                                                    </div>
                                                 </div>
                                             </div>
 
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">City: * </p>
+                                               <label class="form-label">City: * </label>
                                             </div>
                                             <div class="col-sm-12">
+                                                <div class="form-group form-float">
                                                 <div class="input-group  form-float"> <span class="input-group-addon"> <i class="material-icons">terrain</i> </span>
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control"  Value="Test" required>
+                                                        <input type="text" name="city_eng" class="form-control"  Value="Test" required>
                                                     </div>
-                                                    
+                                                    </div>
                                                 </div>
                                             </div>
 
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">Province: * </p>
+                                                <label class="form-label">Province: * </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <select class="form-control show-tick" required>
+                                                <div class="form-group form-float">
+                                                <select class="form-control show-tick" name="province_eng" required>
                                                     <option selected="selected" value="73">กรุงเทพ ฯ</option>
                                                     <option value="1">เชียงใหม่</option>
                                                     <option value="45">ภูเก็ต</option>
@@ -825,24 +853,27 @@
                                                     <option value="37">ยโสธร</option>
                                                 </select>
                                             </div>
+                                            </div>
 
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">ZIP/Postal Code: * </p>
+                                                <label class="form-label">ZIP/Postal Code: * </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="input-group  form-float"> <span class="input-group-addon"> <i class="material-icons">location_city</i> </span>
+                                                <div class="form-group form-float">
+                                                <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">location_city</i> </span>
                                                     <div class="form-line">
-                                                        <input type="number" class="form-control"  Value="10210" required>
+                                                        <input type="number" name="zipCode_eng" class="form-control"  Value="10210" required>
                                                     </div>
-                                                    
+                                                    </div>
                                                 </div>
                                             </div>
 
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">Country *</p>
+                                                <label class="form-label">Country *</label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <select class="form-control show-tick" required>
+                                                <div class="form-group form-float">
+                                                <select class="form-control show-tick" name="country_eng" required>
                                                     <option value="AF">AFGHANISTAN</option>
                                                     <option value="AL">ALBANIA</option>
                                                     <option value="DZ">ALGERIA</option>
@@ -1082,28 +1113,31 @@
                                                     <option value="ZM">ZAMBIA</option>
                                                 </select>
                                             </div>
+                                            </div>
 
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">Tel: * </p>
+                                                <label class="form-label">Tel: * </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="input-group  form-float"> <span class="input-group-addon"> <i class="material-icons">phone_in_talk</i> </span>
+                                                <div class="form-group form-float">
+                                                <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">phone_in_talk</i> </span>
                                                     <div class="form-line">
-                                                        <input type="number" class="form-control"  Value="0616245961" required>
+                                                        <input type="number" name="phoneNumber_eng" class="form-control"  Value="0616245961" required>
                                                     </div>
-                                                    
+                                                    </div>
                                                 </div>
                                             </div>
 
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">Fax:  </p>
+                                                <label class="form-label">Fax:  </label>
                                             </div>
                                             <div class="col-sm-12">
+                                                <div class="form-group form-float">
                                                 <div class="input-group  form-float"> <span class="input-group-addon"> <i class="material-icons">print</i> </span>
                                                     <div class="form-line">
-                                                        <input type="number" class="form-control"  Value="" >
+                                                        <input type="number" name="fax_eng" class="form-control"  Value="" >
                                                     </div>
-                                                    
+                                                    </div>
                                                 </div>
                                             </div>
 
@@ -1111,86 +1145,102 @@
                             </div> <!-- englishinfo --> 
                             <div role="tabpanel" class="tab-pane" id="websiteUrl">
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">Website Url: *</p>
+                                               <label class="form-label">Website Url: *</label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">web</i> </span>
+                                                <div class="form-group form-float">
+                                                <div class="input-group "> <span class="input-group-addon"> <i class="material-icons">web</i> </span>
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control" Value="http://paysolutions.asia" required>
+                                                        <input type="url" name="websiteURL_web" class="form-control" Value="http://paysolutions.asia" required>
                                                     </div>
+                                                </div>
                                                 </div>
                                             </div>
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">Domain Name:</p>
+                                               <label class="form-label">Domain Name:</label>
                                             </div>
                                             <div class="col-sm-12">
+                                                <div class="form-group form-float">
                                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">domain</i> </span>
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control" Value="" >
+                                                        <input type="text" name="domainName_web" class="form-control" Value="" >
                                                     </div>
+                                                </div>
                                                 </div>
                                             </div>
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">Email: *</p>
+                                                <label class="form-label">Email: *</label>
                                             </div>
                                             <div class="col-sm-12">
+                                                <div class="form-group form-float">
                                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">email</i> </span>
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control" Value="support@thaiepay.com" required>
+                                                        <input type="Email" name="email_web" class="form-control" Value="support@thaiepay.com" required>
                                                     </div>
+                                                </div>
                                                 </div>
                                             </div>
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">Orders Email: *</p>
+                                                <label class="form-label">Orders Email: *</label>
                                             </div>
                                             <div class="col-sm-12">
+                                                <div class="form-group form-float">
                                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">local_mall</i> </span>
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control" Value="support@thaiepay.com" required>
+                                                        <input type="email" name="orderEmail_web" class="form-control" Value="support@thaiepay.com" required>
                                                     </div>
+                                                </div>
                                                 </div>
                                             </div>
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">Mobile: Ex. 0893334444 (หมายเลขนี้จะถูกเก็บเป็นความลับ และไม่แสดงบนหน้าเว็บไซต์) </p>
+                                                <label class="form-label">Mobile: Ex. 0893334444 (หมายเลขนี้จะถูกเก็บเป็นความลับ และไม่แสดงบนหน้าเว็บไซต์) </label>
                                             </div>
                                             <div class="col-sm-12">
+                                                <div class="form-group form-float">
                                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">phone_android</i> </span>
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control" Value="" >
+                                                        <input type="number" name="phoneNumber_web" class="form-control" Value="" >
                                                     </div>
+                                                </div>
                                                 </div>
                                             </div>
                                 
                             </div> <!-- website url -->   
                             <div role="tabpanel" class="tab-pane" id="changePassword">
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">รหัสผ่านเดิม: *</p>
+                                                <label class="form-label">รหัสผ่านเดิม: *</label>
                                             </div>
                                             <div class="col-sm-12">
+                                                <div class="form-group form-float">
                                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">keyboard</i> </span>
                                                     <div class="form-line">
-                                                        <input type="password" class="form-control" Value="" required>
+                                                        <input type="password" name="oldPassword" class="form-control" Value="" required>
                                                     </div>
+                                                </div>
                                                 </div>
                                             </div>
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">รหัสผ่านใหม่: *</p>
+                                                <label class="form-label">รหัสผ่านใหม่: *</label>
                                             </div>
                                             <div class="col-sm-12">
+                                                <div class="form-group form-float">
                                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">keyboard</i> </span>
                                                     <div class="form-line">
-                                                        <input type="password" class="form-control" Value="" >
+                                                        <input type="password" name="newPassword" class="form-control" Value="" >
                                                     </div>
+                                                </div>
                                                 </div>
                                             </div>
                                             <div class="col-sm-12">
-                                                <p class="font-bold col-blue-grey">รหัสผ่านใหม่อีกครั้ง: *</p>
+                                                <label class="form-label">รหัสผ่านใหม่อีกครั้ง: *</label>
                                             </div>
                                             <div class="col-sm-12">
+                                                <div class="form-group form-float">
                                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">keyboard</i> </span>
                                                     <div class="form-line">
-                                                        <input type="password" class="form-control" Value="" required>
+                                                        <input type="password" name="rePassword" class="form-control" Value="" required>
                                                     </div>
+                                                </div>
                                                 </div>
                                             </div>
                             </div> <!-- change password -->                        
@@ -1207,11 +1257,13 @@
             </form>
         </div>
     </div>
+    </form>
 </div>
 
 
 <!-- editBankInfo -->
 <div class="modal fade" id="editBankInfo" tabindex="-1" role="dialog">
+    <form id="form_advanced_validation" method="POST">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -1223,41 +1275,50 @@
                         <div class="col-sm-12">
                         	<p class="col-blue-grey">Merchant ID: 48509355</p>
 	            			 <div class="form-group">
-	            			 <p class="font-bold col-blue-grey">ชื่อบัญชี:*</p>
+	            			 <label class="form-label">ชื่อบัญชี:*</label>
                                 </div>
+                                <div class="form-group form-float">
                                     <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">label</i> </span>
                                         <div class="form-line">
-                                            <input type="text" class="form-control date" value="เพย์โซลูชัน">
+                                            <input type="text" class="form-control date" value="เพย์โซลูชัน" required>
                                         </div>
                                     </div>
+                                    </div>
                                 <div class="form-group">
-                                    <p class="font-bold col-blue-grey">เลขที่บัญชี:*</p>
+                                    <label class="form-label">เลขที่บัญชี:*</label>
                                 </div>
+                                <div class="form-group form-float">
                                     <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">credit_card</i> </span>
                                         <div class="form-line">
-                                            <input type="text" class="form-control date" value="1234567890">
+                                            <input type="number" class="form-control date" value="1234567890" required>
                                         </div>
                                     </div>
+                                    </div>
                                 <div class="form-group">
-                                <p class="font-bold col-blue-grey">สาขา:*</p>
+                                <label class="form-label">สาขา:*</label>
+                                <div class="form-group form-float">
                                     <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">domain</i> </span>
                                         <div class="form-line">
-                                            <input type="text" class="form-control date" value="รัชดา">
+                                            <input type="text" class="form-control date" value="รัชดา" required>
                                         </div>
+                                    </div>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                <p class="font-bold col-blue-grey">ประเภท:*</p>
+                                <label class="form-label">ประเภท:*</label>
+                                <div class="form-group form-float">
                                 	<div class="form-line">
                                 		<select class="form-control show-tick" required>
 		                                    <option  selected="selected" value="S">ออมทรัพย์</option>
 		                                    <option value="F">ฝากประจำ</option>
 		                                    <option value="C">กระแสรายวัน</option>
                                 		</select>
+                                    </div>
                                 	</div>
                                 </div>
                                 <div class="form-group">
-                                <p class="font-bold col-blue-grey">ธนาคาร:*</p>
+                                <label class="form-label">ธนาคาร:*</label>
+                                <div class="form-group form-float">
                                     <div class="form-line">
                                         <select class="form-control show-tick" required>
 		                                   	<option value="BBL">ธ. กรุงเทพฯ</option>
@@ -1276,9 +1337,11 @@
 											<option value="ICBC">ธ. ไอซีบีซี (ไทย) จำกัด (มหาชน)</option>
                                 		</select>
                                     </div>
+                                    </div>
                                 </div>
                                 <div class="form-group">
-                                <p class="font-bold col-blue-grey">เขต:*</p>
+                                <label class="form-label">เขต:*</label>
+                                <div class="form-group form-float">
                                     <div class=" form-line">
                                     	<div class="demo-radio-button">
 				                           	<input name="group1" type="radio" class="with-gap" id="radio_3" checked="checked" />
@@ -1287,9 +1350,11 @@
 				                            <label for="radio_4">ต่างจังหวัด</label> 
                         				</div>
                                     </div>
+                                    </div>
                                 </div>
                                 <div class="form-group">
-                                <p class="font-bold col-blue-grey">ประเทศ:*</p>
+                                <label class="form-label">ประเทศ:*</label>
+                                <div class="form-group form-float">
                                     <div class="form-line">
                                         <select class="form-control show-tick" required>
 										<option value="AF">AFGHANISTAN</option>
@@ -1532,6 +1597,7 @@
 
                                 		</select>
                                     </div>
+                                    </div>
                                 </div>
 	                	</div>
                         
@@ -1549,16 +1615,17 @@
 
 <!-- editLogo -->
 <div class="modal fade" id="editLogo" tabindex="-1" role="dialog">
+
     <div class="modal-dialog modal-l" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title col-blue-grey"" id="largeModalLabel">แก้ไขโลโก้</h4>
             </div>
             <div class="modal-body">
-            		<form method="post">
+            		
 	                <div class="row clearfix">
                         <div class="col-sm-12">
-                        <form action="/" id="frmFileUpload" class="dropzone" method="post" enctype="multipart/form-data">
+                       
 	            			<div class="form-group">
 	            				<p class="font-bold col-blue-grey">โลโก้:*</p>
 
@@ -1574,6 +1641,7 @@
     	            						<input name="logo" type="radio" id="logonew" class="radio-col-blue" />
     				                        <label for="logonew">โลโก้ใหม่</label><br/>
                                         </div>
+                                         <form action="/" id="frmFileUpload" class="dropzone" method="post" enctype="multipart/form-data">
                                         <div class="form-group">
                                 			<div class="dz-message">
                                                 <div class="drag-icon-cph"> <i class="material-icons">touch_app</i> </div>
@@ -1599,3 +1667,4 @@
         </div>
     </div>
 </div>
+

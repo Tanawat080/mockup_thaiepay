@@ -43,6 +43,20 @@ class Orders extends CI_Controller {
 		$this->load->view('orders/orders_des');
 		$this->load->view('footer');
 		$this->load->view('script');
+	}public function orders_details()
+	{
+		$this->load->view('top-bar');
+		$this->load->view('right-sidebar');
+		$this->load->view('orders/orders_details');
+		$this->load->view('footer');
+		$this->load->view('script');
+	}public function counter_details()
+	{
+		$this->load->view('top-bar');
+		$this->load->view('right-sidebar');
+		$this->load->view('orders/counter_details');
+		$this->load->view('footer');
+		$this->load->view('script');
 	}
 
 

@@ -3,10 +3,10 @@
 <section class="content home">
     <div class="container-fluid">
         <div class="block-header">
-            <h2>คืนเงินหรือยกเลิกรายการ</h2>
+            <h2>รายละเอียดรายการสั่งซื้อ</h2>
             <ul class="breadcrumb">
-                <li class="breadcrumb-item"><i class="zmdi zmdi-delicious"></i><a href="<?php echo base_url(); ?>orders/orders/orders_des"> การสั่งซื้อและผู้ซื้อ</a></li>           
-                <li class="breadcrumb-item active"><i class="material-icons">cached</i><a href="<?php echo base_url(); ?>orders/orders/refund"> คืนเงินหรือยกเลิกรายการ</a></li>
+                <li class="breadcrumb-item"><i class="zmdi zmdi-delicious"></i><a href="<?php echo base_url(); ?>orders/orders/orders_des"> การสั่งซื้อและผู้ซื้อ</a></li>          
+                <li class="breadcrumb-item active"><i class="material-icons">receipt</i> รายการสั่งซื้อทั้งหมด</li>
                 <li class="breadcrumb-item active"><i class="material-icons">label</i> 02208141</li>
             </ul>
         </div>
@@ -17,7 +17,7 @@
                         <h2>รายละเอียดรายการสั่งซื้อ</h2>
                     </div>
                     <div class="body">
-                        <p class="indent"> รายการสั่งซื้อที่คุณเลือก ทั้งข้อมูลผู้สั่งซื้อ ผลลัพธ์การอนุมัติรายการ รวมทั้งข้อมูลอื่นๆ อาทิ บัตรเครดิต หมายเลขไอพี มีรายละเอียดดังต่อไปนี้ สำหรับรายการที่คุณต้องการ คืนเงินหรือยกเลิกรายการ สามารถคลิกที่ปุ่ม Refund ด้านล่างได้ </p>
+                        <p class="indent"> รายการสั่งซื้อที่คุณเลือก ทั้งข้อมูลผู้สั่งซื้อ ผลลัพธ์การอนุมัติรายการ รวมทั้งข้อมูลอื่นๆ อาทิ บัตรเครดิต หมายเลขไอพี มีรายละเอียดดังต่อไปนี้ สำหรับรายการที่คุณต้องการ คืนเงินหรือยกเลิกรายการ สามารถคลิกที่เมนู <a href="<?php echo base_url(); ?>orders/orders/refund">คืนเงินหรือยกเลิกรายการ</a> </p>
 
                     </div>
                 </div>
@@ -25,6 +25,31 @@
         </div><!-- refund -->
 
         <div class="row clearfix">
+                        <div class="col-lg-5 col-md-12 col-sm-12">
+                <div class="row clearfix top-report">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="card">
+                            <div class="body">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="card widget-stat  info-box-3 bg-green">
+                                    <div class="body">
+                                        <div class="media">
+                                            <div class="media-icon bg-white">
+                                                <i class="zmdi zmdi-labels zmdi-hc-2x col-green"></i>
+                                            </div>
+                                            <div class="media-text">
+                                                <span class="title col-white">Order Number : </span>
+                                                <span class="value col-white"> 02208141</span>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>                          
+                            </div>                          
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="col-lg-7 col-md-12 col-sm-12 ">
                 <div class="card product-report">
                     <div class="body">
@@ -92,51 +117,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5 col-md-12 col-sm-12">
-                <div class="row clearfix top-report">
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        <div class="card">
-                            <div class="body">
-                                <div class="col-lg-12 col-md-12 col-sm-12">
-                                <div class="card widget-stat  info-box-3 bg-green">
-                                    <div class="body">
-                                        <div class="media">
-                                            <div class="media-icon bg-white">
-                                                <i class="zmdi zmdi-labels zmdi-hc-2x col-green"></i>
-                                            </div>
-                                            <div class="media-text">
-                                                <span class="title col-white">Order Number : </span>
-                                                <span class="value col-white"> 02208141</span>
-                                            </div>
-                                        </div> 
-                                    </div>
-                                </div>
-                            </div>                          
-                            </div>                          
-                        </div>
-                    </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        <div class="card">
-                            <div class="body">
-                                <form id="form_advanced_validation" method="POST">
-                                    <p class="font-bold col-blue-grey">Refund Amount: (กรอกข้อมูลตัวเลขยอดเงินที่ต้องการ คืนเงินหรือยกเลิกรายการ)</p>
-                                    <div class="form-group form-float">
-                                    <div class="input-group"> <span class="input-group-addon"> <i class="zmdi zmdi-money zmdi-hc-2x "></i> </span>
-                                            <div class="form-line">
-                                                <input type="number" class="form-control" Value="1.00" required>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <p class="text-right">Baht </p>
-                                    <div class="form-group  text-center">
-                                        <button type="submit" class="btn  btn-raised bg-green waves-effect">refund</button>
-                                    </div>
-                                </form>
-                            </div>                          
-                        </div>
-                    </div>                       
-                </div>
-            </div>
+
             
         </div>
 

@@ -286,8 +286,7 @@
                                         <center>
                                             <div class="button-demo">
                                                 
-                                              
-                                                <a type="submit" href="http://www.thaiepay.com/download/2.%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%20ePayment.pdf" class="btn btn-raised btn-primary waves-effect"><b>ดาวน์โหลดคู่มือการเชื่อมต่อ ePayment</b></a>
+                                                <button type="button" class="btn btn-raised btn-default waves-effect"><a href="http://www.thaiepay.com/download/2.%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%20ePayment.pdf">ดาวน์โหลดคู่มือการเชื่อมต่อ ePayment</a></button>
                                                 
                                             </div>
                                         </center>
@@ -317,9 +316,8 @@
                                     </div>
                                         <center>
                                             <div class="button-demo">
-                                               
-                                                 <a type="submit" href="http://www.thaiepay.com/download/2.%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%20ePayment.pdf" class="btn btn-raised btn-primary waves-effect"><b>ดาวน์โหลดคู่มือการเชื่อมต่อ ePayment</b></a> 
-                                                 <a type="submit" href="http://www.thaiepay.com/download/3.%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%20ePayment.pdf" class="btn btn-raised btn-primary waves-effect"><b>คู่มือสำหรับเริ่มต้นการใช้งานของระบบ ePayment</b></a>
+                                                
+                                                <button type="button" class="btn btn-raised btn-default waves-effect"><a href="http://www.thaiepay.com/download/2.%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%20ePayment.pdf">ดาวน์โหลดคู่มือการเชื่อมต่อ ePayment</a></button><button type="button" class="btn btn-raised btn-default waves-effect"><a href="http://www.thaiepay.com/download/3.%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%20ePayment.pdf">คู่มือสำหรับเริ่มต้นการใช้งานของระบบ ePayment</a></button>
                                                 
                                             </div>
                                         </center>
@@ -331,9 +329,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <div class="card">
                     <div class="header">
-                        <center>
-                            <h3>ปลั๊กอิน และโมดูล</h3>
-                        </center>
+                        <h2>ปลั๊กอิน และโมดูล</h2>
                     </div>
                     <div class="body">
                         <div class="row clearfix text-center">
@@ -467,8 +463,9 @@
                         </div><!-- line3 -->
 
                          <div class="row clearfix text-center">
-                            
-                            <div class="col-sm-12">
+                            <div class="col-sm-1">
+                            </div>
+                            <div class="col-sm-2">
                                 <img src="<?php echo base_url(); ?>assets/images/logo/zencart.png">
                                 <br />
                                 <a href="https://github.com/Pay-Solutions/Zencart/archive/master.zip">
@@ -476,56 +473,9 @@
                                 </a>
                             </div>
                         </div><!-- line4 -->
-
-
-
-                        <div class="row clearfix text-center">
-                            
-                            <div class="col-sm-12">
-                                <a type="submit" href='https://github.com/Pay-Solutions' class="btn btn-raised btn-primary waves-effect"><b>ปลั๊กอิน และโมดูลทั้งหมด</b></a>
-
-
-
-                            </div>
-                        </div>
-
-
-
-
-
                     </div>
                 </div>
             </div>
-        </div>
-
-
-        <div class="row clearfix">
-            <div class="col-lg-12 col-md-12 col-sm-12">
-                <div class="card">
-                    <div class="header">
-                        <center>
-                            <h3>เริ่มต้นและต่อยอดธุรกิจ ปรับกลยุทธ์การขายด้วยเครื่องมือออนไลน์กับ เพย์โซลูชั่น!</h3>
-                        </center>
-                    </div>
-                    <div class="body">
-
-                        <div class="row clearfix text-center">
-                            
-                            <div class="col-sm-12">
-                                <a type="submit" href='http://www.paysolutions.asia/register' class="btn btn-raised btn-primary waves-effect"><b>ลงทะเบียน</b></a>
-
-
-
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
+        </div>  
 		
 	      

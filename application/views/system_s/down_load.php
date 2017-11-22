@@ -5,8 +5,8 @@
     <div class="block-header">
       <h2>ระบบการทำงาน</h2>
       <ul class="breadcrumb">
-        <li class="breadcrumb-item"><a href="index.html">หน้าแรก</a></li>     
-        <li class="breadcrumb-item active">ดาวน์โหลด</li>
+        <li class="breadcrumb-item"><i class="zmdi zmdi-swap-alt"></i><a href="<?php echo base_url(); ?>system_s/system_s/system_des"> ระบบการทำงาน</a></li>      
+        <li class="breadcrumb-item active"><i class="material-icons">file_download</i> ดาวน์โหลด</li>
       </ul>
     </div>
     <div class="row clearfix">

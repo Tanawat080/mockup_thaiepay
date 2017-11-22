@@ -13,8 +13,10 @@
 						<ul>
 							<li><a data-placement="bottom" title="Go to Inbox" href="mail-inbox.html"><i class="zmdi zmdi-email"></i></a></li>
 							<li><a data-placement="bottom" title="Go to Profile" href="profile.html"><i class="zmdi zmdi-account"></i></a></li>
-							<li><a data-placement="bottom" title="Full Screen" href="sign-in.html" ><i class="zmdi zmdi-sign-in"></i></a></li>
+                            <li><a data-placement="bottom" title="English" href="mail-inbox.html"><img src="<?php echo base_url(); ?>assets/images/flag/us.png"></a></li>
+                            <li><a data-placement="bottom" title="Thailand" href="profile.html"><img src="<?php echo base_url(); ?>assets/images/flag/th.png"></a></li>
 						</ul>
+
 					</div>
 				</div>
 				<!-- #User Info --> 
@@ -67,7 +69,7 @@
 					<li> <a href="<?php echo base_url(); ?>/contact/contact/accounting">Account</a> </li>
 				</ul>
 			</li>
-			<li ><a href="<?php echo base_url(); ?>TermsConditions/TermsConditions/Terms_Conditions"><i class="material-icons">gamepad</i> <span class="icon-name">เงื่อนไขการให้บริการ</span> </a></li>
+			<li ><a href="<?php echo base_url(); ?>TermsConditions/TermsConditions/Terms_Conditions"><i class="material-icons">gamepad</i><span class="icon-name">เงื่อนไขการให้บริการ</span> </a></li>
 			
 		</ul>
 	</div>

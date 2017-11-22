@@ -9,9 +9,8 @@
     <div class="container-fluid">
         <div class="block-header">
             <h2>ข่าวสารและโปรโมชั่น</h2>
-            <ul class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.html">หน้าแรก</a></li>          
-                <li class="breadcrumb-item active">ข่าวสารและโปรโมชั่น</li>
+            <ul class="breadcrumb">          
+                <li class="breadcrumb-item active"><i class="material-icons">event_note</i> ข่าวสารและโปรโมชั่น</li>
             </ul>
         </div>
         <div class="row">

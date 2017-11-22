@@ -139,7 +139,7 @@
                                 <tbody>
                                     <tr>
 												<td><img src="assets/images/sign/CP.png"></td>
-												<td><a href="">02258118</a></td>
+												<td><a href="<?php echo base_url(); ?>orders/orders/orders_details">02258118</a></td>
 												<td>Refund (OrderNo#02258102 OrderID#1098572 )</td>
 												<td>M5737</td>
 												<td>-1.00Baht</td>
@@ -147,7 +147,7 @@
 											</tr>
 											<tr>
 												<td><img src="assets/images/sign/N.png"></td>
-												<td><a href="">02258118</a></td>
+												<td><a href="<?php echo base_url(); ?>orders/orders/counter_details">02258118</a></td>
 												<td>Refund (OrderNo#02258102 OrderID#1098572 )</td>
 												<td>M5737</td>
 												<td>-1.00Baht</td>

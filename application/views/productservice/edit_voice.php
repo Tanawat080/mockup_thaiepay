@@ -112,6 +112,7 @@
             </div>
         </div>
         <div class="row clearfix">
+            <form id="form_advanced_validation" method="POST">
             <div class="col-lg-12 col-md-12 col-sm-12 ">
                 <div class="card product-report">
                     <div class="header">
@@ -133,73 +134,93 @@
                                 <p>ภาษา:*</p>
                             </div>
                             <div class="col-sm-9">
-                                <select class=" form-control show-tick">
+                                <select class=" form-control show-tick" name="language">
                                             <option selected="selected" value="TH">Thai</option>
                                             <option value="EN">English</option>
                                         </select>
                             </div>
                             <div class="col-sm-3">
-                                <p>หมายเลขใบแจ้งชำระเงิน:</p>
+                                <div class="form-group">
+                                    <p>หมายเลขใบแจ้งชำระเงิน:</p>
+                                </div>
                             </div>
                             <div class="col-sm-9">
-                                <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">chrome_reader_mode</i> </span>
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" Value="001" required>
+                                <div class="form-group form-float">
+                                    <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">chrome_reader_mode</i> </span>
+                                        <div class="form-line">
+                                            <input type="number" class="form-control" name="invoiceNum" Value="001" required>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-3">
-                                <p>ชื่อใบแจ้งชำระเงิน:*</p>
+                                <div class="form-group">
+                                    <p>ชื่อใบแจ้งชำระเงิน:*</p>
+                                </div>
                             </div>
                             <div class="col-sm-9">
-                                <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">blur_on</i> </span>
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" Value="Test By ThaiePay" required>
+                                <div class="form-group form-float">
+                                    <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">blur_on</i> </span>
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" name="invoiceName" Value="Test By ThaiePay" required>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-3">
-                                <p>คำอธิบายแบบย่อ:*</p>
+                                <div class="form-group">
+                                    <p>คำอธิบายแบบย่อ:*</p>
+                                </div>
                             </div>
                             <div class="col-sm-9">
-                                <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">speaker_notes</i> </span>
-                                    <div class="form-line">
-                                        <input type="text" class="form-control" Value="Test By ThaiePay" required>
+                                <div class="form-group form-float">
+                                    <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">speaker_notes</i> </span>
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" name="briefDescription" Value="Test By ThaiePay" required>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-3">
-                                <p>ราคาปกติ:</p>
+                                <div class="form-group">
+                                    <p>ราคาปกติ:</p>
+                                </div>
                             </div>
                             <div class="col-sm-9">
                                 <div class="row">
                                     <div class="col-sm-9">
-                                        <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">attach_money</i> </span>
-                                            <div class="form-line">
-                                                <input type="text" class="form-control" Value="1.00" required>
+                                        <div class="form-group form-float">
+                                            <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">attach_money</i> </span>
+                                                <div class="form-line">
+                                                    <input type="number" class="form-control" name="price" Value="1.00" required>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-sm-3">
-                                        <select class="form-control show-tick">
-                                            <option selected="selected" value="00">Baht</option>
-                                            <option value="01">U.S. dollar</option>
-                                            <option value="02">Yen</option>
-                                            <option value="03">Singapore dollar</option>
-                                            <option value="04">Hongkong dollar</option>
-                                            <option value="05">Euro</option>
-                                            <option value="06">British pound</option>
-                                            <option value="07">Australian dollar</option>
-                                            <option value="08">Swiss Franc</option>
-                                        </select>
+                                        <div class="form-group">
+                                            <select class="form-control show-tick" name="currency">
+                                                <option selected="selected" value="00">Baht</option>
+                                                <option value="01">U.S. dollar</option>
+                                                <option value="02">Yen</option>
+                                                <option value="03">Singapore dollar</option>
+                                                <option value="04">Hongkong dollar</option>
+                                                <option value="05">Euro</option>
+                                                <option value="06">British pound</option>
+                                                <option value="07">Australian dollar</option>
+                                                <option value="08">Swiss Franc</option>
+                                            </select>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-3">
-                                <p>รายละเอียด:</p>
+                                <div class="form-group">
+                                    <p>รายละเอียด:</p>
+                                </div>
                             </div>
                             <div class="col-sm-12">
-                                <textarea id="ckeditor">
+                                <textarea id="ckeditor" name="descriptions">
                                
                                 </textarea>
 
@@ -304,3 +325,5 @@
                 </div>
             </div>
         </div>
+    </form>
+    </div>

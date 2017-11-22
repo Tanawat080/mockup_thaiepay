@@ -27,6 +27,7 @@ class productservice extends CI_Controller {
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('productservice/payment_method');
+		$this->load->view('footer');
 		$this->load->view('script');
 	}
 	public function shipping_method()
@@ -54,6 +55,37 @@ class productservice extends CI_Controller {
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('productservice/product_service_des');
+		$this->load->view('footer');
+		$this->load->view('script');
+	}public function add_product_invoice()
+	{
+		
+		$radio_value = $this->input->post('group1');
+		if($radio_value=='product'){
+			$this->load->view('top-bar');
+			$this->load->view('right-sidebar');
+			$this->load->view('productservice/addproducts');
+			$this->load->view('footer');
+			$this->load->view('script');
+		}else if($radio_value=='invoice'){
+			$this->load->view('top-bar');
+			$this->load->view('right-sidebar');
+			$this->load->view('productservice/addinvoice');
+			$this->load->view('footer');
+			$this->load->view('script');
+		}
+	}public function add_product()
+	{
+		$this->load->view('top-bar');
+		$this->load->view('right-sidebar');
+		$this->load->view('productservice/addproducts');
+		$this->load->view('footer');
+		$this->load->view('script');
+	}public function add_invoice()
+	{
+		$this->load->view('top-bar');
+		$this->load->view('right-sidebar');
+		$this->load->view('productservice/addinvoice');
 		$this->load->view('footer');
 		$this->load->view('script');
 	}

@@ -28,6 +28,39 @@ class Shipping_method extends CI_Controller {
 		$this->load->view('productservice/shipping_method/domestic_parcel');
 		$this->load->view('footer');
 		$this->load->view('script');
-	} 
+	} public function international_percel()
+	{
+		$this->load->view('top-bar');
+		$this->load->view('right-sidebar');
+		$this->load->view('productservice/shipping_method/international_parcel');
+		$this->load->view('script');
+	} public function tnt_inter()
+	{
+		$this->load->view('top-bar');
+		$this->load->view('right-sidebar');
+		$this->load->view('productservice/shipping_method/tnt_inter');
+		$this->load->view('footer');
+		$this->load->view('script');
+	}  public function tnt_domestic()
+	{
+		$this->load->view('top-bar');
+		$this->load->view('right-sidebar');
+		$this->load->view('productservice/shipping_method/tnt_domestic');
+		$this->load->view('footer');
+		$this->load->view('script');
+	}public function ups_inter()
+	{
+		$this->load->view('top-bar');
+		$this->load->view('right-sidebar');
+		$this->load->view('productservice/shipping_method/ups_inter');
+		$this->load->view('footer');
+		$this->load->view('script');
+	}public function custom_shipping()
+	{
+		$this->load->view('top-bar');
+		$this->load->view('right-sidebar');
+		$this->load->view('productservice/shipping_method/custom_shipping');
+		$this->load->view('script');
+	}
 	
 }
