@@ -70,9 +70,9 @@
                         </div>
                         </br>
                         <div class="body table-responsive">
-                            <table class="table table-striped">
+                            <table class="table" width="100%">
                                 <thead>
-                                    <tr class="l-blue">
+                                    <tr>
                                         <th>USD</th>
                                         <th>JPY</th>
                                         <th>SGD</th>
@@ -85,110 +85,95 @@
                                     </tr>
                                 </thead>
 
-                                <tfoot>
-                                    <tr class="l-blue">
-                                        <th>USD</th>
-                                        <th>JPY</th>
-                                        <th>SGD</th>
-                                        <th>HKD</th>
-                                        <th>EUR</th>
-                                        <th>GBP</th>
-                                        <th>AUD</th>
-                                        <th>CHF</th>
-                                        <th>Input Date Time</th>
-                                    </tr>
-                                </tfoot>
-
-
                                 <tr>
-                                    <td><span class="label bg-red">31.36</span></td>
-                                    <td><span class="label bg-purple">27.8200</span></td>
-                                    <td><span class="label bg-deep-purple">22.59</span></td>
-                                    <td><span class="label bg-indigo">3.65</span></td>
-                                    <td><span class="label bg-cyan">36.40</span></td>
-                                    <td><span class="label bg-lime">40.89</span></td>
-                                    <td><span class="label bg-amber">23.51</span></td>
-                                    <td><span class="label bg-orange">31.90</span></td>
+                                    <td>31.36</td>
+                                    <td>27.8200</td>
+                                    <td>22.59</td>
+                                    <td>3.65</td>
+                                    <td>36.40</td>
+                                    <td>40.89</td>
+                                    <td>23.51</td>
+                                    <td>31.90</td>
                                     <td>14-11-2017 10:44:50</td>
                                 </tr><tr>
-                                    <td><span class="label bg-red">31.39</span></td>
-                                    <td><span class="label bg-purple">27.9300</span></td>
-                                    <td><span class="label bg-deep-purple">22.69</span></td>
-                                    <td><span class="label bg-indigo">3.66</span></td>
-                                    <td><span class="label bg-cyan">36.41</span></td>
-                                    <td><span class="label bg-lime">41.19</span></td>
-                                    <td><span class="label bg-amber">23.51</span></td>
-                                    <td><span class="label bg-orange">31.86</span></td>
+                                    <td>31.39</td>
+                                    <td>27.9300</td>
+                                    <td>22.69</td>
+                                    <td>3.66</td>
+                                    <td>36.41</td>
+                                    <td>41.19</td>
+                                    <td>23.51</td>
+                                    <td>31.86</td>
                                     <td>13-11-2017 11:25:57</td>
                                 </tr><tr>
-                                    <td><span class="label bg-red">31.40</span></td>
-                                    <td><span class="label bg-purple">27.9300</span></td>
-                                    <td><span class="label bg-deep-purple">22.69</span></td>
-                                    <td><span class="label bg-indigo">3.66</span></td>
-                                    <td><span class="label bg-cyan">36.30</span></td>
-                                    <td><span class="label bg-lime">41.01</span></td>
-                                    <td><span class="label bg-amber">23.51</span></td>
-                                    <td><span class="label bg-orange">31.86</span></td>
+                                    <td>31.40</td>
+                                    <td>27.9300</td>
+                                    <td>22.69</td>
+                                    <td>3.66</td>
+                                    <td>36.30</td>
+                                    <td>41.01</td>
+                                    <td>23.51</td>
+                                    <td>31.86</td>
                                     <td>10-11-2017 12:06:14</td>
                                 </tr><tr>
-                                    <td><span class="label bg-red">31.41</span></td>
-                                    <td><span class="label bg-purple">27.7600</span></td>
-                                    <td><span class="label bg-deep-purple">23.34</span></td>
-                                    <td><span class="label bg-indigo">3.66</span></td>
-                                    <td><span class="label bg-cyan">36.30</span></td>
-                                    <td><span class="label bg-lime">41.27</span></td>
-                                    <td><span class="label bg-amber">23.51</span></td>
-                                    <td><span class="label bg-orange">31.81</span></td>
+                                    <td>31.41</td>
+                                    <td>27.7600</td>
+                                    <td>23.34</td>
+                                    <td>3.66</td>
+                                    <td>36.30</td>
+                                    <td>41.27</td>
+                                    <td>23.51</td>
+                                    <td>31.81</td>
                                     <td>09-11-2017 10:05:29</td>
                                 </tr><tr>
-                                    <td><span class="label bg-red">31.54</span></td>
-                                    <td><span class="label bg-purple">27.8600</span></td>
-                                    <td><span class="label bg-deep-purple">23.24</span></td>
-                                    <td><span class="label bg-indigo">3.66</span></td>
-                                    <td><span class="label bg-cyan">36.32</span></td>
-                                    <td><span class="label bg-lime">41.25</span></td>
-                                    <td><span class="label bg-amber">24.27</span></td>
-                                    <td><span class="label bg-orange">31.88</span></td>
+                                    <td>31.54</td>
+                                    <td>27.8600</td>
+                                    <td>23.24</td>
+                                    <td>3.66</td>
+                                    <td>36.32</td>
+                                    <td>41.25</td>
+                                    <td>24.27</td>
+                                    <td>31.88</td>
                                     <td>08-11-2017 16:40:07</td>
                                 </tr><tr>
-                                    <td><span class="label bg-red">31.94</span></td>
-                                    <td><span class="label bg-purple">28.6880</span></td>
-                                    <td><span class="label bg-deep-purple">23.19</span></td>
-                                    <td><span class="label bg-indigo">4.22</span></td>
-                                    <td><span class="label bg-cyan">36.89</span></td>
-                                    <td><span class="label bg-lime">41.53</span></td>
-                                    <td><span class="label bg-amber">24.94</span></td>
-                                    <td><span class="label bg-orange">32.77</span></td>
+                                    <td>31.94</td>
+                                    <td>28.6880</td>
+                                    <td>23.19</td>
+                                    <td>4.22</td>
+                                    <td>36.89</td>
+                                    <td>41.53</td>
+                                    <td>24.94</td>
+                                    <td>32.77</td>
                                     <td>07-11-2017 10:01:10</td>
                                 </tr><tr>
-                                    <td><span class="label bg-red">33.02</span></td>
-                                    <td><span class="label bg-purple">28.6350</span></td>
-                                    <td><span class="label bg-deep-purple">24.00</span></td>
-                                    <td><span class="label bg-indigo">4.23</span></td>
-                                    <td><span class="label bg-cyan">38.10</span></td>
-                                    <td><span class="label bg-lime">42.90</span></td>
-                                    <td><span class="label bg-amber">24.84</span></td>
-                                    <td><span class="label bg-orange">32.75</span></td>
+                                    <td>33.02</td>
+                                    <td>28.6350</td>
+                                    <td>24.00</td>
+                                    <td>4.23</td>
+                                    <td>38.10</td>
+                                    <td>42.90</td>
+                                    <td>24.84</td>
+                                    <td>32.75</td>
                                     <td>06-11-2017 09:57:22</td>
                                 </tr><tr>
-                                    <td><span class="label bg-red">32.93</span></td>
-                                    <td><span class="label bg-purple">28.6630</span></td>
-                                    <td><span class="label bg-deep-purple">24.04</span></td>
-                                    <td><span class="label bg-indigo">4.21</span></td>
-                                    <td><span class="label bg-cyan">38.17</span></td>
-                                    <td><span class="label bg-lime">42.74</span></td>
-                                    <td><span class="label bg-amber">24.94</span></td>
-                                    <td><span class="label bg-orange">32.74</span></td>
+                                    <td>32.93</td>
+                                    <td>28.6630</td>
+                                    <td>24.04</td>
+                                    <td>4.21</td>
+                                    <td>38.17</td>
+                                    <td>42.74</td>
+                                    <td>24.94</td>
+                                    <td>32.74</td>
                                     <td>03-11-2017 09:26:44</td>
                                 </tr><tr>
-                                    <td><span class="label bg-red">33.01</span></td>
-                                    <td><span class="label bg-purple">28.7510</span></td>
-                                    <td><span class="label bg-deep-purple">24.03</span></td>
-                                    <td><span class="label bg-indigo">4.22</span></td>
-                                    <td><span class="label bg-cyan">38.18</span></td>
-                                    <td><span class="label bg-lime">43.56</span></td>
-                                    <td><span class="label bg-amber">24.90</span></td>
-                                    <td><span class="label bg-orange">32.81</span></td>
+                                    <td>33.01</td>
+                                    <td>28.7510</td>
+                                    <td>24.03</td>
+                                    <td>4.22</td>
+                                    <td>38.18</td>
+                                    <td>43.56</td>
+                                    <td>24.90</td>
+                                    <td>32.81</td>
                                     <td>01-11-2017 10:12:38</td>
                                 </tr>
                             </table>

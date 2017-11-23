@@ -39,7 +39,7 @@
                                 <p>สถานะ :</p>
                             </div>
                             <div class="col-sm-10">
-                                <input id="ctl00_CphBody_ChkEnable" class="filled-in" type="checkbox" name="ctl00$CphBody$ChkEnable" checked="checked" /><label for="ctl00_CphBody_ChkEnable">เปิดใช้งานระบบคำนวณค่าจัดส่งสินค้า</label>
+                                <input id="ctl00_CphBody_ChkEnable" class="filled-in chk-col-light-blue" type="checkbox" name="ctl00$CphBody$ChkEnable" checked="checked" /><label for="ctl00_CphBody_ChkEnable">เปิดใช้งานระบบคำนวณค่าจัดส่งสินค้า</label>
                             </div>
                         </div>
                         <div class="row">
@@ -97,8 +97,8 @@
                         <div class="card">
                             <div class="body table-responsive">
 
-                                <table class="table table-striped">
-                                    <tr class="l-blue">
+                                <table class="table">
+                                    <tr >
                                         <th scope="col">Shipping Method</th>
                                         <th scope="col">Delivery</th>
                                         <th scope="col">Logo</th>
@@ -186,21 +186,3 @@
 
 
 
-    </div>
-
-
-    <div class="row clearfix">
-        <div class="col-sm-12 col-md-12">
-            <div class="card">
-                <div class="body" id="footer">
-                    <div class="col-sm-12">
-                        <p class="copy m-b-0">© Copyright
-                            <time class="year">2017</time>
-                            WrapTheme  - All Rights Reserved</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</section>

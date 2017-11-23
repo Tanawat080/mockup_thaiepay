@@ -65,16 +65,17 @@
                 <div class="col-lg-8 col-md-8 col-sm-12">
                     <div class="card">
                         <div class="row">
-                            <div class="body col-sm-12">
-                           
-                                            <dd>อีเมล: support@thaiepay.com </dd>
-                                            <dd>อีเมลรับออร์เดอร์: support@thaiepay.com</dd>
-                                            <dd>มือถือ:</dd>
-                                            <dd>เว็บไซต์:</dd>
-                                            <dd>โดเมนเนม:</dd>
-                                            <p><a href="" data-toggle="modal" data-target="#editMerchantInfo">แก้ไขข้อมูลส่วนตัว คลิ๊กที่นี่!</a></p>
+                            <div class="body">
+                                <div class="col-sm-12">
+                               
+                                                <dd>อีเมล: support@thaiepay.com </dd>
+                                                <dd>อีเมลรับออร์เดอร์: support@thaiepay.com</dd>
+                                                <dd>มือถือ:</dd>
+                                                <dd>เว็บไซต์:</dd>
+                                                <dd>โดเมนเนม:</dd>
+                                                <p><a href="" data-toggle="modal" data-target="#editMerchantInfo">แก้ไขข้อมูลส่วนตัว คลิ๊กที่นี่!</a></p>
+                                </div>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
@@ -214,7 +215,7 @@
                                                 <label class="form-label">ชื่อบริษัท/ชื่อร้าน: *</label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group ">
+                                                <div class="">
                                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">store_mall_directory</i> </span>
                                                     <div class="form-line">
                                                         <input type="text" name="merchantName_th" class="form-control" Value="Test" required>
@@ -227,7 +228,7 @@
                                                 <label class="form-label">คำอธิบายร้านแบบย่อ: * (ไม่เกิน 500 ตัวอักษร)</label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class="form-float">
                                                 <div class="input-group "> <span class="input-group-addon"> <i class="material-icons">assignment</i> </span>
                                                     <div class="form-line">
                                                         <input type="text" name="descriptionBrief_th" class="form-control"  Value="Test" required>
@@ -240,7 +241,7 @@
                                                 <label class="form-label">ชื่อ: * </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <div class="input-group "> <span class="input-group-addon"> <i class="material-icons">accessibility</i> </span>
                                                     <div class="form-line">
                                                         <input type="text" name="name_th" class="form-control"  Value="Test" required>
@@ -253,7 +254,7 @@
                                                 <label class="form-label">นามสกุล: * </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">accessibility</i> </span>
                                                     <div class="form-line">
                                                         <input type="text" name="surname_th" class="form-control"  Value="Test" required>
@@ -266,7 +267,7 @@
                                                 <label class="form-label">ที่อยู่: * </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <div class="input-group "> <span class="input-group-addon"> <i class="material-icons">domain</i> </span>
                                                     <div class="form-line">
                                                         <input type="text" name="address_th" class="form-control"  Value="Test" required>
@@ -279,7 +280,7 @@
                                                 <label class="form-label">ที่อยู่เพิ่มเติม: </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <div class="input-group  "> <span class="input-group-addon"> <i class="material-icons">domain</i> </span>
                                                     <div class="form-line">
                                                         <input type="text" name="addressOptional_th" class="form-control"  Value="" >
@@ -292,7 +293,7 @@
                                                 <label class="form-label">เขต/อำเภอ: * </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <div class="input-group  "> <span class="input-group-addon"> <i class="material-icons">terrain</i> </span>
                                                     <div class="form-line">
                                                         <input type="text"  name="city_th" class="form-control"  Value="Test" required>
@@ -305,7 +306,7 @@
                                                 <label class="form-label">จังหวัด: * </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <select class="form-control show-tick" name="province_th" required>
                                                     <option selected="selected" value="73">กรุงเทพ ฯ</option>
                                                     <option value="1">เชียงใหม่</option>
@@ -391,7 +392,7 @@
                                                 <label class="form-label">รหัสไปรษณีย์: * </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">location_city</i> </span>
                                                     <div class="form-line">
                                                         <input type="number" name="zipCode_th" class="form-control"  Value="10210" required>
@@ -404,7 +405,7 @@
                                                 <label class="form-label">ประเทศ *</label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <select class="form-control show-tick" name="country_th" required>
                                                     <option value="AF">AFGHANISTAN</option>
                                                     <option value="AL">ALBANIA</option>
@@ -651,7 +652,7 @@
                                                 <label class="form-label">โทร: * </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">phone_in_talk</i> </span>
                                                     <div class="form-line">
                                                         <input type="number" name="phoneNumber_th" class="form-control"  Value="0616245961" required>
@@ -664,7 +665,7 @@
                                                 <label class="form-label">แฟกซ์:  </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">print</i> </span>
                                                     <div class="form-line">
                                                         <input type="number" name="fax_th" class="form-control"  Value="" >
@@ -682,7 +683,7 @@
                                                 <label class="form-label">Company/Shop Name: *</label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">store_mall_directory</i> </span>
                                                     <div class="form-line">
                                                         <input type="text" name="merchantName_eng" class="form-control" Value="Test" required>
@@ -695,7 +696,7 @@
                                                 <label class="form-label">Shop Brief Detail: * (500 characters max)</label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <div class="input-group "> <span class="input-group-addon"> <i class="material-icons">assignment</i> </span>
                                                     <div class="form-line">
                                                         <input type="text" name="descriptionBrief_eng" class="form-control"  Value="Test" required>
@@ -708,7 +709,7 @@
                                                 <label class="form-label">Name: * </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <div class="input-group "> <span class="input-group-addon"> <i class="material-icons">accessibility</i> </span>
                                                     <div class="form-line">
                                                         <input type="text" name="name_eng" class="form-control"  Value="Test" required>
@@ -721,7 +722,7 @@
                                                 <label class="form-label">Surname: * </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">accessibility</i> </span>
                                                     <div class="form-line">
                                                         <input type="text" name="surname_eng" class="form-control"  Value="Test" required>
@@ -734,7 +735,7 @@
                                                 <label class="form-label">Address 1: * </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">domain</i> </span>
                                                     <div class="form-line">
                                                         <input type="text" name="address_eng" class="form-control"  Value="Test" required>
@@ -747,7 +748,7 @@
                                                 <label class="form-label">Address 2: </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <div class="input-group  "> <span class="input-group-addon"> <i class="material-icons">domain</i> </span>
                                                     <div class="form-line">
                                                         <input type="text" name="addressOptional_eng" class="form-control"  Value="" >
@@ -760,7 +761,7 @@
                                                <label class="form-label">City: * </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <div class="input-group  form-float"> <span class="input-group-addon"> <i class="material-icons">terrain</i> </span>
                                                     <div class="form-line">
                                                         <input type="text" name="city_eng" class="form-control"  Value="Test" required>
@@ -773,7 +774,7 @@
                                                 <label class="form-label">Province: * </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <select class="form-control show-tick" name="province_eng" required>
                                                     <option selected="selected" value="73">กรุงเทพ ฯ</option>
                                                     <option value="1">เชียงใหม่</option>
@@ -859,7 +860,7 @@
                                                 <label class="form-label">ZIP/Postal Code: * </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">location_city</i> </span>
                                                     <div class="form-line">
                                                         <input type="number" name="zipCode_eng" class="form-control"  Value="10210" required>
@@ -872,7 +873,7 @@
                                                 <label class="form-label">Country *</label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <select class="form-control show-tick" name="country_eng" required>
                                                     <option value="AF">AFGHANISTAN</option>
                                                     <option value="AL">ALBANIA</option>
@@ -1119,7 +1120,7 @@
                                                 <label class="form-label">Tel: * </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">phone_in_talk</i> </span>
                                                     <div class="form-line">
                                                         <input type="number" name="phoneNumber_eng" class="form-control"  Value="0616245961" required>
@@ -1132,7 +1133,7 @@
                                                 <label class="form-label">Fax:  </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <div class="input-group  form-float"> <span class="input-group-addon"> <i class="material-icons">print</i> </span>
                                                     <div class="form-line">
                                                         <input type="number" name="fax_eng" class="form-control"  Value="" >
@@ -1148,7 +1149,7 @@
                                                <label class="form-label">Website Url: *</label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <div class="input-group "> <span class="input-group-addon"> <i class="material-icons">web</i> </span>
                                                     <div class="form-line">
                                                         <input type="url" name="websiteURL_web" class="form-control" Value="http://paysolutions.asia" required>
@@ -1160,7 +1161,7 @@
                                                <label class="form-label">Domain Name:</label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">domain</i> </span>
                                                     <div class="form-line">
                                                         <input type="text" name="domainName_web" class="form-control" Value="" >
@@ -1172,7 +1173,7 @@
                                                 <label class="form-label">Email: *</label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">email</i> </span>
                                                     <div class="form-line">
                                                         <input type="Email" name="email_web" class="form-control" Value="support@thaiepay.com" required>
@@ -1184,7 +1185,7 @@
                                                 <label class="form-label">Orders Email: *</label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">local_mall</i> </span>
                                                     <div class="form-line">
                                                         <input type="email" name="orderEmail_web" class="form-control" Value="support@thaiepay.com" required>
@@ -1196,7 +1197,7 @@
                                                 <label class="form-label">Mobile: Ex. 0893334444 (หมายเลขนี้จะถูกเก็บเป็นความลับ และไม่แสดงบนหน้าเว็บไซต์) </label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">phone_android</i> </span>
                                                     <div class="form-line">
                                                         <input type="number" name="phoneNumber_web" class="form-control" Value="" >
@@ -1211,7 +1212,7 @@
                                                 <label class="form-label">รหัสผ่านเดิม: *</label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">keyboard</i> </span>
                                                     <div class="form-line">
                                                         <input type="password" name="oldPassword" class="form-control" Value="" required>
@@ -1223,7 +1224,7 @@
                                                 <label class="form-label">รหัสผ่านใหม่: *</label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">keyboard</i> </span>
                                                     <div class="form-line">
                                                         <input type="password" name="newPassword" class="form-control" Value="" >
@@ -1235,7 +1236,7 @@
                                                 <label class="form-label">รหัสผ่านใหม่อีกครั้ง: *</label>
                                             </div>
                                             <div class="col-sm-12">
-                                                <div class="form-group form-float">
+                                                <div class=" form-float">
                                                 <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">keyboard</i> </span>
                                                     <div class="form-line">
                                                         <input type="password" name="rePassword" class="form-control" Value="" required>
@@ -1273,30 +1274,32 @@
             		<form method="post">
 	                <div class="row clearfix">
                         <div class="col-sm-12">
-                        	<p class="col-blue-grey">Merchant ID: 48509355</p>
-	            			 <div class="form-group">
+                            <div class="form-group">
+                        	   <p class="col-blue-grey">Merchant ID: 48509355</p>
+                            </div>
+	            			 <div class="">
 	            			 <label class="form-label">ชื่อบัญชี:*</label>
                                 </div>
-                                <div class="form-group form-float">
+                                <div class=" form-float">
                                     <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">label</i> </span>
                                         <div class="form-line">
                                             <input type="text" class="form-control date" value="เพย์โซลูชัน" required>
                                         </div>
                                     </div>
                                     </div>
-                                <div class="form-group">
+                                <div class="">
                                     <label class="form-label">เลขที่บัญชี:*</label>
                                 </div>
-                                <div class="form-group form-float">
+                                <div class=" form-float">
                                     <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">credit_card</i> </span>
                                         <div class="form-line">
                                             <input type="number" class="form-control date" value="1234567890" required>
                                         </div>
                                     </div>
                                     </div>
-                                <div class="form-group">
+                                <div class="">
                                 <label class="form-label">สาขา:*</label>
-                                <div class="form-group form-float">
+                                <div class=" form-float">
                                     <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">domain</i> </span>
                                         <div class="form-line">
                                             <input type="text" class="form-control date" value="รัชดา" required>
@@ -1304,9 +1307,9 @@
                                     </div>
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="">
                                 <label class="form-label">ประเภท:*</label>
-                                <div class="form-group form-float">
+                                <div class=" form-float">
                                 	<div class="form-line">
                                 		<select class="form-control show-tick" required>
 		                                    <option  selected="selected" value="S">ออมทรัพย์</option>
@@ -1316,9 +1319,9 @@
                                     </div>
                                 	</div>
                                 </div>
-                                <div class="form-group">
+                                <div class="">
                                 <label class="form-label">ธนาคาร:*</label>
-                                <div class="form-group form-float">
+                                <div class=" form-float">
                                     <div class="form-line">
                                         <select class="form-control show-tick" required>
 		                                   	<option value="BBL">ธ. กรุงเทพฯ</option>
@@ -1339,9 +1342,9 @@
                                     </div>
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="">
                                 <label class="form-label">เขต:*</label>
-                                <div class="form-group form-float">
+                                <div class=" form-float">
                                     <div class=" form-line">
                                     	<div class="demo-radio-button">
 				                           	<input name="group1" type="radio" class="with-gap" id="radio_3" checked="checked" />
@@ -1352,9 +1355,9 @@
                                     </div>
                                     </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="">
                                 <label class="form-label">ประเทศ:*</label>
-                                <div class="form-group form-float">
+                                <div class=" form-float">
                                     <div class="form-line">
                                         <select class="form-control show-tick" required>
 										<option value="AF">AFGHANISTAN</option>

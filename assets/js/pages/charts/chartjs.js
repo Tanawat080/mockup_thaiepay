@@ -16,20 +16,12 @@ function getChartJs(type) {
                 datasets: [{
                     label: "My First dataset",
                     data: [85, 59, 71, 81, 64, 46, 71],
-                    borderColor: 'rgba(0, 188, 212, 0.75)',
-                    backgroundColor: 'rgba(0, 188, 212, 0.3)',
-                    pointBorderColor: 'rgba(0, 188, 212, 0)',
-                    pointBackgroundColor: 'rgba(0, 188, 212, 0.9)',
+                    borderColor: '#FFB266',
+                    backgroundColor: '#FFF5E9',
+                    pointBorderColor: '#FF9933',
+                    pointBackgroundColor: '#FF9933',
                     pointBorderWidth: 1
-                }, {
-                        label: "My Second dataset",
-                        data: [4, 62, 46, 71, 86, 45, 71],
-                        borderColor: 'rgba(233, 30, 99, 0.75)',
-                        backgroundColor: 'rgba(233, 30, 99, 0.3)',
-                        pointBorderColor: 'rgba(233, 30, 99, 0)',
-                        pointBackgroundColor: 'rgba(233, 30, 99, 0.9)',
-                        pointBorderWidth: 1
-                    }]
+                }]
             },
             options: {
                 responsive: true,

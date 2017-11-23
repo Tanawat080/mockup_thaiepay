@@ -35,6 +35,7 @@ class productservice extends CI_Controller {
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('productservice/shipping_method');
+		$this->load->view('footer');
 		$this->load->view('script');
 	}public function edit_product()
 	{

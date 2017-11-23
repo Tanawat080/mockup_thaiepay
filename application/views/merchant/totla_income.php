@@ -222,9 +222,9 @@
 							<p class="indent">นอกจากคุณจะสามารถเลือกแสดงยอดรวมรายได้ตามช่วงวันเวลาในหัวข้อก่อนหน้านี้ได้แล้ว ระบบของเรายังแสดงประวัติการโอนเงินย้อนหลัง 6 เดือนเพื่ออำนวยความสะดวกให้คุณตรวจสอบประวัติยอดรวมรายได้ของร้านค้าที่ผ่านมาได้ </p>
 
 							<div class="body table-responsive "> 
-								<table class="table table-bordered table-striped table-hover js-basic-example dataTable ">
+								<table class="table table-hover js-basic-example ">
                                 <thead>
-                                    <tr class="l-blue">
+                                    <tr>
                                         <th width="10%">สถานะ</th>
                                         <th width="50%">รายได้ระหว่างวันที่</th>
                                         <th width="20%">วันที่โอนเงิน</th>
@@ -233,7 +233,7 @@
                                     </tr>
                                 </thead>
                                 <tfoot>
-                                    <tr class="l-blue">
+                                    <tr>
                                         <th>สถานะ</th>
                                         <th>รายได้ระหว่างวันที่</th>
                                         <th>วันที่โอนเงิน</th>

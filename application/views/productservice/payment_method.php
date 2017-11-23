@@ -34,8 +34,8 @@
                         <div class="body">
                             <div class="body table-responsive">
 
-                                <table class="table table-striped">
-                                    <tr class="l-blue">
+                                <table class="table">
+                                    <tr>
                                         <th scope="col">Payment Method</th>
                                         <th scope="col">Logo</th>
                                         <th scope="col">Enable</th>

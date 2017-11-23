@@ -107,9 +107,9 @@
                             </div>   
                                 <form method="post">
                                     <div class="body table-responsive">
-                                        <table class="table table-striped">
+                                        <table class="table">
                                             <thead>
-                                                <tr class="l-blue">
+                                                <tr>
                                                     <th>Select</th>
                                                     <th>Name</th>
                                                     <th>Code</th>
@@ -120,18 +120,6 @@
                                                     <th>Action</th>
                                                 </tr>
                                             </thead>
-                                            <tfoot>
-                                                <tr class="l-blue">
-                                                    <th>Select</th>
-                                                    <th>Name</th>
-                                                    <th>Code</th>
-                                                    <th>ShortDescription</th>
-                                                    <th>Price</th>
-                                                    <th>Create Time</th>
-                                                    <th>Style</th>
-                                                    <th>Action</th>
-                                                </tr>
-                                            </tfoot>
                                             <tr>
                                                 <td>
                                                     <input type="checkbox" id="check2" class="filled-in chk-col-light-blue" />
@@ -144,17 +132,17 @@
                                                 <td>16-11-2560 16:59:56</td>
                                                 <td>สินค้าหรือบริการ</td>
                                                 <td>
-                                                    <span class="label bg-amber">
+                                                   
                                                         <a href="<?php echo base_url(); ?>productservice/productservice/add_product">
-                                                            <img src="<?php echo base_url(); ?>assets/images/sign/copy.png" Title="Copy">
+                                                            <i class="material-icons">content_copy</i>
                                                         </a>
                                                         <a href="">
-                                                            <img src="<?php echo base_url(); ?>assets/images/sign/delete.png" Title="Delete">
+                                                            <i class="material-icons">delete</i>
                                                         </a>
                                                         <a href="<?php echo base_url(); ?>productservice/payment_method/sendEmail_product">                                              
-                                                            <img src="<?php echo base_url(); ?>assets/images/sign/mail.png" Title="Email">
+                                                           <i class="material-icons">email</i>
                                                         </a>
-                                                    </span>
+                                                   
                                                 </td>
                                             </tr>
                                             <tr>
@@ -169,17 +157,16 @@
                                                 <td>16-11-2560 16:43:35</td>
                                                 <td>ใบแจ้งชำระเงิน</td>
                                                 <td>
-                                                    <span class="label bg-amber">
+                                                
                                                         <a href="<?php echo base_url(); ?>productservice/productservice/add_invoice">
-                                                            <img src="<?php echo base_url(); ?>assets/images/sign/copy.png" Title="Copy">
+                                                            <i class="material-icons">content_copy</i>
                                                         </a>
                                                         <a href="">
-                                                            <img src="<?php echo base_url(); ?>assets/images/sign/delete.png" Title="Delete">
+                                                           <i class="material-icons">delete</i>
                                                         </a>
-                                                        <a href="<?php echo base_url(); ?>productservice/payment_method/sendEmail_product">                                              
-                                                            <img src="<?php echo base_url(); ?>assets/images/sign/mail.png" Title="Email">
+                                                        <a href="<?php echo base_url(); ?>productservice/payment_method/sendEmail_product">   <i class="material-icons">email</i>
                                                         </a>
-                                                    </span>
+                                                 
                                                 </td>
                                             </tr>
                                         </table>

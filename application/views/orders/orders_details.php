@@ -81,7 +81,7 @@
                                 </tr>
                                 <tr>
                                     <td>Status:</td>
-                                    <td><img src="<?php echo base_url(); ?>assets/images/sign/Y.png"> 
+                                    <td><img src="<?php echo base_url(); ?>assets/images/sign/Y.png">&nbsp; 
                                         <span class="label bg-green">COMPLETED</span></td>
                                 </tr>
                                 <tr>

@@ -117,12 +117,11 @@
                             </div>
 
                             <div class="col-sm-12">
-                                <hr>
                                 <br/>
                                 <div class="body table-responsive">
-                                    <table width="100%" class="table table-bordered table-striped table-hover">
+                                    <table width="100%" class="table ">
                                         <thead>
-                                            <tr class="l-blue">
+                                            <tr>
                                                 <th >Status</th>
                                                 <th >OrderNo</th>
                                                 <th >RefNo</th>
@@ -138,9 +137,7 @@
                                         <tbody>
                                             <tr>
                                                 <td>
-                                                    <img src='<?php echo base_url(); ?>assets/images/sign/RE.png'
-                                                         alt='REJECTED' title='REJECTED' align="AbsMiddle"
-                                                         border="0" />
+                                                    <i class="material-icons text-success">check</i>
                                                 </td>
                                                 <td>
                                                     <a href="<?php echo base_url(); ?>orders/orders/orders_details">02258118</a>
@@ -174,9 +171,7 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <img src='<?php echo base_url(); ?>assets/images/sign/N.png'
-                                                         alt='Unpaid' title='Unpaid' align="AbsMiddle"
-                                                         border="0" />
+                                                  <i class="material-icons text-warning">hourglass_full</i>
                                                 </td><td><a href="<?php echo base_url(); ?>orders/orders/counter_details">90047121</a></td><td>1510651925</td><td>
                                                     test
                                                 </td><td>  <div align="center">
@@ -198,9 +193,7 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <img src='<?php echo base_url(); ?>assets/images/sign/VO.png'
-                                                         alt='VOIDED' title='VOIDED' align="AbsMiddle"
-                                                         border="0" />
+                                                    <i class="material-icons text-danger">close</i>
                                                 </td><td><a href="orderdetail.aspx?id=1098572">02258102</a></td><td>1510651922</td><td>
                                                     test
                                                 </td><td>  <div align="center">
@@ -221,9 +214,7 @@
                                                 </td>
                                             </tr><tr class="separate">
                                                 <td>
-                                                    <img src='<?php echo base_url(); ?>assets/images/sign/RE.png'
-                                                         alt='REJECTED' title='REJECTED' align="AbsMiddle"
-                                                         border="0" />
+                                                    <i class="material-icons text-success">check</i>
                                                 </td><td><a href="orderdetail.aspx?id=1095115">02253136</a></td><td>0000000012</td><td>
                                                     Refund (OrderNo#02253129 OrderID#1095110 ) 
                                                 </td><td>  <div align="center">
@@ -244,9 +235,7 @@
                                                 </td>
                                             </tr><tr>
                                                 <td>
-                                                    <img src='<?php echo base_url(); ?>assets/images/sign/VO.png'
-                                                         alt='VOIDED' title='VOIDED' align="AbsMiddle"
-                                                         border="0" />
+                                                    <i class="material-icons text-danger">close</i>
                                                 </td><td><a href="orderdetail.aspx?id=1095110">02253129</a></td><td>0000000012</td><td>
                                                     Order 12
                                                 </td><td>  <div align="center">
@@ -267,9 +256,7 @@
                                                 </td>
                                             </tr><tr class="separate">
                                                 <td>
-                                                    <img src='<?php echo base_url(); ?>assets/images/sign/RE.png'
-                                                         alt='REJECTED' title='REJECTED' align="AbsMiddle"
-                                                         border="0" />
+                                                   <i class="material-icons text-danger">close</i>
                                                 </td><td><a href="orderdetail.aspx?id=1093823">02251336</a></td><td>0000000043</td><td>
                                                     Refund (OrderNo#02249329 OrderID#1092479 ) 
                                                 </td><td>  <div align="center">
@@ -290,9 +277,7 @@
                                                 </td>
                                             </tr><tr>
                                                 <td>
-                                                    <img src='<?php echo base_url(); ?>assets/images/sign/CP.png'
-                                                         alt='COMPLETED' title='COMPLETED' align="AbsMiddle"
-                                                         border="0" />
+                                                   <i class="material-icons text-success">check</i>
                                                 </td><td><a href="orderdetail.aspx?id=1092479">02249329</a></td><td>0000000043</td><td>
                                                     Order 43
                                                 </td><td>  <div align="center">
@@ -313,9 +298,7 @@
                                                 </td>
                                             </tr><tr class="separate">
                                                 <td>
-                                                    <img src='<?php echo base_url(); ?>assets/images/sign/RE.png'
-                                                         alt='REJECTED' title='REJECTED' align="AbsMiddle"
-                                                         border="0" />
+                                                   <i class="material-icons text-danger">close</i>
                                                 </td><td><a href="orderdetail.aspx?id=1092467">02249316</a></td><td>0000000042</td><td>
                                                     Refund (OrderNo#02249309 OrderID#1092464 ) 
                                                 </td><td>  <div align="center">
@@ -336,9 +319,7 @@
                                                 </td>
                                             </tr><tr>
                                                 <td>
-                                                    <img src='<?php echo base_url(); ?>assets/images/sign/RE.png'
-                                                         alt='REJECTED' title='REJECTED' align="AbsMiddle"
-                                                         border="0" />
+                                                   <i class="material-icons text-warning">hourglass_full</i>
                                                 </td><td><a href="orderdetail.aspx?id=1092466">02249315</a></td><td>0000000041</td><td>
                                                     Refund (OrderNo#02249288 OrderID#1092446 ) 
                                                 </td><td>  <div align="center">
@@ -359,9 +340,7 @@
                                                 </td>
                                             </tr><tr class="separate">
                                                 <td>
-                                                    <img src='<?php echo base_url(); ?>assets/images/sign/RE.png'
-                                                         alt='REJECTED' title='REJECTED' align="AbsMiddle"
-                                                         border="0" />
+                                                   <i class="material-icons text-success">check</i>
                                                 </td><td><a href="orderdetail.aspx?id=1092465">02249313</a></td><td>0000000040</td><td>
                                                     Refund (OrderNo#02249282 OrderID#1092439 ) 
                                                 </td><td>  <div align="center">
@@ -382,9 +361,7 @@
                                                 </td>
                                             </tr><tr>
                                                 <td>
-                                                    <img src='<?php echo base_url(); ?>assets/images/sign/VO.png'
-                                                         alt='VOIDED' title='VOIDED' align="AbsMiddle"
-                                                         border="0" />
+                                                   <i class="material-icons text-warning">hourglass_full</i>
                                                 </td><td><a href="orderdetail.aspx?id=1092464">02249309</a></td><td>0000000042</td><td>
                                                     Order 42
                                                 </td><td>  <div align="center">
@@ -405,9 +382,7 @@
                                                 </td>
                                             </tr><tr class="separate">
                                                 <td>
-                                                    <img src='<?php echo base_url(); ?>assets/images/sign/VO.png'
-                                                         alt='VOIDED' title='VOIDED' align="AbsMiddle"
-                                                         border="0" />
+                                                  <i class="material-icons text-warning">hourglass_full</i>
                                                 </td><td><a href="orderdetail.aspx?id=1092446">02249288</a></td><td>0000000041</td><td>
                                                     Order 41
                                                 </td><td>  <div align="center">
@@ -428,9 +403,7 @@
                                                 </td>
                                             </tr><tr>
                                                 <td>
-                                                    <img src='<?php echo base_url(); ?>assets/images/sign/VO.png'
-                                                         alt='VOIDED' title='VOIDED' align="AbsMiddle"
-                                                         border="0" />
+                                                    <i class="material-icons text-success">check</i>
                                                 </td><td><a href="orderdetail.aspx?id=1092439">02249282</a></td><td>0000000040</td><td>
                                                     Order 40
                                                 </td><td>  <div align="center">
@@ -451,9 +424,7 @@
                                                 </td>
                                             </tr><tr class="separate">
                                                 <td>
-                                                    <img src='<?php echo base_url(); ?>assets/images/sign/RE.png'
-                                                         alt='REJECTED' title='REJECTED' align="AbsMiddle"
-                                                         border="0" />
+                                                   <i class="material-icons text-danger">close</i>
                                                 </td><td><a href="orderdetail.aspx?id=1092417">02249243</a></td><td>0000000039</td><td>
                                                     Refund (OrderNo#02249229 OrderID#1092409 ) 
                                                 </td><td>  <div align="center">
@@ -474,9 +445,7 @@
                                                 </td>
                                             </tr><tr>
                                                 <td>
-                                                    <img src='<?php echo base_url(); ?>assets/images/sign/VO.png'
-                                                         alt='VOIDED' title='VOIDED' align="AbsMiddle"
-                                                         border="0" />
+                                                    <i class="material-icons text-success">check</i>
                                                 </td><td><a href="orderdetail.aspx?id=1092409">02249229</a></td><td>0000000039</td><td>
                                                     Order 39
                                                 </td><td>  <div align="center">

@@ -48,24 +48,15 @@
                         </div>   
 
                     <div class="body table-responsive">
-                            <table class="table table-striped">
+                            <table class="table">
                                 <thead>
-                                    <tr class="l-blue">
+                                    <tr>
                                     <th>พารามิเตอร์</th>
                                     <th>ชนิดข้อมูล</th>
                                     <th>ความยาวสูงสุด</th>
                                     <th>รายละเอียด</th>
                                     </tr>
                                 </thead>
-
-                                <tfoot>
-                                    <tr class="l-blue">
-                                    <th>พารามิเตอร์</th>
-                                    <th>ชนิดข้อมูล</th>
-                                    <th>ความยาวสูงสุด</th>
-                                    <th>รายละเอียด</th>
-                                    </tr>
-                                </tfoot>
                             <tr>
                                 <td>merchantid</td>
                                 <td>ตัวเลข</td>
@@ -182,19 +173,13 @@
                                     </div>
                                 </div>
                                     <div class="col-sm-4">
-                                        <table class="table table-striped">
+                                        <table class="table">
                                             <thead>
-                                                <tr class="l-blue">
+                                                <tr >
                                                 <th width="40%">CC</th>
                                                 <th width="60%">หน่วยเงิน</th>
                                                 </tr>
                                             </thead>
-                                            <tfoot>
-                                                <tr class="l-blue">
-                                                <th width="40%">CC</th>
-                                                <th width="60%">หน่วยเงิน</th>
-                                                </tr>
-                                            </tfoot>
                                                 <tr>
                                                     <td>“00”</td>
                                                     <td>บาท</td>

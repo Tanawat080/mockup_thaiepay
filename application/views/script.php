@@ -44,6 +44,7 @@
 <script src="<?php echo base_url(); ?>assets/js/pages/forms/editors.js"></script>
 
 <script src="<?php echo base_url(); ?>assets/plugins/dropzone/dropzone.js"></script>
+<script src="<?php echo base_url(); ?>assets/plugins/waitme/waitMe.js"></script> <!-- Wait Me Plugin Js --> 
 
 <script src="<?php echo base_url();?>assets/bundles/mainscripts.bundle.js"></script><!-- Custom Js --> 
 </body>

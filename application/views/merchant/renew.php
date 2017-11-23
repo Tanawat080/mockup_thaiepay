@@ -38,9 +38,9 @@
                                <p class="indent">ค่าบริการของระบบ THAIEPAY จะขึ้นอยู่กับรูปแบบของบริการและระยะเวลาการใช้งาน ซึ่งเราได้สรุปอัตราค่าบริการทั้งหมดเอาไว้ในตารางด้านล่างนี้ 
                                 <u>ในกรณีที่คุณชำระเงินต่ออายุบริการเป็นแบบรายปี คุณจะได้ลดส่วนฟรี! ค่าบริการ 2 เดือน</u></p>
                                 <div class="body table-responsive">
-                                        <table class="table table-hover table-striped" width="100%">
+                                        <table class="table" width="100%">
                                             <thead>
-                                                <tr class="l-blue">
+                                                <tr>
                                                     <th>รูปแบบบริการ</th>
                                                     <th>ต่ออายุ 3 เดือน</th>
                                                     <th>ต่ออายุ 6 เดือน</th>
@@ -49,21 +49,21 @@
                                             </thead>
                                             <tr>
                                                 <td><b>EPAYLINK</b></td>
-                                                <td><span class="label bg-light-blue">885 Baht</span></td>
-                                                <td><span class="label bg-blue">1,770 Baht</span></td>
-                                                <td><span class="label bg-red">2,950 Baht</span></td>
+                                                <td>885 Baht</td>
+                                                <td>1,770 Baht</td>
+                                                <td>2,950 Baht</td>
                                             </tr>
                                             <tr>
                                                 <td><b>EPAYFLOW</b></td>
-                                                <td><span class="label bg-light-blue">1,485 Baht</span></td>
-                                                <td><span class="label bg-blue">2,970 Baht</span></td>
-                                                <td><span class="label bg-red">4,950 Baht</span></td>
+                                                <td>1,485 Baht</td>
+                                                <td>2,970 Baht</td>
+                                                <td>4,950 Baht</td>
                                             </tr>
                                             <tr>
                                                 <td><b>EPAYSHOPPING</b></td>
-                                                <td><span class="label bg-light-blue">2,385 Baht </span></td>
-                                                <td><span class="label bg-blue">4,770 Baht</span></td>
-                                                <td><span class="label bg-red">7,950 Baht</span></td>
+                                                <td>2,385 Baht</td>
+                                                <td>4,770 Baht</td>
+                                                <td>7,950 Baht</td>
                                             </tr>
                                         </table>
                                 </div>

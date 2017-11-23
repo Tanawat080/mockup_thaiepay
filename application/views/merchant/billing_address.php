@@ -21,7 +21,7 @@
                             <div class="row ">                           
                                 <div class="col-sm-12">
                                     <label class="form-label"> ชื่อบริษัท: *</label>
-                                    <div class="form-group form-float">
+                                    <div class="form-float">
                                    <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">store_mall_directory</i> </span>
                                         <div class="form-line">
                                             <input type="text" class="form-control" Value="test" name="ompName" required>
@@ -33,7 +33,7 @@
                             <div class="row">
                                 <div class="col-sm-12">
                                     <label class="form-label">ที่อยู่: *</label>
-                                    <div class="form-group form-float">
+                                    <div class="form-float">
                                    <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">home</i> </span>
                                         <div class="form-line">
                                             <input type="text" class="form-control" name="address" Value="Test  กรุงเทพ ฯ 10310" required>
@@ -45,10 +45,10 @@
                             <div class="row">
                                 <div class="col-sm-12">
                                     <label class="form-label">เลขประจำตัวผู้เสียภาษี: *</label>
-                                    <div class="form-group form-float">
+                                    <div class="form-float">
                                    <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">accessibility</i> </span>
                                         <div class="form-line">
-                                            <input type="number" name="taxID" class="form-control" Value="" required>
+                                            <input type="text" name="taxID" class="form-control" Value="" required>
                                         </div>
                                     </div>
                                 </div>
@@ -57,7 +57,7 @@
                             <div class="row">
                                 <div class="col-sm-12">
                                     <label class="form-label">สาขา:*</label>
-                                    <div class="form-group form-float">
+                                    <div class="form-float">
                                    <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">view_compact</i> </span>
                                         <div class="form-line">
                                             <input type="text" name="branch" class="form-control" Value="" required>
@@ -69,7 +69,7 @@
                             <div class="row">
                                 <div class="col-sm-12">
                                     <label class="form-label">อีเมล์:*</label>
-                                    <div class="form-group form-float">
+                                    <div class="form-float">
                                    <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">email</i> </span>
                                         <div class="form-line">
                                             <input type="email" name="email" class="form-control" Value="fongbeer.1718@gmail.com" required>
@@ -81,7 +81,7 @@
                             <div class="row">
                                 <div class="col-sm-12">
                                     <label class="form-label">เบอร์โทรศัพท์:</label>
-                                    <div class="form-group form-float">
+                                    <div class="form-float">
                                    <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">call</i> </span>
                                         <div class="form-line">
                                             <input type="number" name="phoneNumber" class="form-control" Value="0616245961">
@@ -93,7 +93,7 @@
                             <div class="row">
                                 <div class="col-sm-12">
                                     <label class="form-label">แฟกซ์:</label>
-                                    <div class="form-group form-float">
+                                    <div class="form-float">
                                    <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">print</i> </span>
                                         <div class="form-line">
                                             <input type="number" name="fax" class="form-control" Value="">

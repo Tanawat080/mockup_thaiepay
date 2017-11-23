@@ -62,9 +62,9 @@
                             </div>
                             <div class="col-sm-12">     
                                 <div class="body table-responsive">
-                                    <table class="table table-bordered table-striped table-hover">
+                                    <table class="table ">
                                         <thead>
-                                            <tr class="l-blue">
+                                            <tr>
                                                 <th >Status</th>
                                                 <th >OrderNo</th>
                                                 <th >RefNo</th>
@@ -79,7 +79,7 @@
                                             <tr>
 
                                                 <td>
-                                                    <img src='<?php echo base_url(); ?>assets/images/sign/CP.png' Alt='COMPLETED' title='COMPLETED' align="AbsMiddle" border="0" />                                                 
+                                                   <i class="material-icons text-success">check</i>                                                 
                                                 </td>
                                                 <td><a href="<?php echo base_url(); ?>orders/orders/refund_des">02208141</a></td><td>0000000212</td>
                                                 <td>
@@ -101,7 +101,7 @@
                                             <tr>
 
                                                 <td>
-                                                    <img src='<?php echo base_url(); ?>assets/images/sign/CP.png' Alt='COMPLETED' title='COMPLETED' align="AbsMiddle" border="0" />                                                 
+                                                  <i class="material-icons text-success">check</i>                                                 
                                                 </td>
                                                 <td><a href="<?php echo base_url(); ?>orders/orders/refund_des">02225184</a></td>
                                                 <td>1000000003</td>

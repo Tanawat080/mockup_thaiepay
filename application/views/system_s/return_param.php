@@ -50,7 +50,7 @@
             </div>
 
 
-            <div class="col-lg-6 col-md-12 col-sm-12 ">
+            <div class="col-lg-12 col-md-12 col-sm-12 ">
                 <form id="form_validation" method="POST">
                     <div class="card product-report">
                         <div class="header">
@@ -149,7 +149,7 @@
                 </form>
             </div> <!-- param -->
 
-            <div class="col-lg-6 col-md-12 col-sm-12 ">
+            <div class="col-lg-12 col-md-12 col-sm-12 ">
                 <form id="form_advanced_validation" method="POST">
                     <div class="card product-report">
                         <div class="header">
@@ -159,8 +159,10 @@
                             <p class="indent">คุณสามารถใช้แบบฟอร์มนี้ ส่งค่ากลับไปยัง Post Back Url เพื่อเป็นการทดสอบ หรือเพื่อเป็นการส่งค่าใหม่อีกครั้งสำหรับรายการสั่งซื้อที่รับค่า Post Back ไม่ได้ โดยคุณสามารถกรอกค่าต่างๆ ลงไป เมื่อคลิกที่ปุ่ม Send ระบบจะส่งค่าทางโปรแกรมไปยัง Post Back Url แล้วแสดงผลลัพธ์ที่หน้าเว็บปรากฎออกมา </p>
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <p class="col-blue-grey"><b>Post Back Url:*</b></p>
-                                    <div class="form-group form-float">
+                                    <div class="form-group">
+                                        <p class="col-blue-grey"><b>Post Back Url:*</b></p>
+                                    </div>
+                                    <div class=" form-float">
                                         <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">language</i> </span>
                                             <div class="form-line">
                                                 <input type="text" class="form-control" Value="http://10.127.7.240/wordpress" name="postbackUrl_test" required>
@@ -168,20 +170,22 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
-                                    <p class="col-blue-grey"><b>พารามิเตอร์หลัก:*</b></p>
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <p class="col-blue-grey"><b>พารามิเตอร์หลัก:*</b></p>
+                                    </div>
                                 </div>
-                                <div class="col-sm-8">
+                                <div class="col-sm-12">
                                     <label class="form-label">refno:*</label>
-                                    <div class="form-group form-float">
+                                    <div class="form-float">
                                         <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">confirmation_number</i> </span>
                                             <div class="form-line">
-                                                <input type="number" name="param_test" class="form-control" Value="" required>
+                                                <input type="text" name="param_test" class="form-control" Value="" required>
                                             </div>
                                         </div>
                                     </div>
                                     <label class="form-label">merchantid:</label>
-                                    <div class="form-group form-float">
+                                    <div class="form-float">
                                         <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">store_mall_directory</i> </span>
                                             <div class="form-line">
                                                 <input type="number" name="merchantId" class="form-control" Value="48509355" disabled="disabled">
@@ -189,7 +193,7 @@
                                         </div>
                                     </div>
                                     <label class="form-label">customeremail:</label>
-                                    <div class="form-group form-float">
+                                    <div class="form-float">
                                         <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">directions_run</i> </span>
                                             <div class="form-line">
                                                 <input type="email" name="cusEmail" class="form-control" Value="" >
@@ -197,7 +201,7 @@
                                         </div>
                                     </div>
                                     <label class="form-label">productdetail:</label>
-                                    <div class="form-group form-float">
+                                    <div class="form-float">
                                         <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">shopping_basket</i> </span>
                                             <div class="form-line">
                                                 <input type="text" name="productdetail" class="form-control" Value="" >
@@ -205,7 +209,7 @@
                                         </div>
                                     </div>
                                     <label class="form-label">total:</label>
-                                    <div class="form-group form-float">
+                                    <div class="form-float">
                                         <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">attach_money</i> </span>
                                             <div class="form-line">
                                                 <input type="number" name="total" class="form-control" Value="" >
@@ -213,7 +217,7 @@
                                         </div>
                                     </div>
                                     <label class="form-label">cardtype:</label>
-                                    <div class="form-group form-float">
+                                    <div class="form-float">
                                         <select class="form-control show-tick" name="cardtype">
                                             <option value="">--- Not Select---</option>
                                             <option value="V">VISA</option>
@@ -224,12 +228,14 @@
                                     </div>
 
                                 </div>
-                                <div class="col-sm-4">
-                                    <p class="col-blue-grey"><b>พารามิเตอร์เพิ่มเติม:*</b></p>
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <p class="col-blue-grey"><b>พารามิเตอร์เพิ่มเติม:*</b></p>
+                                    </div>
                                 </div>
-                                <div class="col-sm-8">
+                                <div class="col-sm-12">
                                     <label class="form-label">name:*</label>
-                                    <div class="form-group form-float">
+                                    <div class="form-float">
                                         <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">text_fields</i> </span>
                                             <div class="form-line">
                                                 <input type="text" class="form-control" name="name_test" Value="" required>
@@ -237,7 +243,7 @@
                                         </div>
                                     </div>
                                     <label class="form-label">value:*</label>
-                                    <div class="form-group form-float">
+                                    <div class="form-float">
                                         <div class="input-group"><span class="input-group-addon"> <i class="material-icons">apps</i> </span>
                                             <div class="form-line">
                                                 <input type="text" name="value_test" class="form-control" Value="" required>

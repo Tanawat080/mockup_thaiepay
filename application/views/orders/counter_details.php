@@ -64,7 +64,7 @@
                                         </tr>
                                         <tr>
                                             <td>Status:</td>
-                                            <td><img src="<?php echo base_url(); ?>assets/images/sign/N.png">&nbsp;<span class="label bg-light-blue">unpaid</span></td>
+                                            <td><span class="label bg-amber">unpaid</span>&nbsp;<img src="<?php echo base_url(); ?>assets/images/sign/N.png"></td>
                                         </tr>
                                     </table>
                                 </div> 
