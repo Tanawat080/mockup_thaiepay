@@ -44,10 +44,10 @@
                                         <dl>
                                             <dt>Url สั่งซื้อสินค้าหรือบริการ :</dt>
                                             <dd>
-                                                <div class="card bg-grey">
-                                                    <div class="body col-white">
+                                                <div class="alert alert-info">
+                                                    
                                                         https://www.thaiepay.com/epayflow/cart.aspx?puid=00179044118390197828
-                                                    </div>
+                                                   
                                                 </div>
                                             </dd>
                                         </dl>
@@ -61,10 +61,10 @@
                                         <dl>
                                             <dt>ตัวอย่างโค้ด Html :</dt>
                                             <dd>
-                                                <div class="card bg-grey">
-                                                    <div class="body col-white">
+                                                <div class="alert alert-info">
+                                                    
                                                         &lt;a href=&quot;https://www.thaiepay.com/epayflow/cart.aspx?puid=00179044118390197828&quot;&gt;Buy Now!&lt;/a&gt;
-                                                    </div>
+                                                   
                                                 </div>
                                             </dd>
                                         </dl>
@@ -78,10 +78,10 @@
                                         <dl>
                                             <dt>ตัวอย่างโค้ด Html แบบมีรูปภาพ :</dt>
                                             <dd>
-                                                <div class="card bg-grey">
-                                                    <div class="body col-white">
+                                                <div class="alert alert-info">
+                                                    
                                                         &lt;a href=&quot;https://www.thaiepay.com/epayflow/cart.aspx?puid=00179044118390197828&quot;&gt;<br />&lt;img src=&quot;https://www.thaiepay.com/payment/images/buynow.png&quot; border=&quot;0&quot; /&gt;<br />&lt;/a&gt;
-                                                    </div>
+                                                    
                                                 </div>
                                             </dd>
                                         </dl>
@@ -121,8 +121,8 @@
                     <div class="body">
                         <p class="indent">หัวข้อนี้เป็นข้อมูลทั่วไปของใบแจ้งชำระเงิน ทั้งชื่อ ราคา และรายละเอียด ซึ่งคุณจะต้องกรอกให้ครบถ้วนและถูกต้อง</p>
                         <div class="row">
-                            <div class="col-sm-3">
-                                <p>ใช้งาน:*</p>
+                            <div class="col-sm-1">
+                                <label class="form-label">ใช้งาน:*</label>
                             </div>
                             <div class="col-sm-9">
                                 <div class="col-sm-12 demo-checkbox">
@@ -130,22 +130,22 @@
                                     <label for="md_checkbox_3">เปิดใช้งาน</label>
                                 </div>
                             </div>
-                            <div class="col-sm-3">
-                                <p>ภาษา:*</p>
+                            <div class="col-sm-12">
+                                <label class="form-label">ภาษา:*</label>
                             </div>
-                            <div class="col-sm-9">
+                            <div class="col-sm-12">
                                 <select class=" form-control show-tick" name="language">
                                             <option selected="selected" value="TH">Thai</option>
                                             <option value="EN">English</option>
                                         </select>
                             </div>
-                            <div class="col-sm-3">
-                                <div class="form-group">
-                                    <p>หมายเลขใบแจ้งชำระเงิน:</p>
+                            <div class="col-sm-12">
+                                <div class="">
+                                    <label class="form-label">หมายเลขใบแจ้งชำระเงิน:</label>
                                 </div>
                             </div>
-                            <div class="col-sm-9">
-                                <div class="form-group form-float">
+                            <div class="col-sm-12">
+                                <div class=" form-float">
                                     <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">chrome_reader_mode</i> </span>
                                         <div class="form-line">
                                             <input type="number" class="form-control" name="invoiceNum" Value="001" required>
@@ -153,13 +153,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-3">
-                                <div class="form-group">
-                                    <p>ชื่อใบแจ้งชำระเงิน:*</p>
+                            <div class="col-sm-12">
+                                <div class="">
+                                    <label class="form-label">ชื่อใบแจ้งชำระเงิน:*</label>
                                 </div>
                             </div>
-                            <div class="col-sm-9">
-                                <div class="form-group form-float">
+                            <div class="col-sm-12">
+                                <div class=" form-float">
                                     <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">blur_on</i> </span>
                                         <div class="form-line">
                                             <input type="text" class="form-control" name="invoiceName" Value="Test By ThaiePay" required>
@@ -167,13 +167,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-3">
-                                <div class="form-group">
-                                    <p>คำอธิบายแบบย่อ:*</p>
+                            <div class="col-sm-12">
+                                <div class="">
+                                    <label class="form-label">คำอธิบายแบบย่อ:*</label>
                                 </div>
                             </div>
-                            <div class="col-sm-9">
-                                <div class="form-group form-float">
+                            <div class="col-sm-12">
+                                <div class=" form-float">
                                     <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">speaker_notes</i> </span>
                                         <div class="form-line">
                                             <input type="text" class="form-control" name="briefDescription" Value="Test By ThaiePay" required>
@@ -181,15 +181,15 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-3">
-                                <div class="form-group">
-                                    <p>ราคาปกติ:</p>
+                            <div class="col-sm-12">
+                                <div class="">
+                                    <label class="form-label">ราคาปกติ:</label>
                                 </div>
                             </div>
-                            <div class="col-sm-9">
+                            <div class="col-sm-12">
                                 <div class="row">
                                     <div class="col-sm-9">
-                                        <div class="form-group form-float">
+                                        <div class=" form-float">
                                             <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">attach_money</i> </span>
                                                 <div class="form-line">
                                                     <input type="number" class="form-control" name="price" Value="1.00" required>
@@ -198,7 +198,7 @@
                                         </div>
                                     </div>
                                     <div class="col-sm-3">
-                                        <div class="form-group">
+                                        <div class="">
                                             <select class="form-control show-tick" name="currency">
                                                 <option selected="selected" value="00">Baht</option>
                                                 <option value="01">U.S. dollar</option>
@@ -215,8 +215,8 @@
                                 </div>
                             </div>
                             <div class="col-sm-3">
-                                <div class="form-group">
-                                    <p>รายละเอียด:</p>
+                                <div class="">
+                                    <label class="form-label">รายละเอียด:</label>
                                 </div>
                             </div>
                             <div class="col-sm-12">
@@ -243,10 +243,10 @@
                                 <div class="row">
                                     <p class="indent">รูปภาพสินค้าในระบบจะมี 3 ขนาดด้วยกัน คือ ขนาดใหญ่, ขนาดกลางและขนาดเล็ก ซึ่งคุณสามารถอัปโหลดเฉพาะ <u>ไฟล์ภาพใหญ่เพียงไฟล์เดียว</u> แล้วให้ระบบของเราย่อขนาดภาพที่เหลือเองอัตโนมัติได้ หรือถ้าคุณต้องการใส่ภาพทุกขนาดด้วยตนเองก็สามารถทำได้ ด้วยการเลือกตัวเลือกใส่ภาพด้วยตัวเอง แล้ว browse ใส่ไฟล์ของคุณลงไป  </p>
                                     <div class="col-sm-4">
-                                        <p class="col-blue-grey">ภาพขนาดใหญ่</p>
+                                        <label class="form-label">ภาพขนาดใหญ่</label>
                                         <div class=" form-line">
                                             <div class="demo-radio-button">
-                                                <input name="group1" type="radio" id="radio_2" class="with-gap" checked="checked" />
+                                                <input name="group1" type="radio" id="radio_2" class="with-gap radio-col-blue" checked="checked" />
                                                 <label for="radio_2">ใส่ภาพขนาดใหญ่ด้วยตนเอง</label> 
                                             </div>
                                         </div>
@@ -267,12 +267,12 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        <p class="col-blue-grey">ภาพขนาดกลาง</p>
+                                        <label class="form-label">ภาพขนาดกลาง</label>
                                         <div class=" form-line">
                                             <div class="demo-radio-button">
-                                                <input name="group2" type="radio" id="radio_4" class="with-gap" checked="checked" />
+                                                <input name="group2" type="radio" id="radio_4" class="with-gap radio-col-blue" checked="checked" />
                                                 <label for="radio_4">ย่อขนาดภาพอัตโนมัติเป็น (พิกเซล): 150</label><br/>
-                                                <input name="group2" type="radio" id="radio_5" class="with-gap" />
+                                                <input name="group2" type="radio" id="radio_5" class="with-gap radio-col-blue" />
                                                 <label for="radio_5">ใส่ภาพขนาดกลางด้วยตนเอง</label>
                                             </div>
                                         </div>
@@ -293,12 +293,12 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        <p class="col-blue-grey">ภาพขนาดเล็ก</p>
+                                        <label class="form-label">ภาพขนาดเล็ก</label>
                                         <div class=" form-line">
                                             <div class="demo-radio-button">
-                                                <input name="group3" type="radio" id="radio_7" class="with-gap" checked="checked" />
+                                                <input name="group3" type="radio" id="radio_7" class="with-gap radio-col-blue" checked="checked" />
                                                 <label for="radio_7">ย่อขนาดภาพอัตโนมัติเป็น (พิกเซล): 150</label><br/>
-                                                <input name="group3" type="radio" id="radio_8" class="with-gap" />
+                                                <input name="group3" type="radio" id="radio_8" class="with-gap radio-col-blue" />
                                                 <label for="radio_8">ใส่ภาพขนาดเล็กด้วยตนเอง</label> 
                                             </div>
                                         </div>

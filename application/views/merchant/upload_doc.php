@@ -28,7 +28,7 @@
                                     </div>
                                 </div>
                                 <div class="form-group text-center">
-                                    <button type="submit" class="btn  btn-raised bg-teal waves-effect">Submit</button>
+                                    <button type="submit" class="btn  btn-raised bg-blue waves-effect">Submit</button>
                                 </div>
                             </div>
                         </form>

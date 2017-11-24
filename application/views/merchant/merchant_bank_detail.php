@@ -1347,9 +1347,9 @@
                                 <div class=" form-float">
                                     <div class=" form-line">
                                     	<div class="demo-radio-button">
-				                           	<input name="group1" type="radio" class="with-gap" id="radio_3" checked="checked" />
+				                           	<input name="group1" type="radio" class="with-gap radio-col-blue" id="radio_3" checked="checked" />
 				                            <label for="radio_3">กรุงเทพฯ</label>
-				                            <input name="group1" type="radio" id="radio_4" class="with-gap" />
+				                            <input name="group1" type="radio" id="radio_4" class="with-gap radio-col-blue" />
 				                            <label for="radio_4">ต่างจังหวัด</label> 
                         				</div>
                                     </div>

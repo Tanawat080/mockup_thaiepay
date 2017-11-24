@@ -64,10 +64,10 @@
                                         <div class="col-sm-3">
                                             <div class="form-group">
                                                 <div class="demo-switch">
-                                                    <div class="switch">
+                                                    <div class="switch ">
                                                         <label>ปิด
                                                         <input type="checkbox" checked>
-                                                        <span class="lever"></span>เปิด</label>
+                                                        <span class="lever switch-col-blue"></span>เปิด</label>
                                                     </div>
                                                 </div>
                                             </div>

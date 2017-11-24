@@ -24,28 +24,32 @@
             </div>
         </div><!-- shipdomestic -->
         <div class="row clearfix">
-            <div class="col-lg-6 col-md-12 col-sm-12 ">
+            <div class="col-lg-12 col-md-12 col-sm-12 ">
                 <div class="card product-report">
                     <div class="header">
                         <h2 class="col-blue-grey">กำหนดค่าการจัดส่งเบื้องต้น</h2>
                     </div>
                     <div class="body">
                         <div class="row">
-                            <div class="col-sm-4">
+                            <div class="col-sm-1">
                                 <label class="form-label">สถานะ:*</label>
                             </div>
                             <div class="col-sm-8">
-                                <input id="ctl00_CphBody_ChkEnable" class="filled-in" type="checkbox" name="ctl00$CphBody$ChkEnable" required /><label for="ctl00_CphBody_ChkEnable">เปิดใช้งาน วิธีการจัดส่งนี้</label>
+                                <div class="checkbox ">
+                                    <label>
+                                        <input name="optionsCheckboxes" type="checkbox">
+                                        <span class="checkbox-material"><span class="check"></span></span> เปิดใช้งาน วิธีการจัดส่งนี้</label>
+                                </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-4">
-                                <div class="form-group">
+                            <div class="col-sm-12">
+                                <div class="">
                                     <label class="form-label">ชื่อวิธีการจัดส่ง (อังกฤษ):*</label>
                                 </div>
                             </div>
-                            <div class="col-sm-8">
-                                <div class="form-group">
+                            <div class="col-sm-12">
+                                <div class="input-group"><span class="input-group-addon"> <i class="material-icons">featured_play_list</i> </span>
                                     <div class="form-line">
                                         <input type="text" class="form-control" value="TNT International Shipping" required/>
                                     </div>
@@ -53,46 +57,42 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-4">
-                                <div class="form-group">
+                            <div class="col-sm-12">
+                                <div class="">
                                     <label class="form-label">ชื่อวิธีการจัดส่ง (ไทย):*</label>
                                 </div>
                             </div>
-                            <div class="col-sm-8">
-                                <div class="form-group">
+                            <div class="col-sm-12">
+                                <div class="input-group"><span class="input-group-addon"> <i class="material-icons">featured_play_list</i> </span>
                                     <div class="form-line">
-                                        <input type="text" class="form-control"  value="จัดส่งต่างประเทศโดย TNT" required />
+                                        <input type="text" class="form-control" value="จัดส่งต่างประเทศโดย TNT" required/>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-4">
-                                <div class="form-group">
+                            <div class="col-sm-12">
+                                <div class="">
                                     <label class="form-label">น้ำหนักสูงสุดที่ใช้ได้:*</label>
                                 </div>
                             </div>
-                            <div class="col-sm-7">
-                                <div class="form-group form-float">
+                            <div class="col-sm-12">
+                                <div class="input-group form-float"><span class="input-group-addon"> <i class="material-icons">aspect_ratio</i> </span>
                                     <div class="form-line">
-                                        <input type="number" class="form-control" value="0.00" required />
+                                        <input type="number" class="form-control" value="0.00" required/>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-1">
-                                <div class="form-group">
-                                    <label class="form-label">Kg.</label>
+                                    <div class="help-info">Kg.</div>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-4">
-                                <div class="form-group">
+                            <div class="col-sm-12">
+                                <div class="">
                                     <label class="form-label">รูปแบบบริการ:*</label>
                                 </div>
                             </div>
-                            <div class="col-sm-8">
-                                <div class="form-group">
+                            <div class="col-sm-12">
+                                <div class="">
                                     <select class="form-control show-tick" required>
                                         <option selected="selected" value="EE">ECONOMY EXPRESS - ITLL</option>
                                         <option value="EN">ECONOMY EXPRESS - NONE</option>
@@ -105,22 +105,14 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-12">
-                <div class="row clearfix top-report">
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        <div class="card">
-                            <div class="body">
-                                <div class="row">
-                                    <div class="col-sm-4">
-                                        <div class="form-group">
+                        <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="">
                                             <label class="form-label">จัดส่งจากประเทศ:*</label>
                                         </div>
                                     </div>
-                                    <div class="col-sm-8">
-                                        <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <div class="">
                                             <select class="form-control show-tick" required>
                                                 <option selected="selected" value="AF">AFGHANISTAN</option>
                                                 <option value="AL">ALBANIA</option>
@@ -139,83 +131,76 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-sm-4">
-                                        <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <div class="">
                                             <label class="form-label">จัดส่งจากจังหวัด:*</label>
                                         </div>
                                     </div>
-                                    <div class="col-sm-8">
-                                        <div class="form-group">
-                                            <div class="form-line">
-                                                <input type="text" class="form-control"  value="" required />
-                                            </div>
-                                        </div>
+                                    <div class="col-sm-12">
+                                        <div class="input-group"><span class="input-group-addon"> <i class="material-icons">place</i> </span>
+                                    <div class="form-line">
+                                        <input type="text" class="form-control" value="" required/>
+                                    </div>
+                                </div>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-sm-4">
-                                        <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <div class="">
                                             <label class="form-label">จัดส่งจากรหัสไปรษณีย์:*</label>
                                         </div>
                                     </div>
-                                    <div class="col-sm-8">
-                                        <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <div class="input-group"><span class="input-group-addon"> <i class="material-icons">navigation</i> </span>
                                             <div class="form-line">
-                                                <input type="number" class="form-control"  value="T" required />
+                                                <input type="text" class="form-control" value="" required/>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-sm-4">
-                                        <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <div class="">
                                             <label class="form-label">TNT UserID:*</label>
                                         </div>
                                     </div>
-                                    <div class="col-sm-8">
-                                        <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <div class="input-group"><span class="input-group-addon"> <i class="material-icons">supervisor_account</i> </span>
                                             <div class="form-line">
-                                                <input type="text" class="form-control"  value="" required />
+                                                <input type="text" class="form-control" value="" required/>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-sm-4">
-                                        <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <div class="">
                                             <label class="form-label">TNT Password:*</label>
                                         </div>
                                     </div>
-                                    <div class="col-sm-8">
-                                        <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <div class="input-group"><span class="input-group-addon"> <i class="material-icons">enhanced_encryption</i> </span>
                                             <div class="form-line">
-                                                <input type="Password" class="form-control"  value="" required />
+                                                <input type="password" class="form-control" value="" required/>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-sm-4">
-                                        <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <div class="">
                                             <label class="form-label">ค่าจัดส่งโดยปริยาย:*</label>
                                         </div>
                                     </div>
-                                    <div class="col-sm-7">
-                                        <div class="form-group form-float">
+                                    <div class="col-sm-12">
+                                        <div class="input-group"><span class="input-group-addon"> <i class="material-icons">directions_bike</i> </span>
                                             <div class="form-line">
-                                                <input type="number" class="form-control"  value="0.00" required />
-                                            </div>
-                                            <div class="help-info"><label>(ค่าจัดส่งโดยปริยาย จะถูกใช่เมื่อระบบไม่สามารถคำนวณค่าจัดส่งผ่านระบบออนไลน์ของ TNT ได้)</label></div>
+                                                <input type="text" class="form-control" value="" required/>
+                                            </div><div class="help-info">Baht</div>
                                         </div>
-                                    </div>
-                                    <div class="col-sm-1">
-                                        <div class="form-group">
-                                            <label class="form-label">Baht</label>
-                                        </div>
+                                        <label>(ค่าจัดส่งโดยปริยาย จะถูกใช่เมื่อระบบไม่สามารถคำนวณค่าจัดส่งผ่านระบบออนไลน์ของ TNT ได้)</label>
                                     </div>
                                 </div>
-                            </div>                          
-                        </div>
                     </div>
                 </div>
             </div>
@@ -229,12 +214,12 @@
                     <div class="body">
                         <div class=" form-line">
                             <div class="demo-radio-button">
-                                <input name="group2" type="radio" class="with-gap" id="radio_3" checked="checked" />
+                                <input name="group2" type="radio" class="with-gap radio-col-blue" id="radio_3" checked="checked" />
                                 <label for="radio_3">ใช้โลโก้เดิม <a href="">s_banner_mac.png</a> 
                                     <a href=""><img src="<?php echo base_url(); ?>assets/images/sign/trashcan.png">
                                     </a>
                                 </label><br/>
-                                <input name="group2" type="radio" id="radio_5" class="with-gap" />
+                                <input name="group2" type="radio" id="radio_5" class="with-gap radio-col-blue" />
                                 <label for="radio_5">เปลี่ยนโลโก้ใหม่</label>
                             </div>
                         </div><br/>
