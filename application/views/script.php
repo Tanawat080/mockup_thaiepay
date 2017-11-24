@@ -39,7 +39,8 @@
 <script src="<?php echo base_url(); ?>assets/plugins/chartjs/Chart.bundle.js"></script> <!-- Chart Plugins Js --> 
 <script src="<?php echo base_url(); ?>assets/js/pages/charts/chartjs.js"></script> 
 
-<script src="<?php echo base_url(); ?>assets/plugins/ckeditor/ckeditor.js"></script> <!-- Ckeditor --> 
+ <script src="<?php echo base_url(); ?>assets/plugins/ckeditor/ckeditor.js"></script> <!-- Ckeditor -->  
+
 
 <script src="<?php echo base_url(); ?>assets/js/pages/forms/editors.js"></script>
 

@@ -31,35 +31,39 @@
                     </div>
                     <div class="body">
                         <div class="row">
-                            <div class="col-sm-3">
+                            <div class="col-sm-1">
                                 <label class="form-label">สถานะ:*</label>
                             </div>
                             <div class="col-sm-9">
-                                <input id="ctl00_CphBody_ChkEnable" class="filled-in" type="checkbox" name="ctl00$CphBody$ChkEnable" required /><label for="ctl00_CphBody_ChkEnable">เปิดใช้งาน วิธีการจัดส่งนี้</label>
+                                <div class="checkbox ">
+                                    <label>
+                                        <input name="optionsCheckboxes" type="checkbox" >
+                                        <span class="checkbox-material"><span class="check"></span></span> เปิดใช้งาน วิธีการจัดส่งนี้</label>
+                                </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-3">
-                                <div class="form-group">
+                            <div class="col-sm-12">
+                                <div class="">
                                     <label class="form-label">ชื่อวิธีการจัดส่ง (อังกฤษ):*</label>
                                 </div>
                             </div>
-                            <div class="col-sm-9">
-                                <div class="form-group">
+                            <div class="col-sm-12">
+                                <div class="input-group"><span class="input-group-addon"> <i class="material-icons">featured_play_list</i> </span>
                                     <div class="form-line">
-                                        <input type="text" class="form-control" value="TNT International Shipping" required/>
+                                        <input type="text" class="form-control"  value="TNT International Shipping" required />
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-3">
-                                <div class="form-group">
+                            <div class="col-sm-12">
+                                <div class="">
                                     <label class="form-label">ชื่อวิธีการจัดส่ง (ไทย):*</label>
                                 </div>
                             </div>
-                            <div class="col-sm-9">
-                                <div class="form-group">
+                            <div class="col-sm-12">
+                                <div class="input-group"><span class="input-group-addon"> <i class="material-icons">featured_play_list</i> </span>
                                     <div class="form-line">
                                         <input type="text" class="form-control"  value="จัดส่งต่างประเทศโดย TNT" required />
                                     </div>
@@ -67,70 +71,67 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-3">
-                                <div class="form-group">
+                            <div class="col-sm-12">
+                                <div class="">
                                     <label class="form-label">ค่าจัดส่ง 1Kg. แรก:*</label>
                                 </div>
                             </div>
-                            <div class="col-sm-9">
-                                <div class="form-group form-float">
+                            <div class="col-sm-12">
+                                <div class="input-group form-float"><span class="input-group-addon"> <i class="material-icons">directions_bike</i> </span>
                                     <div class="form-line">
-                                        <input type="number" class="form-control"  value="" required />
-                                    </div>
-                                    <div class="help-info"><label>Baht</label></div>
+                                        <input type="number" class="form-control"  value="0.00" required />
+                                    </div><div class="help-info">Baht.</div>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-3">
-                                <div class="form-group">
+                            <div class="col-sm-12">
+                                <div class="">
                                     <label class="form-label">ค่าจัดส่งทุก 1Kg. ถัดไป:*</label>
                                 </div>
                             </div>
-                            <div class="col-sm-9">
-                                <div class="form-group form-float">
+                            <div class="col-sm-12">
+                                <div class="input-group form-float"><span class="input-group-addon"> <i class="material-icons">directions_bike</i> </span>
                                     <div class="form-line">
-                                        <input type="number" class="form-control"  value="" required />
-                                    </div>
-                                    <div class="help-info"><label>Baht</label></div>
+                                        <input type="number" class="form-control"  value="0.00" required />
+                                    </div><div class="help-info">Baht.</div>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-3">
-                                <div class="form-group">
+                            <div class="col-sm-12">
+                                <div class="">
                                     <label class="form-label">น้ำหนักสูงสุดที่ใช้ได้:*</label>
                                 </div>
                             </div>
-                            <div class="col-sm-9">
-                                <div class="form-group form-float">
+                            <div class="col-sm-12">
+                                <div class="input-group form-float"><span class="input-group-addon"> <i class="material-icons">aspect_ratio</i> </span>
                                     <div class="form-line">
-                                        <input type="number" class="form-control" value="0.00" required />
-                                    </div>
-                                    <div class="help-info"><label>Kg.</label></div>
+                                        <input type="number" class="form-control"  value="0.00" required />
+                                    </div><div class="help-info">Kg.</div>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-3">
+                            <div class="col-sm-12">
                                 <label class="form-label">โลโก้:*</label>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-12">
                                 <div class="demo-radio-button">
-                                    <input name="group2" type="radio" class="with-gap" id="radio_3" checked="checked" />
+                                    <input name="group2" type="radio" class="with-gap radio-col-blue" id="radio_3" checked="checked" />
                                     <label for="radio_3">ใช้โลโก้เดิม <a href="">s_banner_mac.png</a> 
                                         <a href=""><img src="<?php echo base_url(); ?>assets/images/sign/trashcan.png">
                                         </a>
                                     </label><br/>
-                                    <input name="group2" type="radio" id="radio_5" class="with-gap" />
+                                    <input name="group2" type="radio" id="radio_5" class="with-gap radio-col-blue" />
                                     <label for="radio_5">เปลี่ยนโลโก้ใหม่</label>
                                 </div>
                             </div> 
                         </div>
                         <div class="row">
-                            <div class="col-sm-3">
+                            <div class="col-sm-12">
                             </div>
-                            <div class="col-sm-9">
+                            <div class="col-sm-12">
                                 <form action="/" id="" class="dropzone" method="post" enctype="multipart/form-data">
                                     <div class="dz-message">
                                         <div class="drag-icon-cph"> <i class="material-icons">touch_app</i> </div>

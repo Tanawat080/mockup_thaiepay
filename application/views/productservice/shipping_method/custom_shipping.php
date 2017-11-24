@@ -24,25 +24,29 @@
             </div>
         </div><!-- shipdomestic -->
         <div class="row clearfix">
-            <div class="col-lg-6 col-md-12 col-sm-12 ">
+            <div class="col-lg-12 col-md-12 col-sm-12 ">
                 <div class="card product-report">
                     <div class="body">
                         <div class="row">
-                            <div class="col-sm-4">
+                            <div class="col-sm-1">
                                 <label class="form-label">สถานะ:*</label>
                             </div>
                             <div class="col-sm-8">
-                                <input id="ctl00_CphBody_ChkEnable" class="filled-in" type="checkbox" name="ctl00$CphBody$ChkEnable" required /><label for="ctl00_CphBody_ChkEnable">เปิดใช้งาน วิธีการจัดส่งนี้</label>
+                                <div class="checkbox ">
+                                    <label>
+                                        <input name="optionsCheckboxes" type="checkbox">
+                                        <span class="checkbox-material"><span class="check"></span></span> เปิดใช้งาน วิธีการจัดส่งนี้</label>
+                                </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-4">
-                                <div class="form-group">
+                            <div class="col-sm-12">
+                                <div class="">
                                     <label class="form-label">ชื่อวิธีการจัดส่ง (อังกฤษ):*</label>
                                 </div>
                             </div>
-                            <div class="col-sm-8">
-                                <div class="form-group">
+                            <div class="col-sm-12">
+                                <div class="input-group"><span class="input-group-addon"> <i class="material-icons">featured_play_list</i> </span>
                                     <div class="form-line">
                                         <input type="text" class="form-control" value="Custom Shopping" required/>
                                     </div>
@@ -50,42 +54,41 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-4">
-                                <div class="form-group">
+                            <div class="col-sm-12">
+                                <div class="">
                                     <label class="form-label">ชื่อวิธีการจัดส่ง (ไทย):*</label>
                                 </div>
                             </div>
-                            <div class="col-sm-8">
-                                <div class="form-group">
+                            <div class="col-sm-12">
+                                <div class="input-group"><span class="input-group-addon"> <i class="material-icons">featured_play_list</i> </span>
                                     <div class="form-line">
-                                        <input type="text" class="form-control"  value="ค่าจัดส่งสินค้าตามอัตราของร้านค้า" required />
+                                        <input type="text" class="form-control" value="ค่าจัดส่งสินค้าตามอัตราของร้านค้า" required/>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-4">
-                                <div class="form-group">
+                            <div class="col-sm-12">
+                                <div class="">
                                     <label class="form-label">น้ำหนักสูงสุดที่ใช้ได้:*</label>
                                 </div>
                             </div>
-                            <div class="col-sm-8">
-                                <div class="form-group form-float">
+                            <div class="col-sm-12">
+                                <div class="input-group"><span class="input-group-addon"> <i class="material-icons">aspect_ratio</i> </span>
                                     <div class="form-line">
-                                        <input type="number" class="form-control" value="0.00" required />
-                                    </div>
-                                    <div class="help-info">Kg.</div>
+                                        <input type="number" class="form-control" step="0.01" value="0.00" required/>
+                                    </div><div class="help-info">Kg.</div>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-4">
-                                <div class="form-group">
+                            <div class="col-sm-12">
+                                <div class="">
                                     <label class="form-label">จัดส่งจากประเทศ:*</label>
                                 </div>
                             </div>
-                            <div class="col-sm-8">
-                                <div class="form-group">
+                            <div class="col-sm-12">
+                                <div class=" form-float">
                                     <select class="form-control show-tick" required>
                                         <option selected="selected" value="AF">AFGHANISTAN</option>
                                         <option value="AL">ALBANIA</option>
@@ -104,23 +107,23 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-4">
-                                <div class="form-group">
+                            <div class="col-sm-12">
+                                <div class="">
                                     <label class="form-label">จัดส่งจากรหัสไปรษณีย์:*</label>
                                 </div>
                             </div>
-                            <div class="col-sm-8">
-                                <div class="form-group form-float">
-                                    <div class="form-line">
-                                        <input type="number" class="form-control" value="" required />
-                                    </div>
-                                </div>
+                            <div class="col-sm-12">
+                                <div class="input-group"><span class="input-group-addon"> <i class="material-icons">navigation</i> </span>
+                                            <div class="form-line">
+                                                <input type="text" class="form-control" value="" required/>
+                                            </div>
+                                        </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="col-lg-12 col-md-12 col-sm-12">
                 <div class="row clearfix top-report">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="card">
@@ -130,12 +133,12 @@
                             <div class="body">
                                 <div class=" form-line">
                                     <div class="demo-radio-button">
-                                        <input name="group2" type="radio" class="with-gap" id="radio_3" checked="checked" />
+                                        <input name="group2" type="radio" class="with-gap radio-col-blue" id="radio_3" checked="checked" />
                                         <label for="radio_3">ใช้โลโก้เดิม <a href="">s_banner_mac.png</a> 
                                             <a href=""><img src="<?php echo base_url(); ?>assets/images/sign/trashcan.png">
                                             </a>
                                         </label><br/>
-                                        <input name="group2" type="radio" id="radio_5" class="with-gap" />
+                                        <input name="group2" type="radio" id="radio_5" class="with-gap radio-col-blue" />
                                         <label for="radio_5">เปลี่ยนโลโก้ใหม่</label>
                                     </div>
                                 </div><br/>
@@ -148,18 +151,12 @@
                                     <div class="fallback">
                                         <input name="file" type="file" multiple />
                                     </div>
-                                </form>                    
+                                </form> 
+                                <div class="form-group text-center">
+                                    <button type="submit" class="btn  btn-raised btn-info waves-effect">Submit</button>
+                                </div>                   
                             </div>                          
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row clearfix">
-            <div class="col-lg-12 col-md-12 col-sm-12 ">
-                <div class="card product-report">
-                    <div class="body text-center">
-                        <button type="submit" class="btn  btn-raised btn-info waves-effect">Submit</button>
                     </div>
                 </div>
             </div>
@@ -173,23 +170,15 @@
                     <div class="body">
                         <p class="indent">คุณสามารถกำหนดค่าจัดส่งตามประเทศปลายทางได้จากการคลิกที่ Edit หน้าประเทศนั้นๆ </p>
                         <div class="body table-responsive "> 
-                            <table class="table table-bordered table-striped table-hover js-basic-example dataTable ">
+                            <table class="table js-basic-example dataTable ">
                                 <thead>
-                                    <tr class="l-blue">
+                                    <tr>
                                         <th></th>
                                         <th>Country</th>
                                         <th>1st Kg.</th>
                                         <th>Next Kg.</th>
                                     </tr>
                                 </thead>
-                                <tfoot>
-                                    <tr class="l-blue">
-                                        <th></th>
-                                        <th>Country</th>
-                                        <th>1st Kg.</th>
-                                        <th>Next Kg.</th>
-                                    </tr>
-                                </tfoot>
                                 <tbody>
                                     <tr>
                                         <td>
@@ -241,33 +230,32 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-3">
-                            <div class="form-group">
-                                <label class="form-label"><b>1st Kg.</b></label>
+                        <div class="col-sm-12">
+                            <div class="">
+                                <label class="form-label">1st Kg.</label>
                             </div>
                         </div>
-                        <div class="col-sm-9">
-                            <div class="form-group form-float">
-                                <div class="form-line">
-                                    <input type="number" class="form-control" value="1100.00" required />
+                        <div class="col-sm-12">
+                            <div class="input-group form-float"><span class="input-group-addon"> <i class="material-icons">aspect_ratio</i> </span>
+                                    <div class="form-line">
+                                        <input type="number" class="form-control" value="1100.00" required />
+                                    </div>
                                 </div>
-                                <div class="help-info">Baht</div>
-                            </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-3">
-                            <div class="form-group">
-                                <label class="form-label"><b>Next Kg.</b></label>
+                        <div class="col-sm-12">
+                            <div class="">
+                                <label class="form-label">Next Kg.</label>
                             </div>
                         </div>
-                        <div class="col-sm-9">
-                            <div class="form-group form-float">
-                                <div class="form-line">
-                                    <input type="number" class="form-control" value="350.00" required />
+                        <div class="col-sm-12">
+
+                            <div class="input-group form-float"><span class="input-group-addon"> <i class="material-icons">aspect_ratio</i> </span>
+                                    <div class="form-line">
+                                        <input type="number" class="form-control" value="350.00" required />
+                                    </div>
                                 </div>
-                                <div class="help-info">Baht</div>
-                            </div>
                         </div>
                     </div>
             </div>
