@@ -49,146 +49,130 @@
                           <div class="card">
                            
                               <div class="body">
-                                  <div class="row">
-                                      <div class="col-sm-3">
-                                          <label class="form-label">ใช้งาน  :*</label>
-                                      </div>
-                                      <div class="col-sm-9">
-                                        <div class="demo-checkbox">
-                                          <input type="checkbox" id="basic_checkbox_2" class="filled-in" checked />
-                                          <label for="basic_checkbox_2">เปิดใช้งาน</label>
 
-                                        </div>
-
-                                      </div>
-                                  </div><br>
-
-                                  <div class="row"> 
-                                      <div class="col-sm-3 form-group">
-                                          <label class="form-label">ชื่อสินค้า  :*</label>
-                                      </div>
-                                      <div class="col-sm-9">
-                                         <div class="form-group form-float">
-                                            <div class="form-line">
-                                                <input type="text" class="form-control"  name="Productname" required>
-                                                <label class="form-label"></label>
+                                        <div class="row">
+                                            <div class="col-sm-1">
+                                                <label class="form-label">ใช้งาน  :*</label>
                                             </div>
-                                        </div>
-                                      </div>
-                                      
-                                  </div>
+                                            <div class="col-sm-3">
+                                              <div class="demo-checkbox">
+                                                <input type="checkbox" id="basic_checkbox_2" class="filled-in" checked />
+                                                <label for="basic_checkbox_2">เปิดใช้งาน</label>
 
-                                  <div class="row">
-                                      <div class="col-sm-3 form-group">
-                                          <label class="form-label">คำอธิบายสินค้าแบบย่อ  :*</label>
-                                      </div>
-                                      <div class="col-sm-9">
-                                         <div class="form-group form-float">
-                                            <div class="form-line">
-                                                <input type="text" class="form-control"  name="detail" required>
-                                                <label class="form-label"></label>
-                                            </div>
-                                        </div>
-                                      </div>
-
-                                  </div>
-                                  <div class="row">
-                                      <div class="col-sm-3 form-group">
-                                          <label class="form-label">รหัสสินค้า  :*</label>
-                                      </div>
-                                      <div class="col-sm-9">
-                                         <div class="form-group form-float">
-                                            <div class="form-line">
-                                                <input type="text" class="form-control"  name="productID" required>
-                                                <label class="form-label"></label>
-                                            </div>
-                                        </div>
-                                      </div>
-
-                                  </div>
-                                  <div class="row">
-                                      <div class="col-sm-3 form-group">
-                                          <label class="form-label">ราคาปกติ  :*</label>
-                                      </div>
-                                      <div class="col-sm-6">
-                                         <div class="form-group form-float">
-                                            <div class="form-line">
-                                                <input type="text" class="form-control"  name="price" required>
-                                                <label class="form-label"></label>
-                                            </div>
-                                        </div>
-                                      </div>
-                                      <div class="col-sm-3">
-                                        <div class="form-group form-line">
-
-                                          <select class="form-control show-tick">
-                                          <option selected="selected" value="00">Baht</option>
-                                          <option value="01">U.S. dollar</option>
-                                          <option value="02">Yen</option>
-                                          <option value="03">Singapore dollar</option>
-                                          <option value="04">Hongkong dollar</option>
-                                          <option value="05">Euro</option>
-                                          <option value="06">British pound</option>
-                                          <option value="07">Australian dollar</option>
-                                          <option value="08">Swiss Franc</option>
-
-
-
-                                          </select>
-                                        </div>
-                                      </div>
-                                 </div>
-
-                                 <div class="row">
-                                      <div class="col-sm-3 form-group">
-                                          <label class="form-label">ราคาพิเศษ  :</label>
-                                      </div>
-                                      <div class="col-sm-9">
-                                         <div class=" form-group form-float">
-                                              <div class="form-line">
-                                                  <input type="number" class="form-control" step="0.01" name="number" value="0.00" required>
-                                                  <label class="form-label"></label>
                                               </div>
-                                          </div>
-                                          <p>(ถ้าคุณกรอก ราคาพิเศษ ระบบจะแสดงผลโดยขีดฆ่าราคาปกติเช่น <strike>100</strike> <font color='red'>50</font> และจะยึดราคาพิเศษเป็นหลัก)</p>
-                                          
-                                      </div>
 
-                                  </div>
+                                            </div>
+                                        </div></br>
 
-                                  <div class="row">
-                                      <div class="col-sm-3 form-group">
-                                          <label class="form-label">น้ำหนัก  :</label>
-                                      </div>
-                                      <div class="col-sm-9">
-                                         <div class=" form-group form-float">
-                                              <div class="form-line">
-                                                  <input type="number" class="form-control" step="0.01" name="weight" value="0.00" required>
-                                                  <label class="form-label"></label>
-                                                  <div class="help-info">KGs.</div>
+                                        <div class="row ">                           
+                                          <div class="col-sm-12">
+                                              <label class="form-label">ชื่อสินค้า  :*</label>
+                                              <div class="form-float">
+                                                <div class="input-group">
+                                                  <div class="form-line">
+                                                      <input type="text" class="form-control" Value="" name="Productname" required>
+                                                  </div>
+                                                </div>
                                               </div>
-                                          </div>
-                                          
-                                          
-                                      </div>
+                                            </div>
+                                          </div></br>
 
-                                  </div>
+                                        <div class="row ">                           
+                                          <div class="col-sm-12">
+                                              <label class="form-label">คำอธิบายสินค้าแบบย่อ  :*</label>
+                                              <div class="form-float">
+                                                <div class="input-group">
+                                                  <div class="form-line">
+                                                      <input type="text" class="form-control" Value="" name="detail" required>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div></br>
 
-                                  <div class="row">
-                                      <div class="col-sm-3 form-group">
-                                          <label class="form-label">รายละเอียด  :</label>
-                                      </div>
-                                      
-                                      <div class="col-sm-9">
-                                         <div class="form-group">
-                                            <textarea id="ckeditor">
-                               
-                                            </textarea> 
-                                          </div>                                           
-                                      </div>
+                                          <div class="row ">                           
+                                            <div class="col-sm-12">
+                                                <label class="form-label">รหัสสินค้า  :*</label>
+                                                <div class="form-float">
+                                                  <div class="input-group">
+                                                    <div class="form-line">
+                                                        <input type="text" class="form-control" Value="" name="productID" required>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div></br>
 
-                                  </div>
-                              </div>
+                                          <div class="row ">                           
+                                            <div class="col-sm-12">
+                                                <label class="form-label">ราคาปกติ  :*</label>
+                                                <div class="form-float">
+                                                  <div class="input-group">
+                                                    <div class="form-line">
+                                                        <input type="text" class="form-control" Value="" name="price" required>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                      
+                                                        <select class="form-control show-tick">
+                                                        <option selected="selected" value="00">Baht</option>
+                                                        <option value="01">U.S. dollar</option>
+                                                        <option value="02">Yen</option>
+                                                        <option value="03">Singapore dollar</option>
+                                                        <option value="04">Hongkong dollar</option>
+                                                        <option value="05">Euro</option>
+                                                        <option value="06">British pound</option>
+                                                        <option value="07">Australian dollar</option>
+                                                        <option value="08">Swiss Franc</option>
+                                                        </select>
+                                                      
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div></br>
+
+                                              <div class="row ">                           
+                                                <div class="col-sm-12">
+                                                  <label class="form-label">ราคาพิเศษ  :</label>
+                                                    <div class="form-group form-float">
+                                                      <div class="form-line">
+                                                          <input type="number" class="form-control" step="0.01" name="number" value="0.00" required>
+                                                          <label class="form-label"></label>
+                                                          <div class="help-info">(ถ้าคุณกรอก ราคาพิเศษ ระบบจะแสดงผลโดยขีดฆ่าราคาปกติเช่น <strike>100</strike> <font color='red'>50</font> และจะยึดราคาพิเศษเป็นหลัก)</div>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                               </div></br>
+
+                                               <div class="row ">                           
+                                                <div class="col-sm-12">
+                                                  <label class="form-label">น้ำหนัก  :</label>
+                                                    <div class="form-group form-float">
+                                                      <div class="form-line">
+                                                        <input type="number" class="form-control" step="0.01" name="weight" value="0.00" required>
+                                                        <label class="form-label"></label>
+                                                        <div class="help-info">KGs.</div>
+                                                    </div>
+                                                    </div>
+                                                  </div>
+                                               </div></br>
+
+                                               <div class="row ">                           
+                                                <div class="col-sm-12">
+                                                    <label class="form-label">รายละเอียด  :</label>
+                                                    <div class="form-float">
+                                                      <div class="input-group">
+                                                        <div class="form-group">
+                                                          <textarea id="ckeditor">
+                                             
+                                                          </textarea> 
+                                                        </div>   
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                </div></br>
+
+                                    </div>
                           </div>
                       </div>
                   </div>
