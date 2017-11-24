@@ -13,8 +13,6 @@
 						<ul>
 							<li><a data-placement="bottom" title="Go to Inbox" href="mail-inbox.html"><i class="zmdi zmdi-email"></i></a></li>
 							<li><a data-placement="bottom" title="Go to Profile" href="profile.html"><i class="zmdi zmdi-account"></i></a></li>
-                            <li><a data-placement="bottom" title="English" href="mail-inbox.html"><img src="<?php echo base_url(); ?>assets/images/flag/us.png"></a></li>
-                            <li><a data-placement="bottom" title="Thailand" href="profile.html"><img src="<?php echo base_url(); ?>assets/images/flag/th.png"></a></li>
 						</ul>
 
 					</div>

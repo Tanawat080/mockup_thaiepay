@@ -10,6 +10,7 @@
 	    }
 		public function Terms_Conditions()
 		{
+			$this->load->view('css');
 			$this->load->view('top-bar');
 			$this->load->view('right-sidebar');
 			$this->load->view('terms_conditions/TermsConditions');

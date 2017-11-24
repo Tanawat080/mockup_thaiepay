@@ -60,7 +60,7 @@
 	                <div class="card">
 	                	<div class="body">
 			                        		<div class="table-responsive">
-												<table class="table table-bordered">
+												<table class="table table-hover">
 													<thead>
 														<tr>
 															<th>Country</th>
@@ -125,7 +125,7 @@
 					</div>
 					<div class="body">
 						<div class="table-responsive">
-                            <table class="table table-bordered">
+                            <table class="table ">
                                 <thead>
                                     <tr >
                                         <th>Status</th>

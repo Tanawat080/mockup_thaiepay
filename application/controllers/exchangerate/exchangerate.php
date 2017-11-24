@@ -10,6 +10,7 @@
 	    }
 		public function exchange_rate()
 		{
+			$this->load->view('css');
 			$this->load->view('top-bar');
 			$this->load->view('right-sidebar');
 			$this->load->view('exchange_rate/exchange_rate');

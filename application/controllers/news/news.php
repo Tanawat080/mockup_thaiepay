@@ -10,6 +10,7 @@
 	    }
 		public function new_s()
 		{
+			$this->load->view('css');
 			$this->load->view('top-bar');
 			$this->load->view('right-sidebar');
 			$this->load->view('new_s/new_s');
