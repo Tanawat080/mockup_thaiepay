@@ -10,6 +10,7 @@
 	    }
 		public function Tips_Tricks()
 		{
+			$this->load->view('css');
 			$this->load->view('top-bar');
 			$this->load->view('right-sidebar');
 			$this->load->view('Tips_Tricks/Tips_Tricks');

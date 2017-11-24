@@ -9,6 +9,7 @@ class Payment_method extends CI_Controller {
     }
 	public function payment_card()
 	{
+		$this->load->view('css');
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('productservice/payment_method/payment_card');
@@ -17,6 +18,7 @@ class Payment_method extends CI_Controller {
 	} 
 	public function payment_data()
 	{
+		$this->load->view('css');
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('productservice/payment_method/payment_data');
@@ -24,6 +26,7 @@ class Payment_method extends CI_Controller {
 		$this->load->view('script');
 	}public function sendEmail_product()
 	{
+		$this->load->view('css');
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('productservice/sendEmail_product');

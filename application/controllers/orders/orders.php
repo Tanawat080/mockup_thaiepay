@@ -9,6 +9,7 @@ class Orders extends CI_Controller {
     }
 	public function view_all_orders()
 	{
+		$this->load->view('css');
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('orders/view_all_orders');
@@ -16,6 +17,7 @@ class Orders extends CI_Controller {
 		$this->load->view('script');
 	} public function refund()
 	{
+		$this->load->view('css');
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('orders/refund');
@@ -31,6 +33,7 @@ class Orders extends CI_Controller {
 	} */
 	public function refund_des()
 	{
+		$this->load->view('css');
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('orders/refund_des');
@@ -38,6 +41,7 @@ class Orders extends CI_Controller {
 		$this->load->view('script');
 	}public function orders_des()
 	{
+		$this->load->view('css');
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('orders/orders_des');
@@ -45,6 +49,7 @@ class Orders extends CI_Controller {
 		$this->load->view('script');
 	}public function orders_details()
 	{
+		$this->load->view('css');
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('orders/orders_details');
@@ -52,6 +57,7 @@ class Orders extends CI_Controller {
 		$this->load->view('script');
 	}public function counter_details()
 	{
+		$this->load->view('css');
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('orders/counter_details');

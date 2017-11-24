@@ -9,6 +9,7 @@ class Merchant extends CI_Controller {
     }
 	public function total_income()
 	{
+		$this->load->view('css');
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('merchant/totla_income');
@@ -16,12 +17,14 @@ class Merchant extends CI_Controller {
 		$this->load->view('script');
 	} public function merchant_bank_detail()
 	{
+		$this->load->view('css');
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('merchant/merchant_bank_detail');
 		$this->load->view('script');
 	}public function service()
 	{
+		$this->load->view('css');
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('merchant/service');
@@ -29,6 +32,7 @@ class Merchant extends CI_Controller {
 		$this->load->view('script');
 	}public function billing_address()
 	{
+		$this->load->view('css');
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('merchant/billing_address');
@@ -36,6 +40,7 @@ class Merchant extends CI_Controller {
 		$this->load->view('script');
 	}public function merchant_description()
 	{
+		$this->load->view('css');
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('merchant/merchant_description');
@@ -43,6 +48,7 @@ class Merchant extends CI_Controller {
 		$this->load->view('script');
 	}public function upload_doc()
 	{
+		$this->load->view('css');
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('merchant/upload_doc');
@@ -50,6 +56,7 @@ class Merchant extends CI_Controller {
 		$this->load->view('script');
 	}public function renew()
 	{
+		$this->load->view('css');
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('merchant/renew');
@@ -57,6 +64,7 @@ class Merchant extends CI_Controller {
 		$this->load->view('script');
 	}public function merchant()
 	{
+		$this->load->view('css');
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('merchant/merchant');
@@ -64,6 +72,7 @@ class Merchant extends CI_Controller {
 		$this->load->view('script');
 	}public function renew_creditCard()
 	{
+		$this->load->view('css');
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('merchant/renew_creditCard');

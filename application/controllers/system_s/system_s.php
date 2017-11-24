@@ -18,6 +18,7 @@ class System_s extends CI_Controller {
 	*/
 	public function primary_setting()
 	{
+		$this->load->view('css');
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('system_s/primary_setting');
@@ -25,6 +26,7 @@ class System_s extends CI_Controller {
 		$this->load->view('script');
 	}public function System_Connection()
 		{
+			$this->load->view('css');
 			$this->load->view('top-bar');
 			$this->load->view('right-sidebar');
 			$this->load->view('system_s/System_Connection');
@@ -32,6 +34,7 @@ class System_s extends CI_Controller {
 			$this->load->view('script');
 		}public function system_des()
 		{
+			$this->load->view('css');
 			$this->load->view('top-bar');
 			$this->load->view('right-sidebar');
 			$this->load->view('system_s/system_des');
@@ -40,6 +43,7 @@ class System_s extends CI_Controller {
 		}
 		public function return_param()
 		{
+			$this->load->view('css');
 			$this->load->view('top-bar');
 			$this->load->view('right-sidebar');
 			$this->load->view('system_s/return_param');
@@ -47,6 +51,7 @@ class System_s extends CI_Controller {
 			$this->load->view('script');
 		}public function down_load()
 		{
+			$this->load->view('css');
 			$this->load->view('top-bar');
 			$this->load->view('right-sidebar');
 			$this->load->view('system_s/down_load');

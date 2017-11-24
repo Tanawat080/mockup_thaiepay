@@ -9,6 +9,7 @@ class contact extends CI_Controller {
     }
 	public function support()
 	{
+		$this->load->view('css');
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('contact/support');
@@ -18,6 +19,7 @@ class contact extends CI_Controller {
 
 	} public function accounting()
 	{
+		$this->load->view('css');
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('contact/accounting');
@@ -26,6 +28,7 @@ class contact extends CI_Controller {
 
 	}public function contact_des()
 	{
+		$this->load->view('css');
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('contact/contact_des');
