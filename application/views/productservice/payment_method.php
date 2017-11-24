@@ -34,7 +34,7 @@
                         <div class="body">
                             <div class="body table-responsive">
 
-                                <table class="table">
+                                <table class="table table-bordered">
                                     <tr>
                                         <th scope="col">Payment Method</th>
                                         <th scope="col">Logo</th>

@@ -97,7 +97,7 @@
                         <div class="card">
                             <div class="body table-responsive">
 
-                                <table class="table">
+                                <table class="table table-bordered">
                                     <tr >
                                         <th scope="col">Shipping Method</th>
                                         <th scope="col">Delivery</th>

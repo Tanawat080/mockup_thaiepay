@@ -48,9 +48,9 @@
                         </div>   
 
                     <div class="body table-responsive">
-                            <table class="table">
+                            <table class="table table-bordered">
                                 <thead>
-                                    <tr>
+                                    <tr class="l-blue" >
                                     <th>พารามิเตอร์</th>
                                     <th>ชนิดข้อมูล</th>
                                     <th>ความยาวสูงสุด</th>
@@ -173,9 +173,9 @@
                                     </div>
                                 </div>
                                     <div class="col-sm-4">
-                                        <table class="table">
+                                        <table class="table table-bordered">
                                             <thead>
-                                                <tr >
+                                                <tr class="l-blue" >
                                                 <th width="40%">CC</th>
                                                 <th width="60%">หน่วยเงิน</th>
                                                 </tr>
@@ -228,54 +228,47 @@
                             <div class="col-lg-12 col-md-12 col-sm-12">
                                 <div class="card">
 
+                                    <div class="body">
                                     <div class="header">
                                         <h2>ตัวอย่างโค้ด HTML สำหรับส่งค่าเข้าระบบ</h2>
-                                    </div>
-                                    <div class="body">
+                                    </div>        
                                         <div class="row">        
                                             <div class="col-sm-12"> 
                                                 <p class="indent"> ด้านล่างนี้เป็นตัวอย่างโค้ด HTML ที่เขียนขึ้นเพื่อใช้ทดสอบการส่งค่า (พารามิเตอร์) ไปยังระบบ ePayment หากร้านค้าต้องการใช้งานโค้ดนี้ โปรดใส่พารามิเตอร์ merchantid และ customeremail ของตัวเองลงไปแล้วจึงค่อยดำเนินการทดสอบ</p>
                                             </div>
-
                                         </div>
-                                    </div>
-
-                                    <div class="col-lg-12 col-md-12 col-sm-12">
-                                        <div class="card">
-                                            <div class="body bg-grey">
+                                                <fieldset>
                                                 <pre>
                                                     <code>
-&lt;html&gt;
-    &lt;head&gt;
-        &lt;title&gt;EPAYLINK Testing&lt;/title&gt;
-    &lt;/head&gt;
-    &lt;body bgcolor="#FFFFFF" text="#000000"&gt;
-        &lt;form method="post" action="https://www.thaiepay.com/epaylink/payment.aspx"&gt;
-            &lt;input type="hidden" name="refno" value="99999"&gt;
-            &lt;input type="hidden" name="merchantid" value=""&gt;
-            &lt;input type="hidden" name="customeremail" value=""&gt;
-            &lt;input type="hidden" name="c"&gt;
-            &lt;input type="hidden" name="productdetail" value="Testing Product"&gt;
-            &lt;input type="hidden" name="total" value="400"&gt;
-            &lt;br&gt;
-            &lt;input type="submit" name="Submit" value="Comfirm Order"&gt;
-        &lt;/form&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
+                            &lt;html&gt;
+                                &lt;head&gt;
+                                    &lt;title&gt;EPAYLINK Testing&lt;/title&gt;
+                                &lt;/head&gt;
+                                &lt;body bgcolor="#FFFFFF" text="#000000"&gt;
+                                    &lt;form method="post" action="https://www.thaiepay.com/epaylink/payment.aspx"&gt;
+                                        &lt;input type="hidden" name="refno" value="99999"&gt;
+                                        &lt;input type="hidden" name="merchantid" value=""&gt;
+                                        &lt;input type="hidden" name="customeremail" value=""&gt;
+                                        &lt;input type="hidden" name="c"&gt;
+                                        &lt;input type="hidden" name="productdetail" value="Testing Product"&gt;
+                                        &lt;input type="hidden" name="total" value="400"&gt;
+                                        &lt;br&gt;
+                                        &lt;input type="submit" name="Submit" value="Comfirm Order"&gt;
+                                    &lt;/form&gt;
+                                &lt;/body&gt;
+                            &lt;/html&gt;
                                                     </code>
-                                                </pre>                                                
-                                            </div>
-                                        </div>
-                                    </div>
-          
+                                                </pre>
+                                                </fieldset>
                                         <center>
                                             <div class="button-demo">
-                                                
-                                                <button type="button" class="btn btn-raised btn-default waves-effect"><a href="http://www.thaiepay.com/download/2.%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%20ePayment.pdf">ดาวน์โหลดคู่มือการเชื่อมต่อ ePayment</a></button>
+
+                                                <a type="submit" href='http://www.thaiepay.com/download/2.%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%20ePayment.pdf' class="btn btn-raised btn-primary waves-effect">ดาวน์โหลดคู่มือการเชื่อมต่อ ePayment</a>
+
                                                 
                                             </div>
                                         </center>
-
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -283,29 +276,41 @@
                         <div class="row clearfix">
                             <div class="col-lg-12 col-md-12 col-sm-12">
                                 <div class="card">
-                                   <div class="header">
-                                        <h2>ข้อมูลบัตรเครดิตสำหรับการทดสอบ การชำระเงิน</h2>
-                                    </div>
+                                    <div class="body">
+                                        <div class="header">
+                                            <h2>ข้อมูลบัตรเครดิตสำหรับการทดสอบ การชำระเงิน</h2>
+                                        </div>
 
                                     <div class="col-lg-12 col-md-12 col-sm-12">
                                         <div class="card">
-                                            <div class="body bg-grey">
+                                            <div class="body">
+                                                <div>
+
+                                                <fieldset>
+
 
                                                <p>Credit Card Number: 4311 1510 0999 9993 (Available for Demo Account Only)</p>
                                                 <p>CVV: 180</p>
                                                 <p>Expiry Data: 12/20</p>
                                                 <p>Credit Card Issuer: United Overseas Bank (Thai) Public Company Limited</p>
+                                                </fieldset>
+
+                                            </div>
                                                                                 
                                             </div>
                                         </div>
                                     </div>
                                         <center>
                                             <div class="button-demo">
-                                                
-                                                <button type="button" class="btn btn-raised btn-default waves-effect"><a href="http://www.thaiepay.com/download/2.%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%20ePayment.pdf">ดาวน์โหลดคู่มือการเชื่อมต่อ ePayment</a></button><button type="button" class="btn btn-raised btn-default waves-effect"><a href="http://www.thaiepay.com/download/3.%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%20ePayment.pdf">คู่มือสำหรับเริ่มต้นการใช้งานของระบบ ePayment</a></button>
+
+                                                <a type="submit" href='http://www.thaiepay.com/download/2.%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%20ePayment.pdf' class="btn btn-raised btn-primary waves-effect">ดาวน์โหลดคู่มือการเชื่อมต่อ ePayment</a>
+
+                                                <a type="submit" href='http://www.thaiepay.com/download/3.%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%20ePayment.pdf' class="btn btn-raised btn-primary waves-effect">คู่มือสำหรับเริ่มต้นการใช้งานของระบบ ePayment</a>
+
                                                 
                                             </div>
                                         </center>
+                                        </div>
                                 </div>
                             </div>
                         </div>
@@ -313,8 +318,9 @@
         <div class="row clearfix">
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <div class="card">
-                    <div class="header">
-                        <h2>ปลั๊กอิน และโมดูล</h2>
+                    <div class="header text-center">
+
+                        <h3>ปลั๊กอิน และโมดูล</h3>
                     </div>
                     <div class="body">
                         <div class="row clearfix text-center">
@@ -450,17 +456,49 @@
                          <div class="row clearfix text-center">
                             <div class="col-sm-1">
                             </div>
-                            <div class="col-sm-2">
+                            <div class="col-sm-12">
                                 <img src="<?php echo base_url(); ?>assets/images/logo/zencart.png">
                                 <br />
                                 <a href="https://github.com/Pay-Solutions/Zencart/archive/master.zip">
                                     <span class="text">Zencart</span>
                                 </a>
                             </div>
-                        </div><!-- line4 -->
+                        </div></br><!-- line4 -->
+
+                                    
+                                       
+                            <center>
+                            <div class="button-demo">
+
+                                <a type="submit" href='https://github.com/Pay-Solutions' class="btn btn-raised btn-primary waves-effect">ปลั๊กอิน และโมดูลทั้งหมด</a>
+                            </div>
+                             </center>
+                                   
                     </div>
                 </div>
             </div>
         </div>  
+
+                        <div class="row clearfix">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="card">
+                                    <div class="body">
+                                    <div class="header">
+                                        <h3>เริ่มต้นและต่อยอดธุรกิจ ปรับกลยุทธ์การขายด้วยเครื่องมือออนไลน์กับ เพย์โซลูชั่น!</h3>
+                                    </div>
+
+                             
+                                        <center>
+                                            <div class="button-demo">
+
+                                                <a type="submit" href='http://www.paysolutions.asia/register' class="btn btn-raised btn-primary waves-effect ">ลงทะเบียน</a>
+
+                                               
+                                            </div>
+                                        </center>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
 		
 	      

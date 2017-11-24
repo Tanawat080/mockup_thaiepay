@@ -9,9 +9,7 @@
             </ul>
         </div>
         
-
-
-<div class="row clearfix">
+        <div class="row clearfix">
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <div class="card">
                     <div class="header">
@@ -20,87 +18,126 @@
                     <div class="body">
                         <div class="row">                           
                             <div class="col-sm-12"> 
-                                <p class="indent"> ในกรณีที่คุณต้องการเอกสาร หรือต้องการสอบถามข้อมูลอื่นๆ เกี่ยวกับฝ่ายขาย อย่างเช่น ต้องการเปิดร้านใหม่ ร้านการอัปเกรดบริการ สามารถติดต่อได้ผ่านแบบฟอร์มนี้ </p>
+                                <p class="indent">ในกรณีที่คุณต้องการเอกสาร หรือต้องการสอบถามข้อมูลอื่นๆ เกี่ยวกับฝ่ายขาย อย่างเช่น ต้องการเปิดร้านใหม่ ร้านการอัปเกรดบริการ สามารถติดต่อได้ผ่านแบบฟอร์มนี้ </p>
                             </div>  
                         </div>
-                    
-                    <div class="col-lg-12 col-md-12 col-sm-12">
+                    </div>
 
-                        <form id="form_advanced_validation" method="POST">
+                    <div class="body">
+                        <form method="post">
 
-                            <div class="form-group form-float">
-                                <label for="">MerchantID</label>
-                                <div class="form-line">
-                                    <input type="text" class="form-control" name="MerchantID"   value="17904411" disabled="">
+                            <div class="row ">                           
+                                <div class="col-sm-12">
+                                    <label class="form-label">MerchantID</label>
+                                    <div class="form-float">
+                                   <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">perm_identity</i> </span>
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" Value="48509355" name="Merchant_ID" required disabled>
+                                        </div>
+                                    </div>
                                 </div>
-                                
-                            </div>
-                            <div class="form-group form-float">
-                                <label for="">ร้านค้า</label>
-                                <div class="form-line">
-                                    <input type="text" class="form-control" name="Company"  value="THAIEPAY.COM (http://www.thaiepay.com)"required disabled="">
                                 </div>
-                                
                             </div>
-                            <div class="form-group form-float">
-                                <div class="form-line">
-                                    <input type="url" class="form-control"  name="Contact" required>
+
+                            <div class="row ">                           
+                                <div class="col-sm-12">
+                                    <label class="form-label">ร้านค้า</label>
+                                    <div class="form-float">
+                                   <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">business_center</i> </span>
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" Value="Test (http://paysolutions.asia)" name="Company" required disabled>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+
+                            <div class="row ">                           
+                                <div class="col-sm-12">
                                     <label class="form-label">ชื่อผู้ติดต่อ</label>
+                                    <div class="form-float">
+                                   <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">person</i> </span>
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" Value="Test Test" name="Contact" required>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="help-info">EX: Test Test</div>
+                                </div>
                             </div>
-                            <div class="form-group form-float">
-                                <div class="form-line">
-                                    <input type="email" class="form-control" name="E-mail" required>
+
+                            <div class="row ">                           
+                                <div class="col-sm-12">
                                     <label class="form-label">อีเมล</label>
+                                    <div class="form-float">
+                                   <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">email</i> </span>
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" Value="support@thaiepay.com,support@thaiepay.com" name="E-mail" required>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="help-info">EX: support@thaiepay.com,support@thaiepay.com</div>
+                                </div>
                             </div>
-                            <div class="form-group form-float">
-                                <div class="form-line">
-                                    <input type="number" class="form-control" name="Telephone" required>
+
+                            <div class="row ">                           
+                                <div class="col-sm-12">
                                     <label class="form-label">เบอร์ติดต่อกลับ</label>
+                                    <div class="form-float">
+                                   <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">phone</i> </span>
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" Value="0616245961" name="Telephone" required>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="help-info">EX: 0616245961</div>
+                                </div>
                             </div>
 
-                                                        <label class="form-label">หัวข้อ</label>
-                                                    <select class="form-control show-tick">
-                                                        <option value="7" selected="selected">ติดต่อฝ่ายการเงิน/บัญชี เรื่องทั่วไป</option>
-                                                        <option value="13">แนะนำธีมใหม่</option>
-                                                        <option value="11">แนะนำสถานที่ท่องเที่ยวใหม่</option>
-                                                        <option value="10">แนะนำหมวดจังหวัดใหม่</option>
-                                                        <option value="9">แนะนำหมวดหมู่รองใหม่</option>
-                                                        <option value="8">แนะนำหมวดหมู่หลักใหม่</option>
-                                                        <option value="2">สนใจเป็นตัวแทนจำหน่าย</option>
-                                                        <option value="12">สนใจเปิดร้านค้าใหม่ในช็อปปิ้งมอลล์</option>
-                                                        <option value="1">สนใจสมัครขอใช้บริการระบบตัดบัตรเครดิต</option>
-                                                        <option value="3">สอบถามปัญหาการใช้งาน</option>
-                                                        <option value="6">สอบถามเรื่องใบเสร็จรับเงิน/ใบกำกับภาษี</option>
-                                                        <option value="4">สอบถามเรื่องราคาค่าใช้จ่าย/ขอใบเสนอราคา</option>
-                                                        <option value="5">สอบถามปัญหาอื่นๆ</option>
+                            <div class="row ">                           
+                                <div class="col-sm-12">
+                                    <label class="form-label">หัวข้อ</label>
+                                <div class="form-float">
 
-                                                    </select>
-
-                                                                               
+                                    <select class="form-control show-tick">
+                                    <option value="7" selected="selected">ติดต่อฝ่ายการเงิน/บัญชี เรื่องทั่วไป</option>
+                                    <option value="13">แนะนำธีมใหม่</option>
+                                    <option value="11">แนะนำสถานที่ท่องเที่ยวใหม่</option>
+                                    <option value="10">แนะนำหมวดจังหวัดใหม่</option>
+                                    <option value="9">แนะนำหมวดหมู่รองใหม่</option>
+                                    <option value="8">แนะนำหมวดหมู่หลักใหม่</option>
+                                    <option value="2">สนใจเป็นตัวแทนจำหน่าย</option>
+                                    <option value="12">สนใจเปิดร้านค้าใหม่ในช็อปปิ้งมอลล์</option>
+                                    <option value="1">สนใจสมัครขอใช้บริการระบบตัดบัตรเครดิต</option>
+                                    <option value="3">สอบถามปัญหาการใช้งาน</option>
+                                    <option value="6">สอบถามเรื่องใบเสร็จรับเงิน/ใบกำกับภาษี</option>
+                                    <option value="4">สอบถามเรื่องราคาค่าใช้จ่าย/ขอใบเสนอราคา</option>
+                                    <option value="5">สอบถามปัญหาอื่นๆ</option>
+                                    </select>
+                                </div>
+                                </div>
+                            </div><br>                                            
                                 
-                            
-                            <div class="form-group form-float">
-                                <div class="form-line">
-                                    <input type="btext" class="form-control" name="Details" required>
+                            <div class="row ">                           
+                                <div class="col-sm-12">
                                     <label class="form-label">รายละเอียด</label>
+                                    <div class="form-float">
+                                   <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">comment</i> </span>
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" Value="" name="Details" required>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="help-info"></div>
+                                </div>
                             </div>
+
                             <div class="form-group text-center">
                                 <button class="btn btn-raised btn-primary waves-effect" type="submit">SUBMIT</button>
                             </div>
                         </form>
+                    </div>
                         </center>
-                   
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 

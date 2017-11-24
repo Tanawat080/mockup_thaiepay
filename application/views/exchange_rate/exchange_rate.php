@@ -70,7 +70,7 @@
                         </div>
                         </br>
                         <div class="body table-responsive">
-                            <table class="table" width="100%">
+                            <table class="table table-bordered" width="100%">
                                 <thead>
                                     <tr>
                                         <th>USD</th>
