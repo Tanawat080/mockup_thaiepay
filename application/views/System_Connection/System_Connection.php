@@ -327,9 +327,9 @@
                                         <h2>ข้อมูลบัตรเครดิตสำหรับการทดสอบ การชำระเงิน</h2>
                                     </div>
 
-                                    <div class="col-lg-12 col-md-12 col-sm-12">
-                                        <div class="card">
-                                            <div class="body bg-grey">
+                                    <dl>
+                                        <dd>
+                                            <div class="alert alert-info">
 
                                                 Credit Card Number: 4311 1510 0999 9993 (Available for Demo Account Only)<br>
                                                 CVV: 180<br>
@@ -337,8 +337,9 @@
                                                 Credit Card Issuer: United Overseas Bank (Thai) Public Company Limited<br>
                                                                                 
                                             </div>
-                                        </div>
-                                    </div>
+                                        </dd>
+                                    </dl>                                    
+
                                         <center>
                                             <div class="button-demo">
                                                 
