@@ -35,42 +35,44 @@
                             <div class="body">
                                 <form id="form_advanced_validation" method="POST">
                                     <div class="row">
-                                        <div class="col-sm-3">
-                                            <div class="form-group">
-                                                <label class="form-label">สถานะ:*</label>
-                                            </div>
+                                        <div class="col-sm-1">
+                                            <label class="form-label">สถานะ:*</label>
                                         </div>
-                                        <div class="col-sm-9">
-                                            <div class="form-group">
+                                        <div class="col-sm-11">
+                                            <div class="">
                                                 <input id="ctl00_CphBody_ChkEnable" class="filled-in" type="checkbox" name="ctl00$CphBody$ChkEnable" checked="checked" />
                                                 <label for="ctl00_CphBody_ChkEnable">เปิดใช้งาน วิธีการจัดส่งนี้</label>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-sm-3">
-                                            <div class="form-group">
-                                                <label class="form-label">ชื่อวิธีการชำระเงิน (อังกฤษ):*</label>
-                                            </div>
+                                        <div class="col-sm-12">
+
+                                            <label class="form-label">ชื่อวิธีการชำระเงิน (อังกฤษ):*</label>
+
                                         </div>
-                                        <div class="col-sm-9">
-                                            <div class="form-group">
-                                                <div class="form-line">
-                                                    <input type="text" class="form-control" name="name_eng" value="Credit card online by THAIEPAY (VISA, MasterCard, American Express, PayPal, Japan Credit Bureau and China Unionpay)" />
+                                        <div class="col-sm-12">
+                                            <div class=" form-float">
+                                                <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">chrome_reader_mode</i> </span>
+                                                    <div class="form-line">
+                                                        <input type="text" class="form-control" name="nameEng" Value="Credit card online by THAIEPAY (VISA, MasterCard, American Express, PayPal, Japan Credit Bureau and China Unionpay)" required>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-sm-3">
-                                            <div class="form-group">
-                                                <label class="form-label">ชื่อวิธีการชำระเงิน (ไทย):*</label>
-                                            </div>
+                                        <div class="col-sm-12">
+
+                                            <label class="form-label">ชื่อวิธีการชำระเงิน (ไทย):*</label>
+
                                         </div>
-                                        <div class="col-sm-9">
-                                            <div class="form-group">
-                                                <div class="form-line">
-                                                    <input type="text" class="form-control" name="name_th" value="ชำระเงินผ่านบัตรเครดิต VISA, MasterCard, American Express, PayPal, Japan Credit Bureau และ China Unionpay ออนไลน์ด้วยระบบของ THAIEPAY" required />
+                                        <div class="col-sm-12">
+                                            <div class=" form-float">
+                                                <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">chrome_reader_mode</i> </span>
+                                                    <div class="form-line">
+                                                        <input type="text" class="form-control" name="nameTh" Value="ชำระเงินผ่านบัตรเครดิต VISA, MasterCard, American Express, PayPal, Japan Credit Bureau และ China Unionpay ออนไลน์ด้วยระบบของ THAIEPAY" required>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -83,7 +85,7 @@
             </div>
         </div>                       
         <div class="row clearfix">
-            <div class="col-lg-6 col-md-12 col-sm-12 ">
+            <div class="col-lg-12 col-md-12 col-sm-12 ">
                 <div class="card product-report">
                     <div class="header">
                         <h2 class="col-blue-grey">รายละเอียด (อังกฤษ)</h2>
@@ -113,7 +115,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="col-lg-12 col-md-12 col-sm-12">
                 <div class="row clearfix top-report">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="card">

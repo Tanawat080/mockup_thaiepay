@@ -5,7 +5,8 @@
             <h2>ข้อมูลส่วนตัวและบัญชีธนาคาร</h2>
             <ul class="breadcrumb">
                 <li class="breadcrumb-item"><i class="material-icons">contact_phone</i><a href="<?php echo base_url(); ?>contact/contact/contact_des"> ข้อมูลร้านค้า</a></li>           
-                <li class="breadcrumb-item active"><i class="material-icons">supervisor_account</i> ข้อมูลส่วนตัวและบัญชีธนาคาร</li>
+                <li class="breadcrumb-item active"><i class="material-icons">supervisor_account</i><a href="<?php echo base_url(); ?>merchant/merchant/merchant_bank_detail"> ข้อมูลส่วนตัวและบัญชีธนาคาร</a></li>
+                <li class="breadcrumb-item active"><i class="material-icons">chrome_reader_mode</i> แก้ไขข้อมูลส่วนตัว</li>
             </ul>
         </div>
         
@@ -32,9 +33,6 @@
                         <div class="tab-content">
                             <div role="tabpanel" class="tab-pane in active" id="thaiInfo"> 
                                
-                                    <div class="form-group">
-                                        <b class="font-bold col-blue-grey">ข้อมูลภาษาไทย</b>
-                                    </div>
                                             <div class="col-sm-12">
                                                 <label class="form-label">ชื่อบริษัท/ชื่อร้าน: *</label>
                                             </div>
@@ -500,9 +498,6 @@
 
                             </div><!-- thaiinfo -->
                             <div role="tabpanel" class="tab-pane" id="engInfo"> 
-                                <div class="form-group">
-                                    <b class="font-bold col-blue-grey">English Information</b>
-                                </div>
                                  <div class="col-sm-12">
                                                 <label class="form-label">Company/Shop Name: *</label>
                                             </div>
@@ -1083,5 +1078,3 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>

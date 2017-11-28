@@ -28,6 +28,68 @@
 		<div class="navbar-header"> <a href="javascript:void(0);" class="bars"></a> <a class="navbar-brand" href="index.html">admin<img class="logo" src="assets/images/logo.svg" alt="profile img"></a> </div>
 		<ul class="nav navbar-nav navbar-right">
 			<li><a href="javascript:void(0);" class="js-search" data-close="true"><i class="zmdi zmdi-search"></i></a></li>
+			<li class="dropdown menu-app"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button"> <i class="zmdi zmdi-money"></i></a>
+				<ul class="dropdown-menu">
+					<li class="body">
+						<ul class="menu">
+						<div class="body table-responsive">
+												<table class="table table-hover">
+													<thead>
+														<tr>
+															<th>Country</th>
+															<th>Currency</th>
+															<th>Buying</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>											
+												<td><img src="<?php echo base_url(); ?>assets/images/exchange-flag/usd.gif"></td>
+												<td>USD</td>
+												<td class="text-muted">31.36</td>
+											</tr>
+											<tr>											
+												<td><img src="<?php echo base_url(); ?>assets/images/exchange-flag/GBP.gif"></td>
+												<td>GBP</td>
+												<td class="text-muted">40.89</td>
+											</tr>										
+											<tr>											
+												<td><img src="<?php echo base_url(); ?>assets/images/exchange-flag/EUR.gif"></td>
+												<td>EUR</td>
+												<td class="text-muted">36.40</td>
+											</tr>
+											<tr>											
+												<td><img src="<?php echo base_url(); ?>assets/images/exchange-flag/CHF.gif"></td>
+												<td>CHF</td>
+												<td class="text-muted">32.07</td>
+											</tr>
+											<tr>											
+												<td><img src="<?php echo base_url(); ?>assets/images/exchange-flag/JPY.gif"></td>
+												<td>JPY</td>
+												<td class="text-muted">28.16</td>
+											</tr>
+											<tr>											
+												<td><img src="<?php echo base_url(); ?>assets/images/exchange-flag/SGD.gif"></td>
+												<td>SGD</td>
+												<td class="text-muted">22.69</td>
+											</tr>										
+											<tr>											
+												<td><img src="<?php echo base_url(); ?>assets/images/exchange-flag/HKD.gif"></td>
+												<td>HKD</td>
+												<td class="text-muted">3.60</td>
+											</tr>
+											<tr>											
+												<td><img src="<?php echo base_url(); ?>assets/images/exchange-flag/AUD.gif"></td>
+												<td>AUD</td>
+												<td class="text-muted">23.00</td>
+											</tr>									
+													</tbody>
+												</table>
+												<a href="<?php echo base_url(); ?>exchangerate/exchangerate/exchange_rate"><p>อัตราการแลกเปลี่ยนอื่นๆ</p></a>
+											</div>
+										</ul>
+					</li>
+				</ul>
+			</li>
 			<li class="dropdown menu-app"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button"> <i class="zmdi zmdi-apps"></i> </a>
 				<ul class="dropdown-menu">
 					<li class="body">
@@ -46,6 +108,7 @@
 					</li>
 				</ul>
 			</li>
+
 			<li class="dropdown msg-notification"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button"> <i class="zmdi zmdi-email"></i>
 				<div class="notify"><span class="heartbit"></span><span class="point"></span></div>
 				</a>

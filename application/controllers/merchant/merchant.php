@@ -21,6 +21,7 @@ class Merchant extends CI_Controller {
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('merchant/merchant_bank_detail');
+		$this->load->view('footer');
 		$this->load->view('script');
 	}public function service()
 	{
@@ -76,6 +77,30 @@ class Merchant extends CI_Controller {
 		$this->load->view('top-bar');
 		$this->load->view('right-sidebar');
 		$this->load->view('merchant/renew_creditCard');
+		$this->load->view('footer');
+		$this->load->view('script');
+	}public function editInfo()
+	{
+		$this->load->view('css');
+		$this->load->view('top-bar');
+		$this->load->view('right-sidebar');
+		$this->load->view('merchant/edit_Info');
+		$this->load->view('footer');
+		$this->load->view('script');
+	}public function editBank()
+	{
+		$this->load->view('css');
+		$this->load->view('top-bar');
+		$this->load->view('right-sidebar');
+		$this->load->view('merchant/edit_Bank');
+		$this->load->view('footer');
+		$this->load->view('script');
+	}public function editLogo()
+	{
+		$this->load->view('css');
+		$this->load->view('top-bar');
+		$this->load->view('right-sidebar');
+		$this->load->view('merchant/edit_logo');
 		$this->load->view('footer');
 		$this->load->view('script');
 	}

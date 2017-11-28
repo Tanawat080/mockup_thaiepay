@@ -54,69 +54,6 @@
                 </div>
             </div>
         </div>
-
-               <div class="row clearfix">
-	            <div class="col-lg-12 col-md-12 col-sm-12">
-	                <div class="card">
-	                	<div class="body">
-			                        		<div class="table-responsive">
-												<table class="table table-hover">
-													<thead>
-														<tr>
-															<th>Country</th>
-															<th>Currency</th>
-															<th>Buying</th>
-														</tr>
-													</thead>
-													<tbody>
-														<tr>											
-												<td><img src="assets/images/exchange-flag/usd.gif"></td>
-												<td>USD</td>
-												<td class="text-muted">31.36</td>
-											</tr>
-											<tr>											
-												<td><img src="assets/images/exchange-flag/GBP.gif"></td>
-												<td>GBP</td>
-												<td class="text-muted">40.89</td>
-											</tr>										
-											<tr>											
-												<td><img src="assets/images/exchange-flag/EUR.gif"></td>
-												<td>EUR</td>
-												<td class="text-muted">36.40</td>
-											</tr>
-											<tr>											
-												<td><img src="assets/images/exchange-flag/CHF.gif"></td>
-												<td>CHF</td>
-												<td class="text-muted">32.07</td>
-											</tr>
-											<tr>											
-												<td><img src="assets/images/exchange-flag/JPY.gif"></td>
-												<td>JPY</td>
-												<td class="text-muted">28.16</td>
-											</tr>
-											<tr>											
-												<td><img src="assets/images/exchange-flag/SGD.gif"></td>
-												<td>SGD</td>
-												<td class="text-muted">22.69</td>
-											</tr>										
-											<tr>											
-												<td><img src="assets/images/exchange-flag/HKD.gif"></td>
-												<td>HKD</td>
-												<td class="text-muted">3.60</td>
-											</tr>
-											<tr>											
-												<td><img src="assets/images/exchange-flag/AUD.gif"></td>
-												<td>AUD</td>
-												<td class="text-muted">23.00</td>
-											</tr>									
-													</tbody>
-												</table>
-												<a href="">อัตราการแลกเปลี่ยนอื่นๆ</a>
-											</div>
-			                    		</div>
-					</div>
-				</div>
-</div>
 		<div class="row clearfix">
 			<div class="col-sm-12">
 				<div class="card">

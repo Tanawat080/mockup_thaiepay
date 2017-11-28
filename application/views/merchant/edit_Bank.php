@@ -4,7 +4,8 @@
             <h2>ข้อมูลส่วนตัวและบัญชีธนาคาร</h2>
             <ul class="breadcrumb">
                 <li class="breadcrumb-item"><i class="material-icons">contact_phone</i><a href="<?php echo base_url(); ?>contact/contact/contact_des"> ข้อมูลร้านค้า</a></li>           
-                <li class="breadcrumb-item active"><i class="material-icons">supervisor_account</i> ข้อมูลส่วนตัวและบัญชีธนาคาร</li>
+                <li class="breadcrumb-item active"><i class="material-icons">supervisor_account</i><a href="<?php echo base_url(); ?>merchant/merchant/merchant_bank_detail"> ข้อมูลส่วนตัวและบัญชีธนาคาร</a></li>
+                <li class="breadcrumb-item active"><i class="material-icons">chrome_reader_mode</i> แก้ไขข้อมูลบัญชีธนาคาร</li>
             </ul>
         </div>
         
@@ -21,9 +22,14 @@
 
                     <div class="row clearfix">
                         <div class="col-sm-12">
-                            <div class="form-group">
-                               <p class="col-blue-grey">Merchant ID: 48509355</p>
-                            </div>
+                               <label class="form-label">Merchant ID:</label>
+                               <div class="form-float">
+                                   <div class="input-group"> <span class="input-group-addon"> <i class="material-icons">perm_identity</i> </span>
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" Value="48509355" name="Merchant_ID" required disabled>
+                                        </div>
+                                    </div>
+
                              <div class="">
                              <label class="form-label">ชื่อบัญชี:*</label>
                                 </div>
@@ -362,9 +368,3 @@
         </div>
 
 
-    
-                </div>
-        
-        </div>
-    </div>
-</section>

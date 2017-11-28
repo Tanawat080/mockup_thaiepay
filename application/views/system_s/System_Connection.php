@@ -1,3 +1,5 @@
+<link href="<?php echo base_url(); ?>assets/plugins/animate-css/animate.css" rel="stylesheet" />
+
 <!-- main content -->
 <section class="content home">
 	<div class="container-fluid">
@@ -237,6 +239,7 @@
                                                 <p class="indent"> ด้านล่างนี้เป็นตัวอย่างโค้ด HTML ที่เขียนขึ้นเพื่อใช้ทดสอบการส่งค่า (พารามิเตอร์) ไปยังระบบ ePayment หากร้านค้าต้องการใช้งานโค้ดนี้ โปรดใส่พารามิเตอร์ merchantid และ customeremail ของตัวเองลงไปแล้วจึงค่อยดำเนินการทดสอบ</p>
                                             </div>
                                         </div>
+                                        <div class="border-1">
                                                 <fieldset>
                                                 <pre>
                                                     <code>
@@ -260,6 +263,7 @@
                                                     </code>
                                                 </pre>
                                                 </fieldset>
+                                            </div>
                                         <center>
                                             <div class="button-demo">
 
@@ -284,8 +288,8 @@
                                     <div class="col-lg-12 col-md-12 col-sm-12">
                                         <div class="card">
                                             <div class="body">
-                                                <div>
-
+                                                <div class="border-1">
+                                                    <div class="body">
                                                 <fieldset>
 
 
@@ -294,7 +298,7 @@
                                                 <p>Expiry Data: 12/20</p>
                                                 <p>Credit Card Issuer: United Overseas Bank (Thai) Public Company Limited</p>
                                                 </fieldset>
-
+                                            </div>
                                             </div>
                                                                                 
                                             </div>
@@ -501,4 +505,4 @@
                             </div>
                         </div>
 		
-	      
+	      <script src="<?php echo base_url(); ?>assets/js/pages/forms/form-wizard.js"></script>
